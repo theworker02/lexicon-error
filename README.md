@@ -8,6 +8,8 @@
 
 <p align="center">Tauri 2 | React | TypeScript | Rust | SQLite FTS5 | Python ingestion</p>
 
+<p align="center"><strong>Current desktop release: <a href="docs/releases/v1.0.0.md">v1.0.0</a></strong></p>
+
 ## Overview
 
 LexiconError is a local-first desktop encyclopedia for compiler diagnostics, linter rules, runtime exceptions, configuration failures, and accelerator-runtime faults. It makes each error searchable alongside its root cause, minimum trigger, hardened repair, version context, source provenance, and conceptual equivalents in other ecosystems.
@@ -39,6 +41,18 @@ It is a reference system, not an execution environment. The application never ex
 
 ![LexiconError E0382 root-cause inspector](docs/media/lexiconerror-diagnostic-detail.png)
 
+### Trigger-versus-fix workspace
+
+![LexiconError E0382 remediation comparison](docs/media/lexiconerror-remediation.png)
+
+### Context and cross-language relationships
+
+![LexiconError E0382 situational context and related diagnostics](docs/media/lexiconerror-context.png)
+
+### Failure-state inspector
+
+![LexiconError E0382 stack, variables, and provenance](docs/media/lexiconerror-failure-state.png)
+
 </details>
 
 ## Product surface
@@ -47,7 +61,7 @@ It is a reference system, not an execution environment. The application never ex
 | --- | --- |
 | Command palette | Ctrl+K / Cmd+K instant offline search across codes, names, explanations, and language metadata. |
 | Diagnostic catalog | FTS-ranked compact grid with language, category, severity, frequency, and interaction filters. |
-| Inspector | Root cause, bad-versus-good diff, optional state snapshot, situational context, equivalents, and official source link. |
+| Inspector | Four interactive workspaces for root-cause analytics, frequency and domain graphs, trigger-versus-fix code, situational context, related diagnostics, state snapshots, and provenance. |
 | Context matrix | Cross-language frequency view for comparing diagnostic domains. |
 | Coverage dashboard | Database-derived counts, source coverage, verification state, examples, fixes, and release tier. |
 | Local contributions | Validated JSON or Markdown/YAML frontmatter imports from a user-selected directory. |

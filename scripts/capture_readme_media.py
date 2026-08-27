@@ -22,6 +22,10 @@ KEYEVENTF_KEYUP = 0x0002
 MOUSEEVENTF_LEFTDOWN = 0x0002
 MOUSEEVENTF_LEFTUP = 0x0004
 SW_RESTORE = 9
+HWND_TOPMOST = -1
+HWND_NOTOPMOST = -2
+SWP_NOSIZE = 0x0001
+SWP_NOMOVE = 0x0002
 
 
 def find_window(process_id: int, timeout: float = 20.0) -> int:
@@ -49,6 +53,10 @@ def find_window(process_id: int, timeout: float = 20.0) -> int:
 
 def focus_window(window: int) -> None:
     USER32.ShowWindow(window, SW_RESTORE)
+    # Keep unrelated desktop windows from contaminating the product capture.
+    USER32.SetWindowPos(window, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE)
+    USER32.SetWindowPos(window, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE)
+    USER32.BringWindowToTop(window)
     USER32.SetForegroundWindow(window)
     time.sleep(0.25)
 
@@ -103,6 +111,8 @@ def type_text(value: str) -> None:
 
 def capture(window: int) -> Image.Image:
     focus_window(window)
+    USER32.SetCursorPos(4, 4)
+    time.sleep(0.15)
     return ImageGrab.grab(bbox=window_bounds(window), all_screens=True).convert("RGB")
 
 
@@ -151,6 +161,12 @@ def capture_media(executable: Path, output: Path) -> None:
         focus_window(window)
         time.sleep(5)
 
+        # A real palette open/close cycle establishes reliable foreground ownership on Windows.
+        click_relative(window, 555, 64)
+        time.sleep(0.35)
+        press_key(0x1B)
+        time.sleep(0.35)
+        window = find_window(process.pid)
         catalog = capture(window)
         catalog.save(output / "lexiconerror-catalog.png", optimize=True)
         frames = [catalog, catalog]
@@ -169,10 +185,19 @@ def capture_media(executable: Path, output: Path) -> None:
 
         press_key(VK_RETURN)
         time.sleep(1)
+        # WebView navigation can recreate the native window on some Windows builds.
+        window = find_window(process.pid)
         detail = capture(window)
         detail.save(output / "lexiconerror-diagnostic-detail.png", optimize=True)
         frames.extend([detail, detail])
         save_animation(frames, output)
+
+        # Exercise and capture each functional inspector workspace.
+        for name, x in [("remediation", 850), ("context", 950), ("failure-state", 1060)]:
+            window = find_window(process.pid)
+            click_relative(window, x, 286)
+            time.sleep(0.45)
+            capture(window).save(output / f"lexiconerror-{name}.png", optimize=True)
     finally:
         if process.poll() is None:
             process.terminate()

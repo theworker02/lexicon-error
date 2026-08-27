@@ -149,6 +149,24 @@ struct Facets {
 #[derive(Serialize)]
 struct MatrixCell { language: String, category: String, frequency: String, count: i64 }
 
+#[derive(Debug, Serialize)]
+struct CountBucket { label: String, count: i64 }
+
+#[derive(Debug, Serialize)]
+struct RelatedEntry {
+    id: String, language: String, code: String, title: String,
+    category: String, severity: String, frequency: String,
+}
+
+#[derive(Debug, Serialize)]
+struct EntryInsights {
+    language_total: i64,
+    category_total: i64,
+    frequency_distribution: Vec<CountBucket>,
+    category_distribution: Vec<CountBucket>,
+    related_entries: Vec<RelatedEntry>,
+}
+
 struct Database(Mutex<Connection>);
 
 fn database_path(app: &AppHandle) -> Result<PathBuf, String> {
@@ -498,6 +516,65 @@ fn get_error_metadata(state: State<'_, Database>, entry_id: String) -> Result<Er
     connection.query_row(&format!("{} WHERE entry_id = ?1", metadata_select()), params![entry_id], metadata_from_row).optional().map_err(|error| error.to_string())?.ok_or_else(|| "Error metadata was not found".to_string())
 }
 
+fn load_entry_insights(connection: &Connection, entry_id: &str) -> Result<EntryInsights, String> {
+    let (language, category, related_json): (String, String, String) = connection.query_row(
+        "SELECT language, category, related_errors FROM entries WHERE id = ?1",
+        params![entry_id],
+        |row| Ok((row.get(0)?, row.get(1)?, row.get(2)?)),
+    ).optional().map_err(|error| error.to_string())?.ok_or_else(|| "Diagnostic was not found".to_string())?;
+
+    let language_total = connection.query_row(
+        "SELECT COUNT(*) FROM entries WHERE language = ?1", params![language], |row| row.get(0),
+    ).map_err(|error| error.to_string())?;
+    let category_total = connection.query_row(
+        "SELECT COUNT(*) FROM entries WHERE language = ?1 AND category = ?2", params![language, category], |row| row.get(0),
+    ).map_err(|error| error.to_string())?;
+
+    let mut frequency_counts = std::collections::HashMap::new();
+    let mut frequency_statement = connection.prepare(
+        "SELECT frequency, COUNT(*) FROM entries WHERE language = ?1 GROUP BY frequency",
+    ).map_err(|error| error.to_string())?;
+    let frequency_rows = frequency_statement.query_map(params![language], |row| {
+        Ok((row.get::<_, String>(0)?, row.get::<_, i64>(1)?))
+    }).map_err(|error| error.to_string())?;
+    for row in frequency_rows {
+        let (label, count) = row.map_err(|error| error.to_string())?;
+        frequency_counts.insert(label, count);
+    }
+    let frequency_distribution = ["Common", "Uncommon", "Rare", "Situational"].into_iter()
+        .map(|label| CountBucket { label: label.to_string(), count: *frequency_counts.get(label).unwrap_or(&0) })
+        .collect();
+
+    let mut category_statement = connection.prepare(
+        "SELECT category, COUNT(*) AS total FROM entries WHERE language = ?1 GROUP BY category ORDER BY total DESC, category LIMIT 8",
+    ).map_err(|error| error.to_string())?;
+    let category_distribution = category_statement.query_map(params![language], |row| {
+        Ok(CountBucket { label: row.get(0)?, count: row.get(1)? })
+    }).map_err(|error| error.to_string())?.collect::<Result<Vec<_>, _>>().map_err(|error| error.to_string())?;
+
+    let related_ids: Vec<String> = serde_json::from_str(&related_json).unwrap_or_default();
+    let mut related_entries = Vec::new();
+    let mut related_statement = connection.prepare(
+        "SELECT id, language, code, title, category, severity, frequency FROM entries WHERE id = ?1",
+    ).map_err(|error| error.to_string())?;
+    for related_id in related_ids.into_iter().take(8) {
+        if let Some(entry) = related_statement.query_row(params![related_id], |row| Ok(RelatedEntry {
+            id: row.get(0)?, language: row.get(1)?, code: row.get(2)?, title: row.get(3)?,
+            category: row.get(4)?, severity: row.get(5)?, frequency: row.get(6)?,
+        })).optional().map_err(|error| error.to_string())? {
+            related_entries.push(entry);
+        }
+    }
+
+    Ok(EntryInsights { language_total, category_total, frequency_distribution, category_distribution, related_entries })
+}
+
+#[tauri::command]
+fn get_entry_insights(state: State<'_, Database>, entry_id: String) -> Result<EntryInsights, String> {
+    let connection = state.0.lock().map_err(|_| "Search index lock was poisoned".to_string())?;
+    load_entry_insights(&connection, &entry_id)
+}
+
 #[tauri::command]
 fn get_languages(state: State<'_, Database>) -> Result<Vec<LanguageProfile>, String> {
     let connection = state.0.lock().map_err(|_| "Search index lock was poisoned".to_string())?;
@@ -736,7 +813,7 @@ pub fn run() {
             app.manage(Database(Mutex::new(connection)));
             Ok(())
         })
-        .invoke_handler(tauri::generate_handler![search_entries, get_facets, get_matrix, get_error_metadata, get_languages, get_tools, get_concepts, get_coverage, detect_error, export_database, import_contributions])
+        .invoke_handler(tauri::generate_handler![search_entries, get_facets, get_matrix, get_error_metadata, get_entry_insights, get_languages, get_tools, get_concepts, get_coverage, detect_error, export_database, import_contributions])
         .run(tauri::generate_context!())
         .expect("error while running LexiconError");
 }
@@ -775,6 +852,24 @@ mod tests {
         assert!(!description.contains("Imported from"));
         let fts_hits: i64 = connection.query_row("SELECT COUNT(*) FROM entries_fts WHERE entries_fts MATCH 'E0382*'", [], |row| row.get(0)).expect("FTS should query");
         assert_eq!(fts_hits, 1);
+        drop(connection);
+        let _ = fs::remove_file(&path);
+        let _ = fs::remove_file(path.with_extension("db-wal"));
+        let _ = fs::remove_file(path.with_extension("db-shm"));
+    }
+
+    #[test]
+    fn entry_insights_use_catalog_counts_and_resolve_related_diagnostics() {
+        let unique = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH).expect("clock should be valid").as_nanos();
+        let path = std::env::temp_dir().join(format!("lexicon-error-insights-{}-{unique}.db", std::process::id()));
+        let connection = initialize_database(&path).expect("fresh database should initialize");
+        let insights = load_entry_insights(&connection, "py_keyerror").expect("insights should load");
+        assert!(insights.language_total > 0);
+        assert!(insights.category_total > 0);
+        assert_eq!(insights.frequency_distribution.len(), 4);
+        assert_eq!(insights.frequency_distribution[0].label, "Common");
+        assert!(insights.category_distribution.iter().any(|bucket| bucket.label == "Runtime"));
+        assert!(insights.related_entries.iter().any(|entry| entry.id == "js_typeerror_undefined"));
         drop(connection);
         let _ = fs::remove_file(&path);
         let _ = fs::remove_file(path.with_extension("db-wal"));
