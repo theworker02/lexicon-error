@@ -21,7 +21,7 @@ def sha256_file(path: Path) -> str:
 
 
 class ModelPackageTests(unittest.TestCase):
-    package = Path("artifacts/model/lexiconerror-router")
+    package = Path("artifacts/model/lexiconerror-router-medium")
 
     def test_required_release_files_exist(self) -> None:
         required = {
@@ -44,6 +44,10 @@ class ModelPackageTests(unittest.TestCase):
         self.assertEqual(config["dataset_id"], "Magnexis/lexiconerror-diagnostics")
         self.assertEqual(config["total_records"], 16_474)
         self.assertEqual(config["targets"], ["language", "category", "severity"])
+        self.assertIn(config["model_size"], {"small", "medium", "large"})
+        self.assertEqual(config["hf_repo_id"], f"Magnexis/lexiconerror-router-{config['model_size']}")
+        self.assertGreater(config["parameter_count"], 0)
+        self.assertGreater(config["feature_count"], 0)
 
     def test_metrics_are_real_and_bounded(self) -> None:
         metrics = json.loads((self.package / "metrics.json").read_text(encoding="utf-8"))

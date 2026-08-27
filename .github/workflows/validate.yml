@@ -47,5 +47,9 @@ jobs:
         run: |
           python -m pip install -r modeling\requirements.txt
           python modeling\test_router.py
-          python modeling\train_router.py
-          python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router
+          python modeling\train_family.py
+          python -B modeling\test_family.py
+          foreach ($size in @('small', 'medium', 'large')) {
+            python -B modeling\test_model_package.py --package "artifacts\model\lexiconerror-router-$size"
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }

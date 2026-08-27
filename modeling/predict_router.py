@@ -19,7 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--model",
         type=Path,
-        default=Path("artifacts/model/lexiconerror-router/lexiconerror-router.joblib"),
+        default=Path("artifacts/model/lexiconerror-router-medium/lexiconerror-router.joblib"),
     )
     parser.add_argument("--top-k", type=int, default=3)
     return parser.parse_args()

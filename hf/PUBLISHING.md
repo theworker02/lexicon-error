@@ -45,15 +45,22 @@ The Space has no model, no GPU requirement, no telemetry, and no secret-bearing 
 
 ## Trained diagnostic router
 
-Train and validate the CPU-friendly language/category/severity router, then publish its complete
-package:
+Train and validate the CPU-friendly Small, Medium, and Large language/category/severity routers,
+then publish their complete packages:
 
 ```powershell
-python modeling\train_router.py
+python modeling\train_family.py
 python modeling\test_router.py
-python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router
-hf repos create Magnexis/lexiconerror-router --type model --public --exist-ok
-hf upload Magnexis/lexiconerror-router artifacts\model\lexiconerror-router --type model --exclude "__pycache__/**" --commit-message "Release LexiconError Router 1.0.0"
+python -B modeling\test_family.py
+python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router-small
+python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router-medium
+python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router-large
+hf repos create Magnexis/lexiconerror-router-small --type model --public --exist-ok
+hf repos create Magnexis/lexiconerror-router-medium --type model --public --exist-ok
+hf repos create Magnexis/lexiconerror-router-large --type model --public --exist-ok
+hf upload Magnexis/lexiconerror-router-small artifacts\model\lexiconerror-router-small --type model --exclude "__pycache__/**" --commit-message "Release LexiconError Router Small 1.0.0"
+hf upload Magnexis/lexiconerror-router-medium artifacts\model\lexiconerror-router-medium --type model --exclude "__pycache__/**" --commit-message "Release LexiconError Router Medium 1.0.0"
+hf upload Magnexis/lexiconerror-router-large artifacts\model\lexiconerror-router-large --type model --exclude "__pycache__/**" --commit-message "Release LexiconError Router Large 1.0.0"
 ```
 
 The joblib checkpoint uses pickle semantics. Verify `SHA256SUMS.txt` before loading it and do not

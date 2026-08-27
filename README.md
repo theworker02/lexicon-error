@@ -165,7 +165,7 @@ The project now has a public dataset and a trained diagnostic-routing model, plu
 Space package:
 
 - [Magnexis/lexiconerror-diagnostics](https://huggingface.co/datasets/Magnexis/lexiconerror-diagnostics): 16,474 JSONL records, Dataset Card, source notices, schema, source lock, and SHA-256 release manifest.
-- [Magnexis/lexiconerror-router](https://huggingface.co/Magnexis/lexiconerror-router): a CPU-friendly three-head text classifier that predicts language, category, and severity from pasted diagnostic text.
+- LexiconError Router model family: three CPU-friendly classifiers that predict language, category, and severity from pasted diagnostics. Choose [Small](https://huggingface.co/Magnexis/lexiconerror-router-small) (2.43M parameters), [Medium](https://huggingface.co/Magnexis/lexiconerror-router-medium) (9.70M), or [Large](https://huggingface.co/Magnexis/lexiconerror-router-large) (21.88M).
 - [Static Space](hf/lexiconerror-space/): a compute-free browser preview with an 80-record sample. It loads the full published corpus when its non-secret DATASET_URL variable is set.
 
 Regenerate and validate both packages:
@@ -173,9 +173,10 @@ Regenerate and validate both packages:
 ~~~powershell
 python ingestion\package_hf_dataset.py
 python ingestion\test_hf_package.py --package hf\lexiconerror-diagnostics --space hf\lexiconerror-space
-python modeling\train_router.py
+python modeling\train_family.py
 python modeling\test_router.py
-python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router
+python -B modeling\test_family.py
+python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router-medium
 ~~~
 
 The model is a routing aid, not a fix generator or substitute for official documentation. The

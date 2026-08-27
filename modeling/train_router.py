@@ -22,9 +22,25 @@ from sklearn.linear_model import SGDClassifier
 
 
 TARGETS = ("language", "category", "severity")
-MODEL_NAME = "LexiconError Router"
 MODEL_VERSION = "1.0.0"
 DATASET_ID = "Magnexis/lexiconerror-diagnostics"
+SIZE_PROFILES: dict[str, dict[str, Any]] = {
+    "small": {
+        "max_features": 25_000,
+        "repo_id": "Magnexis/lexiconerror-router-small",
+        "summary": "Lowest memory and fastest startup for editor integrations and small machines.",
+    },
+    "medium": {
+        "max_features": 100_000,
+        "repo_id": "Magnexis/lexiconerror-router-medium",
+        "summary": "Balanced default for desktop use, local APIs, and broad diagnostic routing.",
+    },
+    "large": {
+        "max_features": 250_000,
+        "repo_id": "Magnexis/lexiconerror-router-large",
+        "summary": "Highest-capacity sparse vocabulary for maximum diagnostic-code retention.",
+    },
+}
 
 
 def sha256_file(path: Path) -> str:
@@ -249,14 +265,27 @@ widget:
   example_title: CUDA memory fault
 ---
 
-# {MODEL_NAME}
+# {metadata['model_name']}
 
 ![LexiconError logo](assets/lexiconerror-mark.svg)
 
-{MODEL_NAME} is a compact, CPU-friendly diagnostic-routing model trained on
+{metadata['model_name']} is the **{metadata['model_size']}** member of a compact, CPU-friendly
+diagnostic-routing family trained on
 [{DATASET_ID}](https://huggingface.co/datasets/{DATASET_ID}). Given an error message, stack trace,
 compiler diagnostic, or nearby trigger snippet, it predicts the likely programming language,
 diagnostic category, and severity. It does not generate fixes or execute supplied code.
+
+## Model family
+
+| Variant | Feature budget | Intended use |
+| --- | ---: | --- |
+| [Small](https://huggingface.co/Magnexis/lexiconerror-router-small) | 25,000 | Editors and low-memory machines |
+| [Medium](https://huggingface.co/Magnexis/lexiconerror-router-medium) | 100,000 | Recommended desktop default |
+| [Large](https://huggingface.co/Magnexis/lexiconerror-router-large) | 250,000 | Maximum vocabulary retention |
+
+This checkpoint contains **{metadata['parameter_count']:,} learned linear parameters** across
+{metadata['feature_count']:,} fitted word and character features. Its configured feature budget is
+{metadata['max_features']:,}. {metadata['profile_summary']}
 
 ## Evaluation
 
@@ -270,6 +299,8 @@ tool, and source fields to avoid direct metadata leakage.
 
 - Training records: {metadata['train_records']:,}
 - Evaluation records: {metadata['evaluation_records']:,}
+- Learned parameters: {metadata['parameter_count']:,}
+- Fitted features: {metadata['feature_count']:,}
 - Dataset SHA-256: `{metadata['dataset_sha256']}`
 - Random seed: 42
 - Runtime: scikit-learn {metadata['sklearn_version']}, Python {metadata['python_version']}
@@ -311,7 +342,7 @@ that every explanation or remediation is correct.
 ## Reproduction
 
 ~~~powershell
-python modeling\\train_router.py --dataset hf\\lexiconerror-diagnostics\\data\\diagnostics.jsonl --output artifacts\\model\\lexiconerror-router
+python modeling\\train_router.py --size {metadata['model_size']} --dataset hf\\lexiconerror-diagnostics\\data\\diagnostics.jsonl --output artifacts\\model\\lexiconerror-router-{metadata['model_size']}
 python modeling\\test_router.py
 ~~~
 """
@@ -321,21 +352,42 @@ def write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def train(dataset: Path, output: Path, max_features: int = 100_000) -> dict[str, Any]:
+def train(
+    dataset: Path,
+    output: Path,
+    max_features: int | None = None,
+    size: str = "medium",
+) -> dict[str, Any]:
+    if size not in SIZE_PROFILES:
+        raise ValueError(f"unknown model size: {size}")
+    profile = SIZE_PROFILES[size]
+    feature_budget = int(max_features or profile["max_features"])
     records = load_records(dataset)
     train_records, test_records = deterministic_split(records)
-    vectorizer, classifiers = fit_router(train_records, max_features=max_features)
+    vectorizer, classifiers = fit_router(train_records, max_features=feature_budget)
     metrics = evaluate_router(vectorizer, classifiers, test_records)
+    feature_count = sum(
+        len(transformer.vocabulary_) for _, transformer in vectorizer.transformer_list
+    )
+    parameter_count = sum(
+        int(classifier.coef_.size + classifier.intercept_.size)
+        for classifier in classifiers.values()
+    )
     metadata = {
-        "model_name": MODEL_NAME,
+        "model_name": f"LexiconError Router {size.title()}",
         "model_version": MODEL_VERSION,
+        "model_size": size,
+        "hf_repo_id": profile["repo_id"],
+        "profile_summary": profile["summary"],
         "dataset_id": DATASET_ID,
         "dataset_sha256": sha256_file(dataset),
         "total_records": len(records),
         "train_records": len(train_records),
         "evaluation_records": len(test_records),
         "targets": list(TARGETS),
-        "max_features": max_features,
+        "max_features": feature_budget,
+        "feature_count": feature_count,
+        "parameter_count": parameter_count,
         "random_seed": 42,
         "trained_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "python_version": platform.python_version(),
@@ -391,13 +443,15 @@ def parse_args() -> argparse.Namespace:
         default=Path("hf/lexiconerror-diagnostics/data/diagnostics.jsonl"),
     )
     parser.add_argument(
-        "--output", type=Path, default=Path("artifacts/model/lexiconerror-router")
+        "--output", type=Path, default=None
     )
-    parser.add_argument("--max-features", type=int, default=100_000)
+    parser.add_argument("--size", choices=tuple(SIZE_PROFILES), default="medium")
+    parser.add_argument("--max-features", type=int, default=None)
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     arguments = parse_args()
-    result = train(arguments.dataset, arguments.output, arguments.max_features)
+    output = arguments.output or Path(f"artifacts/model/lexiconerror-router-{arguments.size}")
+    result = train(arguments.dataset, output, arguments.max_features, arguments.size)
     print(json.dumps(result, indent=2))
