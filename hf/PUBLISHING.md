@@ -42,3 +42,19 @@ https://huggingface.co/datasets/Magnexis/lexiconerror-diagnostics/resolve/main/d
 ```
 
 The Space has no model, no GPU requirement, no telemetry, and no secret-bearing runtime configuration. It falls back to its bundled 80-record preview until that variable is set.
+
+## Trained diagnostic router
+
+Train and validate the CPU-friendly language/category/severity router, then publish its complete
+package:
+
+```powershell
+python modeling\train_router.py
+python modeling\test_router.py
+python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router
+hf repos create Magnexis/lexiconerror-router --type model --public --exist-ok
+hf upload Magnexis/lexiconerror-router artifacts\model\lexiconerror-router --type model --exclude "__pycache__/**" --commit-message "Release LexiconError Router 1.0.0"
+```
+
+The joblib checkpoint uses pickle semantics. Verify `SHA256SUMS.txt` before loading it and do not
+enable generic hosted inference for this custom three-head model.

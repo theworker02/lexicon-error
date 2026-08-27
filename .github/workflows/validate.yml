@@ -20,6 +20,11 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: modeling/requirements.txt
       - name: Install frontend dependencies
         run: npm.cmd ci
       - name: Check and build TypeScript interface
@@ -38,3 +43,9 @@ jobs:
         run: |
           python ingestion\package_hf_dataset.py --database artifacts\lexicon-error-2026.08-reviewed.db
           python ingestion\test_hf_package.py --package hf\lexiconerror-diagnostics --space hf\lexiconerror-space --pages site
+      - name: Train and validate diagnostic router
+        run: |
+          python -m pip install -r modeling\requirements.txt
+          python modeling\test_router.py
+          python modeling\train_router.py
+          python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router

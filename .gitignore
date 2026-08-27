@@ -18,6 +18,7 @@ __pycache__/
 data/raw/
 ingestion/sources/csharp/**/bin/
 ingestion/sources/csharp/**/obj/
+artifacts/model/
 hf/lexiconerror-diagnostics/data/
 hf/lexiconerror-diagnostics/metadata/
 hf/lexiconerror-diagnostics/assets/

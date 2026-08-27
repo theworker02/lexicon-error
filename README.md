@@ -159,11 +159,13 @@ python ingestion\organize_user_records.py
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [contributions/example.md](contributions/example.md), and [data/error-entry.schema.json](data/error-entry.schema.json). Local contributions remain local until an editor intentionally promotes them into a reviewed release.
 
-## Hugging Face Dataset and Space
+## Hugging Face Dataset, model, and Space
 
-The repository contains two independently publishable Hub packages:
+The project now has a public dataset and a trained diagnostic-routing model, plus a prepared static
+Space package:
 
-- [Dataset package](hf/lexiconerror-diagnostics/): 16,474 JSONL records, Dataset Card, source notices, schema, source lock, and SHA-256 release manifest.
+- [Magnexis/lexiconerror-diagnostics](https://huggingface.co/datasets/Magnexis/lexiconerror-diagnostics): 16,474 JSONL records, Dataset Card, source notices, schema, source lock, and SHA-256 release manifest.
+- [Magnexis/lexiconerror-router](https://huggingface.co/Magnexis/lexiconerror-router): a CPU-friendly three-head text classifier that predicts language, category, and severity from pasted diagnostic text.
 - [Static Space](hf/lexiconerror-space/): a compute-free browser preview with an 80-record sample. It loads the full published corpus when its non-secret DATASET_URL variable is set.
 
 Regenerate and validate both packages:
@@ -171,9 +173,16 @@ Regenerate and validate both packages:
 ~~~powershell
 python ingestion\package_hf_dataset.py
 python ingestion\test_hf_package.py --package hf\lexiconerror-diagnostics --space hf\lexiconerror-space
+python modeling\train_router.py
+python modeling\test_router.py
+python -B modeling\test_model_package.py --package artifacts\model\lexiconerror-router
 ~~~
 
-The dataset intentionally declares license: other because it has composite source terms. Review [hf/lexiconerror-diagnostics/NOTICE.md](hf/lexiconerror-diagnostics/NOTICE.md) and [hf/PUBLISHING.md](hf/PUBLISHING.md) before public release.
+The model is a routing aid, not a fix generator or substitute for official documentation. The
+dataset and model intentionally declare `license: other` because the corpus has composite source
+terms. Review [hf/lexiconerror-diagnostics/NOTICE.md](hf/lexiconerror-diagnostics/NOTICE.md),
+[modeling/README.md](modeling/README.md), and [hf/PUBLISHING.md](hf/PUBLISHING.md) before
+redistribution.
 
 ## Privacy and security
 
