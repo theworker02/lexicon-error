@@ -1,5 +1,7 @@
 # LexiconError on Hugging Face
 
+![LexiconError logo](../assets/branding/lexiconerror-mark.svg)
+
 This directory contains two independently publishable Hub repositories.
 
 - `lexiconerror-diagnostics/` is the provenance-preserving Dataset package. Its generated JSONL corpus, source notices, and release manifest are safe to upload together.
@@ -13,4 +15,3 @@ python ingestion\test_hf_package.py --package hf\lexiconerror-diagnostics --spac
 ```
 
 The publish commands are intentionally documented but not automated: creating a public repository and granting a release license are external publication decisions.
-

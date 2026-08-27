@@ -6,6 +6,7 @@ button { cursor: pointer; }
 .app-shell { display: grid; grid-template-columns: 238px minmax(300px, .82fr) minmax(500px, 1.55fr); height: 100vh; overflow: hidden; background: #101114; }
 .sidebar { display: flex; flex-direction: column; border-right: 1px solid #292b31; background: #141519; padding: 20px 16px 16px; overflow-y: auto; }
 .brand { display: flex; align-items: center; gap: 10px; padding: 0 4px 22px; }
+.brand > img { width: 32px; height: 32px; border-radius: 8px; box-shadow: 0 0 24px rgba(69, 200, 255, .14); }
 .brand > span { display: grid; width: 32px; height: 32px; place-items: center; color: #e9edff; background: #3d4a82; border: 1px solid #5d6caa; border-radius: 8px; font-size: 11px; font-weight: 800; letter-spacing: -.5px; }
 .brand strong { display: block; font-size: 14px; letter-spacing: -.2px; }.brand small { color: #8f929b; font-size: 11px; }
 .index-note { display: flex; flex-direction: column; padding: 12px; background: #1a1c21; border: 1px solid #2a2d34; border-radius: 7px; margin-bottom: 22px; }.index-note b { color: #b8c7ff; font-size: 17px; }.index-note span { color: #8e929b; font-size: 11px; margin-top: 3px; }

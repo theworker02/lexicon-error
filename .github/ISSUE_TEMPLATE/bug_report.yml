@@ -1,0 +1,53 @@
+name: Incorrect diagnostic or application bug
+description: Report a catalog, ingestion, search, import, export, or desktop behavior problem.
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, private repository URLs, local user paths, or proprietary source code.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Diagnostic entry or source attribution
+        - Search, filter, or command palette
+        - Contribution import or validation
+        - Export, backup, or release package
+        - Desktop application
+        - Hugging Face Dataset or Space
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: LexiconError version or commit
+      placeholder: "0.1.0 or commit SHA"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior or corrected diagnostic meaning
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction or safe steps
+      description: Use a redacted, minimal example. Do not paste sensitive application code.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL, if reporting catalog content
+

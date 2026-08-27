@@ -21,6 +21,8 @@ configs:
 
 # LexiconError Diagnostics
 
+![LexiconError logo](assets/lexiconerror-mark.svg)
+
 LexiconError Diagnostics is a 16,474-record, provenance-preserving corpus of programming-language compiler diagnostics, linter rules, runtime exceptions, infrastructure failures, and accelerator-runtime faults. It is a reference dataset, not a claim of exhaustive or fully editorially verified coverage.
 
 ## Dataset details

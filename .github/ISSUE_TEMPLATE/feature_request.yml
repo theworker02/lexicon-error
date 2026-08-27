@@ -1,0 +1,40 @@
+name: Feature or coverage request
+description: Propose a focused improvement to LexiconError.
+title: "[feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - New language, framework, or tool coverage
+        - New diagnostic or error family
+        - Search or filtering experience
+        - Inspector, diff, or state visualization
+        - Ingestion or contribution workflow
+        - Export, Dataset, or Space
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Explain the developer workflow this improves.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: input
+    id: sources
+    attributes:
+      label: Official source or registry links
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+

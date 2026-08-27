@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="LexiconError is an offline-first diagnostic atlas for programming languages, infrastructure, and GPU runtimes." />
+    <title>LexiconError | Offline Diagnostic Atlas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="LexiconError home"><img src="assets/lexiconerror-mark.svg" alt="" /><span>LexiconError</span></a>
+      <nav aria-label="Primary navigation"><a href="#preview">Explore</a><a href="#downloads">Downloads</a><a href="#data">Data</a><a class="nav-button" href="https://github.com/theworker02/lexicon-error">GitHub</a></nav>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Offline-first developer reference</p>
+          <h1>Every diagnostic.<br /><em>One clear path forward.</em></h1>
+          <p class="hero-copy">Search compiler errors, runtime exceptions, configuration failures, and GPU faults with their root cause, minimal trigger, hardened repair, and source provenance in one local application.</p>
+          <div class="hero-actions"><a class="primary" href="https://github.com/theworker02/lexicon-error/releases/latest">Download for Windows</a><a class="secondary" href="#preview">Browse the preview</a></div>
+          <p class="platform-note">Windows x64 release available now. Native macOS and Linux builds follow the same Tauri codebase.</p>
+        </div>
+        <div class="hero-mark"><img src="assets/lexiconerror-mark.svg" alt="LexiconError mark" /><div class="glow glow-cyan"></div><div class="glow glow-coral"></div></div>
+      </section>
+      <section class="metrics" aria-label="Catalog statistics">
+        <div><strong>16,474</strong><span>diagnostic records</span></div>
+        <div><strong>44</strong><span>languages</span></div>
+        <div><strong>45</strong><span>tools and runtimes</span></div>
+        <div><strong>0</strong><span>required network calls</span></div>
+      </section>
+      <section class="feature-grid">
+        <article><span class="feature-index">01</span><h2>Find the exact fault</h2><p>Search codes, exception names, descriptions, stack fragments, language metadata, and error family terms through the bundled SQLite FTS index.</p></article>
+        <article><span class="feature-index">02</span><h2>See the repair</h2><p>Read the failure condition beside a corrected implementation, plus curated context, version boundaries, and conceptual equivalents.</p></article>
+        <article><span class="feature-index">03</span><h2>Keep the data local</h2><p>Search, detection, contributions, and portable backups run on-device. Snippets are never executed and pasted diagnostics are never uploaded.</p></article>
+      </section>
+      <section class="preview-section" id="preview">
+        <header><div><p class="eyebrow">Live catalog preview</p><h2>Search a small local sample</h2><p>This public preview is a redacted 80-record slice. The desktop application contains the complete offline catalog.</p></div><span id="preview-status">Loading sample</span></header>
+        <label class="search" for="query"><span aria-hidden="true">Search</span><input id="query" type="search" autocomplete="off" placeholder="Try E0382, CUDA, KeyError, or TypeScript" /><kbd>/</kbd></label>
+        <div class="preview-layout"><div class="result-list" id="results" aria-live="polite"></div><article class="detail" id="detail"><p>Select a diagnostic to inspect its root cause and repair.</p></article></div>
+      </section>
+      <section class="release-section" id="downloads">
+        <div><p class="eyebrow">Native desktop release</p><h2>Use it without Hugging Face, cloud sync, or an account.</h2><p>GitHub Releases publish the Windows installer, MSI, portable SQLite reference index, checksums, and human-readable release notes. The application is fully functional after installation.</p></div>
+        <a class="primary" href="https://github.com/theworker02/lexicon-error/releases/latest">Open latest release</a>
+      </section>
+      <section class="data-section" id="data">
+        <div><p class="eyebrow">Data and provenance</p><h2>Openly inspectable, carefully scoped.</h2></div>
+        <div class="data-cards"><article><h3>Source-aware</h3><p>Every published record retains source metadata. Registry imports remain visibly marked Needs Review until editorially verified.</p></article><article><h3>Portable</h3><p>JSONL, CSV, JSON, and SQLite exports let you use the catalog in local tools and reproducible workflows.</p></article><article><h3>Hugging Face ready</h3><p>The Dataset card, notices, hashes, and a static Space are maintained in the source repository for traceable publication.</p></article></div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#top"><img src="assets/lexiconerror-mark.svg" alt="" /><span>LexiconError</span></a><span>Built by Magnexis. Offline by default.</span><a href="https://github.com/sponsors/theworker02">Support the project</a></footer>
+    <template id="result-template"><button class="result" type="button"><code></code><strong></strong><span></span></button></template>
+    <script src="app.js"></script>
+  </body>
+</html>

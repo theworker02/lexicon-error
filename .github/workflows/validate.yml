@@ -1,0 +1,40 @@
+name: Validate LexiconError
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Build and validate
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install frontend dependencies
+        run: npm.cmd ci
+      - name: Check and build TypeScript interface
+        run: |
+          npm.cmd run check
+          npm.cmd run build
+      - name: Set up Rust stable
+        run: rustup toolchain install stable --profile minimal
+      - name: Test Rust application core
+        run: cargo test --manifest-path src-tauri\Cargo.toml
+      - name: Build and validate catalog
+        run: |
+          python ingestion\build_index.py --manifest data\review\manifest.json --output artifacts\lexicon-error-2026.08-reviewed.db
+          python ingestion\test_pipeline.py --database artifacts\lexicon-error-2026.08-reviewed.db
+      - name: Build and validate Hugging Face packages
+        run: |
+          python ingestion\package_hf_dataset.py --database artifacts\lexicon-error-2026.08-reviewed.db
+          python ingestion\test_hf_package.py --package hf\lexiconerror-diagnostics --space hf\lexiconerror-space --pages site

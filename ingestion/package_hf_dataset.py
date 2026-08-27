@@ -23,6 +23,7 @@ ROOT = Path(__file__).parents[1]
 ENTRY_SCHEMA = ROOT / "data" / "error-entry.schema.json"
 SOURCE_MANIFEST = ROOT / "data" / "knowledge" / "source-manifest.json"
 SOURCE_LOCK = ROOT / "data" / "review" / "source-lock.json"
+BRAND_ASSET = ROOT / "assets" / "branding" / "lexiconerror-mark.svg"
 REQUIRED_FIELDS = {
     "id", "canonical_id", "language", "tool_id", "code", "category", "severity", "title",
     "description", "bad_example", "good_example", "version_introduced", "version_deprecated",
@@ -103,6 +104,8 @@ configs:
 
 # LexiconError Diagnostics
 
+![LexiconError logo](assets/lexiconerror-mark.svg)
+
 LexiconError Diagnostics is a {records:,}-record, provenance-preserving corpus of programming-language compiler diagnostics, linter rules, runtime exceptions, infrastructure failures, and accelerator-runtime faults. It is a reference dataset, not a claim of exhaustive or fully editorially verified coverage.
 
 ## Dataset details
@@ -168,7 +171,7 @@ def write_jsonl(path: Path, records: list[dict[str, Any]]) -> None:
             stream.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
 
 
-def package(database: Path, output: Path, space_sample: Path | None) -> dict[str, Any]:
+def package(database: Path, output: Path, space_sample: Path | None, pages_sample: Path | None) -> dict[str, Any]:
     if not database.is_file():
         raise ValueError(f"Database not found: {database}")
     with sqlite3.connect(database) as connection:
@@ -181,14 +184,17 @@ def package(database: Path, output: Path, space_sample: Path | None) -> dict[str
 
     data_dir = output / "data"
     metadata_dir = output / "metadata"
+    assets_dir = output / "assets"
     data_dir.mkdir(parents=True, exist_ok=True)
     metadata_dir.mkdir(parents=True, exist_ok=True)
+    assets_dir.mkdir(parents=True, exist_ok=True)
     diagnostics_path = data_dir / "diagnostics.jsonl"
     write_jsonl(diagnostics_path, records)
     (data_dir / "coverage.json").write_text(json.dumps(coverage_rows, indent=2) + "\n", encoding="utf-8")
     shutil.copy2(ENTRY_SCHEMA, metadata_dir / "error-entry.schema.json")
     shutil.copy2(SOURCE_MANIFEST, metadata_dir / "source-manifest.json")
     shutil.copy2(SOURCE_LOCK, metadata_dir / "source-lock.json")
+    shutil.copy2(BRAND_ASSET, assets_dir / BRAND_ASSET.name)
     (output / "README.md").write_text(dataset_card(len(records), stats), encoding="utf-8")
     sources = json.loads(SOURCE_MANIFEST.read_text(encoding="utf-8"))["sources"]
     (output / "NOTICE.md").write_text(notice(sources), encoding="utf-8")
@@ -200,12 +206,21 @@ def package(database: Path, output: Path, space_sample: Path | None) -> dict[str
         "verified": stats["verified"], "files": {},
         "excludes": ["raw source snapshots", "local contribution directories", "desktop application data"],
     }
-    for path in (diagnostics_path, data_dir / "coverage.json", metadata_dir / "error-entry.schema.json", metadata_dir / "source-manifest.json", metadata_dir / "source-lock.json"):
+    for path in (diagnostics_path, data_dir / "coverage.json", metadata_dir / "error-entry.schema.json", metadata_dir / "source-manifest.json", metadata_dir / "source-lock.json", assets_dir / BRAND_ASSET.name):
         manifest["files"][str(path.relative_to(output)).replace("\\", "/")] = {"sha256": sha256(path), "bytes": path.stat().st_size}
     (metadata_dir / "release-manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     if space_sample:
         space_sample.parent.mkdir(parents=True, exist_ok=True)
         space_sample.write_text(json.dumps(records[:80], indent=2) + "\n", encoding="utf-8")
+        space_assets = space_sample.parent / "assets"
+        space_assets.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(BRAND_ASSET, space_assets / BRAND_ASSET.name)
+    if pages_sample:
+        pages_sample.parent.mkdir(parents=True, exist_ok=True)
+        pages_sample.write_text(json.dumps(records[:80], indent=2) + "\n", encoding="utf-8")
+        pages_assets = pages_sample.parent / "assets"
+        pages_assets.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(BRAND_ASSET, pages_assets / BRAND_ASSET.name)
     return manifest
 
 
@@ -214,8 +229,9 @@ def main() -> int:
     parser.add_argument("--database", type=Path, default=ROOT / "artifacts" / "lexicon-error-2026.08-reviewed.db")
     parser.add_argument("--output", type=Path, default=ROOT / "hf" / "lexiconerror-diagnostics")
     parser.add_argument("--space-sample", type=Path, default=ROOT / "hf" / "lexiconerror-space" / "sample-data.json")
+    parser.add_argument("--pages-sample", type=Path, default=ROOT / "site" / "sample-data.json")
     args = parser.parse_args()
-    manifest = package(args.database, args.output, args.space_sample)
+    manifest = package(args.database, args.output, args.space_sample, args.pages_sample)
     print(f"Packaged {manifest['records']:,} records in {args.output}.")
     return 0
 

@@ -2,6 +2,7 @@ import { open, save } from "@tauri-apps/plugin-dialog";
 import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from "react";
 import { detectError, exportDatabase, getCoverage, getFacets, getMatrix, importContributions, searchEntries } from "./lib/api";
 import type { CoverageProfile, ErrorEntry, Facets, Filters, MatrixCell } from "./types";
+import logoMark from "./assets/lexiconerror-mark.svg";
 
 const emptyFilters: Filters = { languages: [], categories: [], severities: [], frequencies: [], interactions: [] };
 const fallbackFacets: Facets = { languages: [], categories: [], severities: [], frequencies: [], interactions: [], total: 0 };
@@ -184,7 +185,7 @@ export default function App() {
 
   return <main className="app-shell">
     <aside className="sidebar">
-      <div className="brand"><span>LE</span><div><strong>LexiconError</strong><small>Universal offline encyclopedia</small></div></div>
+      <div className="brand"><img src={logoMark} alt="" /><div><strong>LexiconError</strong><small>Universal offline encyclopedia</small></div></div>
       <button className="sidebar-command" onClick={() => setPaletteOpen(true)}><span>Search all diagnostics</span><kbd>Ctrl K</kbd></button>
       <div className="index-note"><b>{facets.total.toLocaleString()}</b><span>records in the local index</span></div>
       <DomainTree available={facets.languages} selected={filters.languages} onSelect={(value) => toggle("languages", value)} />

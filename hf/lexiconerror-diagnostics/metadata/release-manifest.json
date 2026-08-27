@@ -1,7 +1,7 @@
 {
   "release_name": "LexiconError Diagnostics",
   "version": "2026.08",
-  "generated_at": "2026-08-27T17:32:13+00:00",
+  "generated_at": "2026-08-27T17:50:00+00:00",
   "records": 16474,
   "languages": 44,
   "tools": 45,
@@ -26,6 +26,10 @@
     "metadata/source-lock.json": {
       "sha256": "02b8147873fb1f418efa35816ab0886de41dbff893c6af7b81ad01fb0a6f266e",
       "bytes": 3443
+    },
+    "assets/lexiconerror-mark.svg": {
+      "sha256": "3ef3925984f1cb7c450e34396160a2cb449c5401b785bb2c8fbfc7cf10ec4d07",
+      "bytes": 1063
     }
   },
   "excludes": [

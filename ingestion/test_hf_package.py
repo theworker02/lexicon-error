@@ -20,6 +20,7 @@ REQUIRED_RECORD_FIELDS = {
 class HuggingFacePackageTests(unittest.TestCase):
     package: Path
     space: Path
+    pages: Path
 
     def test_dataset_card_declares_supported_jsonl_config(self) -> None:
         card = (self.package / "README.md").read_text(encoding="utf-8")
@@ -45,6 +46,8 @@ class HuggingFacePackageTests(unittest.TestCase):
             path = self.package / relative
             self.assertTrue(path.is_file(), relative)
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), detail["sha256"])
+        self.assertIn("assets/lexiconerror-mark.svg", manifest["files"])
+        self.assertIn("LexiconError mark", (self.package / "assets" / "lexiconerror-mark.svg").read_text(encoding="utf-8"))
         notice = (self.package / "NOTICE.md").read_text(encoding="utf-8")
         self.assertIn("NVIDIA CUDA documentation", notice)
         self.assertIn("MDN contributors", notice)
@@ -57,7 +60,21 @@ class HuggingFacePackageTests(unittest.TestCase):
         self.assertIn("DATASET_URL", card)
         self.assertIn("sample-data.json", script)
         self.assertNotIn("HF_TOKEN", script)
+        self.assertIn("assets/lexiconerror-mark.svg", (self.space / "index.html").read_text(encoding="utf-8"))
+        self.assertIn("LexiconError mark", (self.space / "assets" / "lexiconerror-mark.svg").read_text(encoding="utf-8"))
         sample = json.loads((self.space / "sample-data.json").read_text(encoding="utf-8"))
+        self.assertGreaterEqual(len(sample), 40)
+        self.assertTrue(all(REQUIRED_RECORD_FIELDS <= set(record) for record in sample))
+
+    def test_github_pages_site_has_a_safe_local_preview(self) -> None:
+        index = (self.pages / "index.html").read_text(encoding="utf-8")
+        script = (self.pages / "app.js").read_text(encoding="utf-8")
+        self.assertIn("assets/lexiconerror-mark.svg", index)
+        self.assertIn("releases/latest", index)
+        self.assertIn("sample-data.json", script)
+        self.assertNotIn("HF_TOKEN", script)
+        self.assertNotIn("fetch(\"http", script)
+        sample = json.loads((self.pages / "sample-data.json").read_text(encoding="utf-8"))
         self.assertGreaterEqual(len(sample), 40)
         self.assertTrue(all(REQUIRED_RECORD_FIELDS <= set(record) for record in sample))
 
@@ -66,9 +83,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--package", type=Path, required=True)
     parser.add_argument("--space", type=Path, required=True)
+    parser.add_argument("--pages", type=Path, default=Path("site"))
     args, remaining = parser.parse_known_args()
     HuggingFacePackageTests.package = args.package
     HuggingFacePackageTests.space = args.space
+    HuggingFacePackageTests.pages = args.pages
     unittest.main(argv=["test_hf_package.py", *remaining], verbosity=2)
     return 0
 

@@ -17,11 +17,11 @@ Review the Dataset NOTICE.md, LICENSE, and source manifest before choosing publi
 
 ## Dataset
 
-Authenticate using hf auth login or an HF_TOKEN environment variable. Once the final namespace and visibility have been approved:
+Authenticate using `hf auth login` or an `HF_TOKEN` environment variable. The approved public dataset lives under the Magnexis organization:
 
 ```powershell
-hf repos create <namespace>/lexiconerror-diagnostics --type dataset --private
-hf upload <namespace>/lexiconerror-diagnostics hf\\lexiconerror-diagnostics --type dataset --commit-message "Release LexiconError Diagnostics 2026.08"
+hf repos create Magnexis/lexiconerror-diagnostics --type dataset --public
+hf upload Magnexis/lexiconerror-diagnostics hf\\lexiconerror-diagnostics --type dataset --commit-message "Release LexiconError Diagnostics 2026.08"
 ```
 
 After upload, confirm that the Dataset Viewer recognizes the diagnostics configuration and train split. The Hub supports JSONL datasets and uses the YAML configs metadata in the dataset card to identify splits.
@@ -31,14 +31,14 @@ After upload, confirm that the Dataset Viewer recognizes the diagnostics configu
 Create a static Space, then upload the Space directory:
 
 ```powershell
-hf repos create <namespace>/lexiconerror-demo --type space --sdk static --private
-hf upload <namespace>/lexiconerror-demo hf\\lexiconerror-space --type space --commit-message "Publish LexiconError static preview"
+hf repos create Magnexis/lexiconerror-demo --type space --sdk static --public
+hf upload Magnexis/lexiconerror-demo hf\\lexiconerror-space --type space --commit-message "Publish LexiconError static preview"
 ```
 
 Set the public non-secret Space variable DATASET_URL to:
 
 ```text
-https://huggingface.co/datasets/<namespace>/lexiconerror-diagnostics/resolve/main/data/diagnostics.jsonl
+https://huggingface.co/datasets/Magnexis/lexiconerror-diagnostics/resolve/main/data/diagnostics.jsonl
 ```
 
 The Space has no model, no GPU requirement, no telemetry, and no secret-bearing runtime configuration. It falls back to its bundled 80-record preview until that variable is set.
