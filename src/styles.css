@@ -1,5 +1,9 @@
 :root { color: #e8e8eb; background: #0d0e11; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-synthesis: none; }
-* { box-sizing: border-box; }
+* { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: #3a5362 #111820; }
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+*::-webkit-scrollbar-track { background: #111820; }
+*::-webkit-scrollbar-thumb { background: #3a5362; border: 2px solid #111820; border-radius: 8px; }
+*::-webkit-scrollbar-thumb:hover { background: #52768a; }
 body { margin: 0; min-width: 1080px; min-height: 100vh; }
 button, input { font: inherit; }
 button { cursor: pointer; }

@@ -14,6 +14,33 @@ LexiconError is a local-first desktop encyclopedia for compiler diagnostics, lin
 
 It is a reference system, not an execution environment. The application never executes the snippets it displays, collects telemetry, opens a localhost API, or uploads pasted diagnostic text.
 
+## See it in action
+
+<p align="center">
+  <img src="docs/media/lexiconerror-search-demo.gif" width="1120" alt="LexiconError command palette searching for Rust E0382 and opening its diagnostic inspector" />
+</p>
+
+<p align="center">
+  <a href="docs/media/lexiconerror-search-demo.mp4">Watch the 1120×700 H.264 demo video</a>
+</p>
+
+<details>
+<summary><strong>Open full-resolution screenshots</strong></summary>
+
+### Offline diagnostic catalog
+
+![LexiconError offline diagnostic catalog](docs/media/lexiconerror-catalog.png)
+
+### Global command palette
+
+![LexiconError command palette matching Rust E0382](docs/media/lexiconerror-command-palette.png)
+
+### Root-cause inspector
+
+![LexiconError E0382 root-cause inspector](docs/media/lexiconerror-diagnostic-detail.png)
+
+</details>
+
 ## Product surface
 
 | Surface | What it provides |
@@ -82,6 +109,7 @@ src/                React desktop interface
 src-tauri/          Rust commands, SQLite setup, Tauri configuration
 data/               Curated seed, review queues, schemas, knowledge profiles
 ingestion/          Parsers, organizers, validators, release/export scripts
+scripts/            Reproducible product-media capture utilities
 contributions/      Example local contribution files
 artifacts/          Generated release indexes, ignored by Git
 hf/                 Dataset and static Space publication packages

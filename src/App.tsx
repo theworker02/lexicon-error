@@ -62,7 +62,7 @@ function CoverageView({ profiles, onBrowse }: { profiles: CoverageProfile[]; onB
     <header><div><div className="eyebrow">Data quality</div><h1>Coverage dashboard</h1><p>Counts and tiers are generated from the local database. Source attribution does not turn a draft explanation into a verified one.</p></div><span>{indexed.length} indexed ecosystems</span></header>
     <div className="coverage-scroll"><table className="coverage-table"><thead><tr><th>Language</th><th>Records</th><th>Progress</th><th>Tier</th><th>Verified</th><th>Sources</th><th /></tr></thead><tbody>{indexed.map((profile) => <tr key={profile.language_id}>
       <td><strong>{profile.language}</strong><small>{profile.tools} tool{profile.tools === 1 ? "" : "s"}</small></td>
-      <td><b>{profile.records.toLocaleString()}</b><small>target {profile.target ? profile.target.toLocaleString() : "â€”"}</small></td>
+      <td><b>{profile.records.toLocaleString()}</b><small>target {profile.target ? profile.target.toLocaleString() : "\u2014"}</small></td>
       <td><div className="coverage-progress"><span style={{ width: `${Math.min(profile.progress, 100)}%` }} /></div><small>{profile.target ? `${profile.progress.toFixed(1)}%` : "No target"}</small></td>
       <td><span className={`coverage-tier tier-${profile.tier.toLowerCase()}`}>{profile.tier}</span></td>
       <td>{profile.quality.verified.toFixed(1)}%</td><td>{profile.quality.sources.toFixed(1)}%</td>
@@ -98,7 +98,7 @@ function CommandPalette({ open, query, results, inputRef, onClose, onQuery, onSe
   if (!open) return null;
   return <div className="palette-backdrop" role="presentation" onMouseDown={onClose}>
     <section className="command-palette" role="dialog" aria-modal="true" aria-label="Global diagnostic search" onMouseDown={(event) => event.stopPropagation()}>
-      <div className="palette-search"><span aria-hidden="true">⌕</span><input ref={inputRef} value={query} onChange={(event) => onQuery(event.target.value)} placeholder="Search every offline diagnostic…" /><kbd>Esc</kbd></div>
+      <div className="palette-search"><span aria-hidden="true">⌕</span><input ref={inputRef} value={query} onChange={(event) => onQuery(event.target.value)} onKeyDown={(event) => { if (event.key === "Enter" && results[0]) { event.preventDefault(); onSelect(results[0]); } }} placeholder="Search every offline diagnostic…" /><kbd>Esc</kbd></div>
       <div className="palette-section"><span>Navigate</span><div className="palette-actions"><button onClick={() => onView("catalog")}><b>Catalog</b><small>Browse indexed diagnostics</small></button><button onClick={() => onView("matrix")}><b>Context matrix</b><small>Compare ecosystems</small></button><button onClick={() => onView("coverage")}><b>Coverage</b><small>Inspect source quality</small></button><button onClick={onClear}><b>Clear filters</b><small>Reset the current search scope</small></button></div></div>
       <div className="palette-section palette-results"><span>Matching diagnostics</span>{results.slice(0, 7).map((entry) => <button key={entry.id} onClick={() => onSelect(entry)}><div><code>{entry.code}</code><b>{entry.title}</b></div><span>{entry.language}</span></button>)}{!results.length && <p>No diagnostics match the current query.</p>}</div>
       <footer><span>↵ Open selection</span><span>⌘K / Ctrl K Toggle</span><span>Offline index only</span></footer>
