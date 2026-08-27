@@ -1,0 +1,1466 @@
+[
+  {
+    "id": "cl_cl_device_not_found",
+    "language": "OpenCL",
+    "code": "CL_DEVICE_NOT_FOUND",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Device Not Found",
+    "description": "OpenCL standardized result code CL_DEVICE_NOT_FOUND (-1) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_device_not_available",
+    "language": "OpenCL",
+    "code": "CL_DEVICE_NOT_AVAILABLE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Device Not Available",
+    "description": "OpenCL standardized result code CL_DEVICE_NOT_AVAILABLE (-2) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_compiler_not_available",
+    "language": "OpenCL",
+    "code": "CL_COMPILER_NOT_AVAILABLE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Compiler Not Available",
+    "description": "OpenCL standardized result code CL_COMPILER_NOT_AVAILABLE (-3) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_mem_object_allocation_failure",
+    "language": "OpenCL",
+    "code": "CL_MEM_OBJECT_ALLOCATION_FAILURE",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Cl Mem Object Allocation Failure",
+    "description": "OpenCL standardized result code CL_MEM_OBJECT_ALLOCATION_FAILURE (-4) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_out_of_resources",
+    "language": "OpenCL",
+    "code": "CL_OUT_OF_RESOURCES",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Out Of Resources",
+    "description": "OpenCL standardized result code CL_OUT_OF_RESOURCES (-5) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_out_of_host_memory",
+    "language": "OpenCL",
+    "code": "CL_OUT_OF_HOST_MEMORY",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Cl Out Of Host Memory",
+    "description": "OpenCL standardized result code CL_OUT_OF_HOST_MEMORY (-6) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_profiling_info_not_available",
+    "language": "OpenCL",
+    "code": "CL_PROFILING_INFO_NOT_AVAILABLE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Profiling Info Not Available",
+    "description": "OpenCL standardized result code CL_PROFILING_INFO_NOT_AVAILABLE (-7) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_mem_copy_overlap",
+    "language": "OpenCL",
+    "code": "CL_MEM_COPY_OVERLAP",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Mem Copy Overlap",
+    "description": "OpenCL standardized result code CL_MEM_COPY_OVERLAP (-8) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_image_format_mismatch",
+    "language": "OpenCL",
+    "code": "CL_IMAGE_FORMAT_MISMATCH",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Image Format Mismatch",
+    "description": "OpenCL standardized result code CL_IMAGE_FORMAT_MISMATCH (-9) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_image_format_not_supported",
+    "language": "OpenCL",
+    "code": "CL_IMAGE_FORMAT_NOT_SUPPORTED",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Image Format Not Supported",
+    "description": "OpenCL standardized result code CL_IMAGE_FORMAT_NOT_SUPPORTED (-10) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_build_program_failure",
+    "language": "OpenCL",
+    "code": "CL_BUILD_PROGRAM_FAILURE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Build Program Failure",
+    "description": "OpenCL standardized result code CL_BUILD_PROGRAM_FAILURE (-11) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_map_failure",
+    "language": "OpenCL",
+    "code": "CL_MAP_FAILURE",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Cl Map Failure",
+    "description": "OpenCL standardized result code CL_MAP_FAILURE (-12) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_misaligned_sub_buffer_offset",
+    "language": "OpenCL",
+    "code": "CL_MISALIGNED_SUB_BUFFER_OFFSET",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Misaligned Sub Buffer Offset",
+    "description": "OpenCL standardized result code CL_MISALIGNED_SUB_BUFFER_OFFSET (-13) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_exec_status_error_for_events_in_wait_list",
+    "language": "OpenCL",
+    "code": "CL_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Cl Exec Status Error For Events In Wait List",
+    "description": "OpenCL standardized result code CL_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST (-14) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_compile_program_failure",
+    "language": "OpenCL",
+    "code": "CL_COMPILE_PROGRAM_FAILURE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Compile Program Failure",
+    "description": "OpenCL standardized result code CL_COMPILE_PROGRAM_FAILURE (-15) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_linker_not_available",
+    "language": "OpenCL",
+    "code": "CL_LINKER_NOT_AVAILABLE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Linker Not Available",
+    "description": "OpenCL standardized result code CL_LINKER_NOT_AVAILABLE (-16) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_link_program_failure",
+    "language": "OpenCL",
+    "code": "CL_LINK_PROGRAM_FAILURE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Link Program Failure",
+    "description": "OpenCL standardized result code CL_LINK_PROGRAM_FAILURE (-17) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_device_partition_failed",
+    "language": "OpenCL",
+    "code": "CL_DEVICE_PARTITION_FAILED",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Device Partition Failed",
+    "description": "OpenCL standardized result code CL_DEVICE_PARTITION_FAILED (-18) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_kernel_arg_info_not_available",
+    "language": "OpenCL",
+    "code": "CL_KERNEL_ARG_INFO_NOT_AVAILABLE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Cl Kernel Arg Info Not Available",
+    "description": "OpenCL standardized result code CL_KERNEL_ARG_INFO_NOT_AVAILABLE (-19) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_value",
+    "language": "OpenCL",
+    "code": "CL_INVALID_VALUE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Value",
+    "description": "OpenCL standardized result code CL_INVALID_VALUE (-30) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_device_type",
+    "language": "OpenCL",
+    "code": "CL_INVALID_DEVICE_TYPE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Device Type",
+    "description": "OpenCL standardized result code CL_INVALID_DEVICE_TYPE (-31) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_platform",
+    "language": "OpenCL",
+    "code": "CL_INVALID_PLATFORM",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Platform",
+    "description": "OpenCL standardized result code CL_INVALID_PLATFORM (-32) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_device",
+    "language": "OpenCL",
+    "code": "CL_INVALID_DEVICE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Device",
+    "description": "OpenCL standardized result code CL_INVALID_DEVICE (-33) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_context",
+    "language": "OpenCL",
+    "code": "CL_INVALID_CONTEXT",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Context",
+    "description": "OpenCL standardized result code CL_INVALID_CONTEXT (-34) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_queue_properties",
+    "language": "OpenCL",
+    "code": "CL_INVALID_QUEUE_PROPERTIES",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Queue Properties",
+    "description": "OpenCL standardized result code CL_INVALID_QUEUE_PROPERTIES (-35) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_command_queue",
+    "language": "OpenCL",
+    "code": "CL_INVALID_COMMAND_QUEUE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Command Queue",
+    "description": "OpenCL standardized result code CL_INVALID_COMMAND_QUEUE (-36) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_host_ptr",
+    "language": "OpenCL",
+    "code": "CL_INVALID_HOST_PTR",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Host Ptr",
+    "description": "OpenCL standardized result code CL_INVALID_HOST_PTR (-37) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_mem_object",
+    "language": "OpenCL",
+    "code": "CL_INVALID_MEM_OBJECT",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Mem Object",
+    "description": "OpenCL standardized result code CL_INVALID_MEM_OBJECT (-38) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_image_format_descriptor",
+    "language": "OpenCL",
+    "code": "CL_INVALID_IMAGE_FORMAT_DESCRIPTOR",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Image Format Descriptor",
+    "description": "OpenCL standardized result code CL_INVALID_IMAGE_FORMAT_DESCRIPTOR (-39) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_image_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_IMAGE_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Image Size",
+    "description": "OpenCL standardized result code CL_INVALID_IMAGE_SIZE (-40) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_sampler",
+    "language": "OpenCL",
+    "code": "CL_INVALID_SAMPLER",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Sampler",
+    "description": "OpenCL standardized result code CL_INVALID_SAMPLER (-41) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_binary",
+    "language": "OpenCL",
+    "code": "CL_INVALID_BINARY",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Binary",
+    "description": "OpenCL standardized result code CL_INVALID_BINARY (-42) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_build_options",
+    "language": "OpenCL",
+    "code": "CL_INVALID_BUILD_OPTIONS",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Build Options",
+    "description": "OpenCL standardized result code CL_INVALID_BUILD_OPTIONS (-43) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_program",
+    "language": "OpenCL",
+    "code": "CL_INVALID_PROGRAM",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Program",
+    "description": "OpenCL standardized result code CL_INVALID_PROGRAM (-44) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_program_executable",
+    "language": "OpenCL",
+    "code": "CL_INVALID_PROGRAM_EXECUTABLE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Program Executable",
+    "description": "OpenCL standardized result code CL_INVALID_PROGRAM_EXECUTABLE (-45) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_kernel_name",
+    "language": "OpenCL",
+    "code": "CL_INVALID_KERNEL_NAME",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Kernel Name",
+    "description": "OpenCL standardized result code CL_INVALID_KERNEL_NAME (-46) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_kernel_definition",
+    "language": "OpenCL",
+    "code": "CL_INVALID_KERNEL_DEFINITION",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Kernel Definition",
+    "description": "OpenCL standardized result code CL_INVALID_KERNEL_DEFINITION (-47) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_kernel",
+    "language": "OpenCL",
+    "code": "CL_INVALID_KERNEL",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Kernel",
+    "description": "OpenCL standardized result code CL_INVALID_KERNEL (-48) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_arg_index",
+    "language": "OpenCL",
+    "code": "CL_INVALID_ARG_INDEX",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Arg Index",
+    "description": "OpenCL standardized result code CL_INVALID_ARG_INDEX (-49) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_arg_value",
+    "language": "OpenCL",
+    "code": "CL_INVALID_ARG_VALUE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Arg Value",
+    "description": "OpenCL standardized result code CL_INVALID_ARG_VALUE (-50) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_arg_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_ARG_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Arg Size",
+    "description": "OpenCL standardized result code CL_INVALID_ARG_SIZE (-51) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_kernel_args",
+    "language": "OpenCL",
+    "code": "CL_INVALID_KERNEL_ARGS",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Kernel Args",
+    "description": "OpenCL standardized result code CL_INVALID_KERNEL_ARGS (-52) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_work_dimension",
+    "language": "OpenCL",
+    "code": "CL_INVALID_WORK_DIMENSION",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Work Dimension",
+    "description": "OpenCL standardized result code CL_INVALID_WORK_DIMENSION (-53) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_work_group_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_WORK_GROUP_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Work Group Size",
+    "description": "OpenCL standardized result code CL_INVALID_WORK_GROUP_SIZE (-54) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_work_item_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_WORK_ITEM_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Work Item Size",
+    "description": "OpenCL standardized result code CL_INVALID_WORK_ITEM_SIZE (-55) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_global_offset",
+    "language": "OpenCL",
+    "code": "CL_INVALID_GLOBAL_OFFSET",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Global Offset",
+    "description": "OpenCL standardized result code CL_INVALID_GLOBAL_OFFSET (-56) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_event_wait_list",
+    "language": "OpenCL",
+    "code": "CL_INVALID_EVENT_WAIT_LIST",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Event Wait List",
+    "description": "OpenCL standardized result code CL_INVALID_EVENT_WAIT_LIST (-57) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_event",
+    "language": "OpenCL",
+    "code": "CL_INVALID_EVENT",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Event",
+    "description": "OpenCL standardized result code CL_INVALID_EVENT (-58) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_operation",
+    "language": "OpenCL",
+    "code": "CL_INVALID_OPERATION",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Operation",
+    "description": "OpenCL standardized result code CL_INVALID_OPERATION (-59) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_gl_object",
+    "language": "OpenCL",
+    "code": "CL_INVALID_GL_OBJECT",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Gl Object",
+    "description": "OpenCL standardized result code CL_INVALID_GL_OBJECT (-60) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_buffer_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_BUFFER_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Buffer Size",
+    "description": "OpenCL standardized result code CL_INVALID_BUFFER_SIZE (-61) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_mip_level",
+    "language": "OpenCL",
+    "code": "CL_INVALID_MIP_LEVEL",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Mip Level",
+    "description": "OpenCL standardized result code CL_INVALID_MIP_LEVEL (-62) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_global_work_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_GLOBAL_WORK_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Global Work Size",
+    "description": "OpenCL standardized result code CL_INVALID_GLOBAL_WORK_SIZE (-63) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_property",
+    "language": "OpenCL",
+    "code": "CL_INVALID_PROPERTY",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Property",
+    "description": "OpenCL standardized result code CL_INVALID_PROPERTY (-64) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_image_descriptor",
+    "language": "OpenCL",
+    "code": "CL_INVALID_IMAGE_DESCRIPTOR",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Image Descriptor",
+    "description": "OpenCL standardized result code CL_INVALID_IMAGE_DESCRIPTOR (-65) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_compiler_options",
+    "language": "OpenCL",
+    "code": "CL_INVALID_COMPILER_OPTIONS",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Compiler Options",
+    "description": "OpenCL standardized result code CL_INVALID_COMPILER_OPTIONS (-66) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_linker_options",
+    "language": "OpenCL",
+    "code": "CL_INVALID_LINKER_OPTIONS",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Linker Options",
+    "description": "OpenCL standardized result code CL_INVALID_LINKER_OPTIONS (-67) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_device_partition_count",
+    "language": "OpenCL",
+    "code": "CL_INVALID_DEVICE_PARTITION_COUNT",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Device Partition Count",
+    "description": "OpenCL standardized result code CL_INVALID_DEVICE_PARTITION_COUNT (-68) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_pipe_size",
+    "language": "OpenCL",
+    "code": "CL_INVALID_PIPE_SIZE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Pipe Size",
+    "description": "OpenCL standardized result code CL_INVALID_PIPE_SIZE (-69) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_device_queue",
+    "language": "OpenCL",
+    "code": "CL_INVALID_DEVICE_QUEUE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Device Queue",
+    "description": "OpenCL standardized result code CL_INVALID_DEVICE_QUEUE (-70) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cl_cl_invalid_spec_id",
+    "language": "OpenCL",
+    "code": "CL_INVALID_SPEC_ID",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Cl Invalid Spec Id",
+    "description": "OpenCL standardized result code CL_INVALID_SPEC_ID (-71) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "OpenCL API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {"id":"undefined-identifier","name":"Undefined Identifier","classification":"name-resolution-error","description":"A program references a symbol that cannot be resolved in the accessible scope."},
+  {"id":"type-mismatch","name":"Type Mismatch","classification":"type-error","description":"A value does not satisfy the type required by an operation, assignment, or declaration."},
+  {"id":"null-access","name":"Null Access","classification":"runtime-error","description":"Code attempts to access a member or value through an absent object reference."},
+  {"id":"index-out-of-bounds","name":"Index Out of Bounds","classification":"runtime-error","description":"An index lies outside the valid bounds of a sequence."},
+  {"id":"missing-module","name":"Missing Module","classification":"module-error","description":"A required module, package, or assembly cannot be resolved."},
+  {"id":"invalid-syntax","name":"Invalid Syntax","classification":"syntax-error","description":"Source text cannot be parsed according to the language grammar."},
+  {"id":"permission-denied","name":"Permission Denied","classification":"security-error","description":"An operation is rejected because the current identity lacks permission."},
+  {"id":"file-not-found","name":"File Not Found","classification":"io-error","description":"A requested file or path cannot be located."},
+  {"id":"connection-refused","name":"Connection Refused","classification":"network-error","description":"A remote endpoint rejected a connection attempt."},
+  {"id":"stack-overflow","name":"Stack Overflow","classification":"runtime-error","description":"Call-stack growth exceeded the available execution stack."},
+  {"id":"integer-overflow","name":"Integer Overflow","classification":"runtime-error","description":"A numeric operation exceeded the representable range."},
+  {"id":"borrow-violation","name":"Borrow Violation","classification":"memory-error","description":"An ownership or borrowing rule prevents unsafe aliased access."},
+  {"id":"lifetime-violation","name":"Lifetime Violation","classification":"memory-error","description":"A reference may outlive the data it refers to."},
+  {"id":"deadlock","name":"Deadlock","classification":"concurrency-error","description":"All participating execution paths are blocked waiting for progress."},
+  {"id":"race-condition","name":"Race Condition","classification":"concurrency-error","description":"Correctness depends on unpredictable execution order."},
+  {"id":"invalid-cast","name":"Invalid Cast","classification":"type-error","description":"A value cannot be converted to the requested target type."},
+  {"id":"missing-property","name":"Missing Property","classification":"name-resolution-error","description":"A requested member is absent from an object or type."},
+  {"id":"duplicate-declaration","name":"Duplicate Declaration","classification":"scope-error","description":"A symbol was declared more than once where uniqueness is required."}
+]

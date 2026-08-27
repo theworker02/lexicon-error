@@ -1,0 +1,3146 @@
+[
+  {
+    "id": "js_mdn_web_javascript_reference_errors_already_executing_generator",
+    "language": "JavaScript",
+    "code": "mdn::Already_executing_generator",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: already executing generator",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Already_executing_generator'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Already_executing_generator",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_already_has_pragma",
+    "language": "JavaScript",
+    "code": "mdn::Already_has_pragma",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Warning: -file- is being assigned a //# sourceMappingURL, but already has one",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Already_has_pragma'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Already_has_pragma",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_arguments_not_allowed",
+    "language": "JavaScript",
+    "code": "mdn::Arguments_not_allowed",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: arguments is not valid in fields",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Arguments_not_allowed'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Arguments_not_allowed",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_array_sort_argument",
+    "language": "JavaScript",
+    "code": "mdn::Array_sort_argument",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: invalid Array.prototype.sort argument",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Array_sort_argument'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Array_sort_argument",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_await_yield_in_parameter",
+    "language": "JavaScript",
+    "code": "mdn::await_yield_in_parameter",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: await/yield expression can't be used in parameter",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/await_yield_in_parameter'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/await_yield_in_parameter",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_await",
+    "language": "JavaScript",
+    "code": "mdn::Bad_await",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: await is only valid in async functions, async generators and modules",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_await'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_await",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_break",
+    "language": "JavaScript",
+    "code": "mdn::Bad_break",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: unlabeled break must be inside loop or switch",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_break'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_break",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_continue",
+    "language": "JavaScript",
+    "code": "mdn::Bad_continue",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: continue must be inside loop",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_continue'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_continue",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_new_optional",
+    "language": "JavaScript",
+    "code": "mdn::Bad_new_optional",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: new keyword cannot be used with an optional chain",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_new_optional'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_new_optional",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_optional_template",
+    "language": "JavaScript",
+    "code": "mdn::Bad_optional_template",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: tagged template cannot be used with optional chain",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_optional_template'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_optional_template",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_radix",
+    "language": "JavaScript",
+    "code": "mdn::Bad_radix",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: radix must be an integer",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_radix'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_radix",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_regexp_flag",
+    "language": "JavaScript",
+    "code": "mdn::Bad_regexp_flag",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid regular expression flag \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_regexp_flag'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_return",
+    "language": "JavaScript",
+    "code": "mdn::Bad_return",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: return not in function",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_return'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_strict_arguments_eval",
+    "language": "JavaScript",
+    "code": "mdn::Bad_strict_arguments_eval",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: 'arguments'/'eval' can't be defined or assigned to in strict mode code",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_strict_arguments_eval'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_strict_arguments_eval",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_super_call",
+    "language": "JavaScript",
+    "code": "mdn::Bad_super_call",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: super() is only valid in derived class constructors",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_super_call'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_super_call",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bad_super_prop",
+    "language": "JavaScript",
+    "code": "mdn::Bad_super_prop",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: use of super property/member accesses only valid within methods or eval code within methods",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Bad_super_prop'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Bad_super_prop",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bigint_division_by_zero",
+    "language": "JavaScript",
+    "code": "mdn::BigInt_division_by_zero",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: BigInt division by zero",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/BigInt_division_by_zero'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/BigInt_division_by_zero",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bigint_negative_exponent",
+    "language": "JavaScript",
+    "code": "mdn::BigInt_negative_exponent",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: BigInt negative exponent",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/BigInt_negative_exponent'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/BigInt_negative_exponent",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_bigint_not_serializable",
+    "language": "JavaScript",
+    "code": "mdn::BigInt_not_serializable",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: BigInt value can't be serialized in JSON",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/BigInt_not_serializable'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/BigInt_not_serializable",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_builtin_ctor_no_new",
+    "language": "JavaScript",
+    "code": "mdn::Builtin_ctor_no_new",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: calling a builtin X constructor without new is forbidden",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Builtin_ctor_no_new'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Builtin_ctor_no_new",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_called_on_incompatible_type",
+    "language": "JavaScript",
+    "code": "mdn::Called_on_incompatible_type",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: X.prototype.y called on incompatible type",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Called_on_incompatible_type'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Called_on_incompatible_type",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_access_lexical_declaration_before_init",
+    "language": "JavaScript",
+    "code": "mdn::Cant_access_lexical_declaration_before_init",
+    "category": "Modules",
+    "severity": "Runtime Exception",
+    "title": "ReferenceError: can't access lexical declaration 'X' before initialization",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_assign_to_property",
+    "language": "JavaScript",
+    "code": "mdn::Cant_assign_to_property",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can''t assign to property \"x\" on \"y\": not an object",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_assign_to_property'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_assign_to_property",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_be_converted_to_bigint_because_it_isnt_an_integer",
+    "language": "JavaScript",
+    "code": "mdn::Cant_be_converted_to_BigInt_because_it_isnt_an_integer",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: x can't be converted to BigInt because it isn't an integer",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_be_converted_to_BigInt_because_it_isnt_an_integer'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_be_converted_to_BigInt_because_it_isnt_an_integer",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_convert_bigint_to_number",
+    "language": "JavaScript",
+    "code": "mdn::Cant_convert_BigInt_to_number",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can't convert BigInt to number",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_convert_BigInt_to_number'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_convert_BigInt_to_number",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_convert_x_to_bigint",
+    "language": "JavaScript",
+    "code": "mdn::Cant_convert_x_to_BigInt",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can't convert x to BigInt",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_convert_x_to_BigInt'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_convert_x_to_BigInt",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_define_property_object_not_extensible",
+    "language": "JavaScript",
+    "code": "mdn::Cant_define_property_object_not_extensible",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can''t define property \"x\": \"obj\" is not extensible",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_delete",
+    "language": "JavaScript",
+    "code": "mdn::Cant_delete",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: property \"x\" is non-configurable and can''t be deleted",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_delete'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_delete",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_delete_private_fields",
+    "language": "JavaScript",
+    "code": "mdn::Cant_delete_private_fields",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: private fields can't be deleted",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_delete_private_fields'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_delete_private_fields",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_redefine_property",
+    "language": "JavaScript",
+    "code": "mdn::Cant_redefine_property",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can''t redefine non-configurable property \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_redefine_property'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_redefine_property",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_set_prototype",
+    "language": "JavaScript",
+    "code": "mdn::Cant_set_prototype",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can't set prototype of this object",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_set_prototype'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_set_prototype",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cant_use_nullish_coalescing_unparenthesized",
+    "language": "JavaScript",
+    "code": "mdn::Cant_use_nullish_coalescing_unparenthesized",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: cannot use ?? unparenthesized within || and && expressions",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cant_use_nullish_coalescing_unparenthesized'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cant_use_nullish_coalescing_unparenthesized",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_class_ctor_no_new",
+    "language": "JavaScript",
+    "code": "mdn::Class_ctor_no_new",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: class constructors must be invoked with 'new'",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Class_ctor_no_new'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Class_ctor_no_new",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_constructor_cant_be_used_directly",
+    "language": "JavaScript",
+    "code": "mdn::Constructor_cant_be_used_directly",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: Iterator/AsyncIterator constructor can't be used directly",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Constructor_cant_be_used_directly'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Constructor_cant_be_used_directly",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cyclic_object_value",
+    "language": "JavaScript",
+    "code": "mdn::Cyclic_object_value",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: cyclic object value",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cyclic_object_value'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_cyclic_prototype",
+    "language": "JavaScript",
+    "code": "mdn::Cyclic_prototype",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can't set prototype: it would cause a prototype chain cycle",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Cyclic_prototype'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Cyclic_prototype",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_delete_in_strict_mode",
+    "language": "JavaScript",
+    "code": "mdn::Delete_in_strict_mode",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: applying the 'delete' operator to an unqualified name is deprecated",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Delete_in_strict_mode'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_deprecated_caller_or_arguments_usage",
+    "language": "JavaScript",
+    "code": "mdn::Deprecated_caller_or_arguments_usage",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_deprecated_octal_escape_sequence",
+    "language": "JavaScript",
+    "code": "mdn::Deprecated_octal_escape_sequence",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: octal escape sequences can't be used in untagged template literals or in strict mode code",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Deprecated_octal_escape_sequence'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_escape_sequence",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_deprecated_octal_literal",
+    "language": "JavaScript",
+    "code": "mdn::Deprecated_octal_literal",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: \"0\"-prefixed octal literals are deprecated",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Deprecated_octal_literal'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal_literal",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_deprecated_source_map_pragma",
+    "language": "JavaScript",
+    "code": "mdn::Deprecated_source_map_pragma",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_duplicate_parameter",
+    "language": "JavaScript",
+    "code": "mdn::Duplicate_parameter",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: duplicate formal argument x",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Duplicate_parameter'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Duplicate_parameter",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_duplicate_proto",
+    "language": "JavaScript",
+    "code": "mdn::Duplicate_proto",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: property name __proto__ appears more than once in object literal",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Duplicate_proto'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Duplicate_proto",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_either_be_both_static_or_non_static",
+    "language": "JavaScript",
+    "code": "mdn::Either_be_both_static_or_non-static",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: getter and setter for private name #x should either be both static or non-static",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Either_be_both_static_or_non-static'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Either_be_both_static_or_non-static",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_form_must_be_one_of",
+    "language": "JavaScript",
+    "code": "mdn::Form_must_be_one_of",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: form must be one of 'NFC', 'NFD', 'NFKC', or 'NFKD'",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Form_must_be_one_of'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Form_must_be_one_of",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_function_label",
+    "language": "JavaScript",
+    "code": "mdn::Function_label",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: functions cannot be labelled",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Function_label'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Function_label",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_get_set_missing_private",
+    "language": "JavaScript",
+    "code": "mdn::Get_set_missing_private",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can't access/set private field or method: object is not the right class",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Get_set_missing_private'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Get_set_missing_private",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_getter_no_arguments",
+    "language": "JavaScript",
+    "code": "mdn::Getter_no_arguments",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: getter functions must have no arguments",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Getter_no_arguments'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Getter_no_arguments",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_getter_only",
+    "language": "JavaScript",
+    "code": "mdn::Getter_only",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: setting getter-only property \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Getter_only'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Getter_only",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_hash_outside_class",
+    "language": "JavaScript",
+    "code": "mdn::Hash_outside_class",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: Unexpected '#' used outside of class body",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Hash_outside_class'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Hash_outside_class",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_identifier_after_number",
+    "language": "JavaScript",
+    "code": "mdn::Identifier_after_number",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: identifier starts immediately after numeric literal",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Identifier_after_number'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_illegal_character",
+    "language": "JavaScript",
+    "code": "mdn::Illegal_character",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: illegal character",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Illegal_character'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_import_decl_module_top_level",
+    "language": "JavaScript",
+    "code": "mdn::import_decl_module_top_level",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: import declarations may only appear at top level of a module",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/import_decl_module_top_level'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_in_operator_no_object",
+    "language": "JavaScript",
+    "code": "mdn::in_operator_no_object",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: cannot use 'in' operator to search for 'x' in 'y'",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/in_operator_no_object'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/in_operator_no_object",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_array_length",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_array_length",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: invalid array length",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_array_length'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_array_length",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_assignment_left_hand_side",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_assignment_left-hand_side",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid assignment left-hand side",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_bigint_syntax",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_BigInt_syntax",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid BigInt syntax",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_BigInt_syntax'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_BigInt_syntax",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_const_assignment",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_const_assignment",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: invalid assignment to const \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_const_assignment'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_date",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_date",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: invalid date",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_date'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_date",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_derived_return",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_derived_return",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: derived class constructor returned invalid value x",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_derived_return'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_derived_return",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_for_in_initializer",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_for-in_initializer",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: for-in loop head declarations may not have initializers",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_for-in_initializer'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_for_of_initializer",
+    "language": "JavaScript",
+    "code": "mdn::Invalid_for-of_initializer",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: a declaration in the head of a for-of loop can't have an initializer",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Invalid_for-of_initializer'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_invalid_right_hand_side_instanceof_operand",
+    "language": "JavaScript",
+    "code": "mdn::invalid_right_hand_side_instanceof_operand",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: invalid 'instanceof' operand 'x'",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/invalid_right_hand_side_instanceof_operand'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/invalid_right_hand_side_instanceof_operand",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_is_not_iterable",
+    "language": "JavaScript",
+    "code": "mdn::is_not_iterable",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: 'x' is not iterable",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/is_not_iterable'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/is_not_iterable",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_json_bad_parse",
+    "language": "JavaScript",
+    "code": "mdn::JSON_bad_parse",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: JSON.parse: bad parsing",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/JSON_bad_parse'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_key_not_weakly_held",
+    "language": "JavaScript",
+    "code": "mdn::Key_not_weakly_held",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: WeakSet key/WeakMap value 'x' must be an object or an unregistered symbol",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Key_not_weakly_held'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Key_not_weakly_held",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_label_not_found",
+    "language": "JavaScript",
+    "code": "mdn::Label_not_found",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: label not found",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Label_not_found'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Label_not_found",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_malformed_uri",
+    "language": "JavaScript",
+    "code": "mdn::Malformed_URI",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "URIError: malformed URI sequence",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Malformed_URI'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_URI",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_bracket_after_list",
+    "language": "JavaScript",
+    "code": "mdn::Missing_bracket_after_list",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing ] after element list",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_bracket_after_list'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_colon_after_property_id",
+    "language": "JavaScript",
+    "code": "mdn::Missing_colon_after_property_id",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing : after property id",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_colon_after_property_id'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_curly_after_function_body",
+    "language": "JavaScript",
+    "code": "mdn::Missing_curly_after_function_body",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing } after function body",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_curly_after_function_body'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_curly_after_property_list",
+    "language": "JavaScript",
+    "code": "mdn::Missing_curly_after_property_list",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing } after property list",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_curly_after_property_list'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_formal_parameter",
+    "language": "JavaScript",
+    "code": "mdn::Missing_formal_parameter",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing formal parameter",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_formal_parameter'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_initializer_in_const",
+    "language": "JavaScript",
+    "code": "mdn::Missing_initializer_in_const",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing = in const declaration",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_initializer_in_const'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_initializer_in_const",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_name_after_dot_operator",
+    "language": "JavaScript",
+    "code": "mdn::Missing_name_after_dot_operator",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing name after . operator",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_parenthesis_after_argument_list",
+    "language": "JavaScript",
+    "code": "mdn::Missing_parenthesis_after_argument_list",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing ) after argument list",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_missing_parenthesis_after_condition",
+    "language": "JavaScript",
+    "code": "mdn::Missing_parenthesis_after_condition",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing ) after condition",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_more_arguments_needed",
+    "language": "JavaScript",
+    "code": "mdn::More_arguments_needed",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: More arguments needed",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/More_arguments_needed'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/More_arguments_needed",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_negative_repetition_count",
+    "language": "JavaScript",
+    "code": "mdn::Negative_repetition_count",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: repeat count must be non-negative",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Negative_repetition_count'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Negative_repetition_count",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_no_non_null_object",
+    "language": "JavaScript",
+    "code": "mdn::No_non-null_object",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: \"x\" is not a non-null object",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/No_non-null_object'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/No_non-null_object",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_no_properties",
+    "language": "JavaScript",
+    "code": "mdn::No_properties",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: null/undefined has no properties",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/No_properties'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/No_properties",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_no_variable_name",
+    "language": "JavaScript",
+    "code": "mdn::No_variable_name",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: missing variable name",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/No_variable_name'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_non_configurable_array_element",
+    "language": "JavaScript",
+    "code": "mdn::Non_configurable_array_element",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: can't delete non-configurable array element",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Non_configurable_array_element'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Non_configurable_array_element",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_not_a_constructor",
+    "language": "JavaScript",
+    "code": "mdn::Not_a_constructor",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: \"x\" is not a constructor",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Not_a_constructor'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_constructor",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_not_a_function",
+    "language": "JavaScript",
+    "code": "mdn::Not_a_function",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: \"x\" is not a function",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Not_a_function'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_function",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_not_a_valid_code_point",
+    "language": "JavaScript",
+    "code": "mdn::Not_a_valid_code_point",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: argument is not a valid code point",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Not_a_valid_code_point'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_valid_code_point",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_not_defined",
+    "language": "JavaScript",
+    "code": "mdn::Not_defined",
+    "category": "Modules",
+    "severity": "Runtime Exception",
+    "title": "ReferenceError: \"x\" is not defined",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Not_defined'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_parameter_after_rest_parameter",
+    "language": "JavaScript",
+    "code": "mdn::Parameter_after_rest_parameter",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: parameter after rest parameter",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Parameter_after_rest_parameter'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Parameter_after_rest_parameter",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_precision_range",
+    "language": "JavaScript",
+    "code": "mdn::Precision_range",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: precision is out of range",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Precision_range'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Precision_range",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_private_double_initialization",
+    "language": "JavaScript",
+    "code": "mdn::Private_double_initialization",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: Initializing an object twice is an error with private fields/methods",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Private_double_initialization'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Private_double_initialization",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_private_setter_only",
+    "language": "JavaScript",
+    "code": "mdn::Private_setter_only",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: getting private setter-only property",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Private_setter_only'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Private_setter_only",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_promise_any_all_rejected",
+    "language": "JavaScript",
+    "code": "mdn::Promise_any_all_rejected",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "AggregateError: No Promise in Promise.any was resolved",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Promise_any_all_rejected'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Promise_any_all_rejected",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_property_access_denied",
+    "language": "JavaScript",
+    "code": "mdn::Property_access_denied",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Error: Permission denied to access property \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Property_access_denied'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Property_access_denied",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_read_only",
+    "language": "JavaScript",
+    "code": "mdn::Read-only",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: \"x\" is read-only",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Read-only'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Read-only",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_redeclared_parameter",
+    "language": "JavaScript",
+    "code": "mdn::Redeclared_parameter",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: redeclaration of formal parameter \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Redeclared_parameter'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Redeclared_parameter",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_reduce_of_empty_array_with_no_initial_value",
+    "language": "JavaScript",
+    "code": "mdn::Reduce_of_empty_array_with_no_initial_value",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: Reduce of empty array with no initial value",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Reduce_of_empty_array_with_no_initial_value'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Reduce_of_empty_array_with_no_initial_value",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_backslash_at_end_of_pattern",
+    "language": "JavaScript",
+    "code": "mdn::Regex_backslash_at_end_of_pattern",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: \\\\ at end of pattern",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_backslash_at_end_of_pattern'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_backslash_at_end_of_pattern",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_character_class_escape_in_class_range",
+    "language": "JavaScript",
+    "code": "mdn::Regex_character_class_escape_in_class_range",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: character class escape cannot be used in class range in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_character_class_escape_in_class_range'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_character_class_escape_in_class_range",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_duplicate_capture_group_name",
+    "language": "JavaScript",
+    "code": "mdn::Regex_duplicate_capture_group_name",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: duplicate capture group name in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_duplicate_capture_group_name'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_duplicate_capture_group_name",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_incomplete_quantifier",
+    "language": "JavaScript",
+    "code": "mdn::Regex_incomplete_quantifier",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: incomplete quantifier in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_incomplete_quantifier'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_incomplete_quantifier",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_capture_group_name",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_capture_group_name",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid capture group name in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_capture_group_name'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_capture_group_name",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_char_in_class",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_char_in_class",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid character in class in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_char_in_class'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_char_in_class",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_class_set_operation",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_class_set_operation",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid class set operation in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_class_set_operation'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_class_set_operation",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_decimal_escape",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_decimal_escape",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid decimal escape in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_decimal_escape'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_decimal_escape",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_group",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_group",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid regexp group",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_group'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_group",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_identity_escape",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_identity_escape",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid identity escape in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_identity_escape'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_identity_escape",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_named_capture_reference",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_named_capture_reference",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid named capture reference in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_named_capture_reference'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_named_capture_reference",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_property_name",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_property_name",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid property name in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_property_name'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_property_name",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_range_in_character_class",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_range_in_character_class",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid range in character class",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_range_in_character_class'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_range_in_character_class",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_invalid_unicode_escape",
+    "language": "JavaScript",
+    "code": "mdn::Regex_invalid_unicode_escape",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: invalid unicode escape in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_invalid_unicode_escape'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_invalid_unicode_escape",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_negated_char_class_with_strings",
+    "language": "JavaScript",
+    "code": "mdn::Regex_negated_char_class_with_strings",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: negated character class with strings in regular expression",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_negated_char_class_with_strings'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_negated_char_class_with_strings",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_nothing_to_repeat",
+    "language": "JavaScript",
+    "code": "mdn::Regex_nothing_to_repeat",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: nothing to repeat",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_nothing_to_repeat'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_nothing_to_repeat",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_numbers_out_of_order_in_quantifier",
+    "language": "JavaScript",
+    "code": "mdn::Regex_numbers_out_of_order_in_quantifier",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: numbers out of order in {} quantifier.",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_numbers_out_of_order_in_quantifier'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_numbers_out_of_order_in_quantifier",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_regex_raw_bracket",
+    "language": "JavaScript",
+    "code": "mdn::Regex_raw_bracket",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: raw bracket is not allowed in regular expression with unicode flag",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Regex_raw_bracket'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Regex_raw_bracket",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_requires_global_regexp",
+    "language": "JavaScript",
+    "code": "mdn::Requires_global_RegExp",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: matchAll/replaceAll must be called with a global RegExp",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Requires_global_RegExp'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Requires_global_RegExp",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_reserved_identifier",
+    "language": "JavaScript",
+    "code": "mdn::Reserved_identifier",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: \"x\" is a reserved identifier",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Reserved_identifier'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_rest_with_default",
+    "language": "JavaScript",
+    "code": "mdn::Rest_with_default",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: rest parameter may not have a default",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Rest_with_default'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Rest_with_default",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_resulting_string_too_large",
+    "language": "JavaScript",
+    "code": "mdn::Resulting_string_too_large",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "RangeError: repeat count must be less than infinity",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Resulting_string_too_large'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_setter_one_argument",
+    "language": "JavaScript",
+    "code": "mdn::Setter_one_argument",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: setter functions must have one argument",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Setter_one_argument'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Setter_one_argument",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_stmt_after_return",
+    "language": "JavaScript",
+    "code": "mdn::Stmt_after_return",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Warning: unreachable code after return statement",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Stmt_after_return'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Stmt_after_return",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_strict_non_simple_params",
+    "language": "JavaScript",
+    "code": "mdn::Strict_non_simple_params",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: \"use strict\" not allowed in function with non-simple parameters",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Strict_non_simple_params'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Strict_non_simple_params",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_string_literal_eol",
+    "language": "JavaScript",
+    "code": "mdn::String_literal_EOL",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: string literal contains an unescaped line break",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/String_literal_EOL'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/String_literal_EOL",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_super_called_twice",
+    "language": "JavaScript",
+    "code": "mdn::Super_called_twice",
+    "category": "Modules",
+    "severity": "Runtime Exception",
+    "title": "ReferenceError: super() called twice in derived class constructor",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Super_called_twice'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Super_called_twice",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_super_not_called",
+    "language": "JavaScript",
+    "code": "mdn::Super_not_called",
+    "category": "Modules",
+    "severity": "Runtime Exception",
+    "title": "ReferenceError: must call super constructor before using 'this' in derived class constructor",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Super_not_called'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Super_not_called",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_too_much_recursion",
+    "language": "JavaScript",
+    "code": "mdn::Too_much_recursion",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "InternalError: too much recursion",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Too_much_recursion'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_undeclared_private_field_or_method",
+    "language": "JavaScript",
+    "code": "mdn::Undeclared_private_field_or_method",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: reference to undeclared private field or method #x",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Undeclared_private_field_or_method'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Undeclared_private_field_or_method",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_undeclared_var",
+    "language": "JavaScript",
+    "code": "mdn::Undeclared_var",
+    "category": "Modules",
+    "severity": "Runtime Exception",
+    "title": "ReferenceError: assignment to undeclared variable \"x\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Undeclared_var'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Undeclared_var",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_unexpected_token",
+    "language": "JavaScript",
+    "code": "mdn::Unexpected_token",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: Unexpected token",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Unexpected_token'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_unexpected_type",
+    "language": "JavaScript",
+    "code": "mdn::Unexpected_type",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "TypeError: \"x\" is (not) \"y\"",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Unexpected_type'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_type",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_unnamed_function_statement",
+    "language": "JavaScript",
+    "code": "mdn::Unnamed_function_statement",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: function statement requires a name",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Unnamed_function_statement'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "js_mdn_web_javascript_reference_errors_unparenthesized_unary_expr_lhs_exponentiation",
+    "language": "JavaScript",
+    "code": "mdn::Unparenthesized_unary_expr_lhs_exponentiation",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "SyntaxError: unparenthesized unary expression can't appear on the left-hand side of '**'",
+    "description": "MDN documents this JavaScript error pattern under 'Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation'. This separately attributed browser-facing record preserves the diagnostic title; editorial reproduction and repair guidance are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Unparenthesized_unary_expr_lhs_exponentiation",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Browser JavaScript runtime",
+      "MDN documented error pattern"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

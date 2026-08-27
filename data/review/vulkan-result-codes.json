@@ -1,0 +1,938 @@
+[
+  {
+    "id": "vk_vk_not_ready",
+    "language": "Vulkan",
+    "code": "VK_NOT_READY",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Vk Not Ready",
+    "description": "Vulkan standardized result code VK_NOT_READY (1) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_timeout",
+    "language": "Vulkan",
+    "code": "VK_TIMEOUT",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Vk Timeout",
+    "description": "Vulkan standardized result code VK_TIMEOUT (2) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_incomplete",
+    "language": "Vulkan",
+    "code": "VK_INCOMPLETE",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Incomplete",
+    "description": "Vulkan standardized result code VK_INCOMPLETE (5) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_out_of_host_memory",
+    "language": "Vulkan",
+    "code": "VK_ERROR_OUT_OF_HOST_MEMORY",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Out Of Host Memory",
+    "description": "Vulkan standardized result code VK_ERROR_OUT_OF_HOST_MEMORY (-1) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_out_of_device_memory",
+    "language": "Vulkan",
+    "code": "VK_ERROR_OUT_OF_DEVICE_MEMORY",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Out Of Device Memory",
+    "description": "Vulkan standardized result code VK_ERROR_OUT_OF_DEVICE_MEMORY (-2) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_initialization_failed",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INITIALIZATION_FAILED",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Initialization Failed",
+    "description": "Vulkan standardized result code VK_ERROR_INITIALIZATION_FAILED (-3) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_device_lost",
+    "language": "Vulkan",
+    "code": "VK_ERROR_DEVICE_LOST",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Device Lost",
+    "description": "Vulkan standardized result code VK_ERROR_DEVICE_LOST (-4) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_memory_map_failed",
+    "language": "Vulkan",
+    "code": "VK_ERROR_MEMORY_MAP_FAILED",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Memory Map Failed",
+    "description": "Vulkan standardized result code VK_ERROR_MEMORY_MAP_FAILED (-5) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_layer_not_present",
+    "language": "Vulkan",
+    "code": "VK_ERROR_LAYER_NOT_PRESENT",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Layer Not Present",
+    "description": "Vulkan standardized result code VK_ERROR_LAYER_NOT_PRESENT (-6) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_extension_not_present",
+    "language": "Vulkan",
+    "code": "VK_ERROR_EXTENSION_NOT_PRESENT",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Extension Not Present",
+    "description": "Vulkan standardized result code VK_ERROR_EXTENSION_NOT_PRESENT (-7) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_feature_not_present",
+    "language": "Vulkan",
+    "code": "VK_ERROR_FEATURE_NOT_PRESENT",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Feature Not Present",
+    "description": "Vulkan standardized result code VK_ERROR_FEATURE_NOT_PRESENT (-8) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_incompatible_driver",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INCOMPATIBLE_DRIVER",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Incompatible Driver",
+    "description": "Vulkan standardized result code VK_ERROR_INCOMPATIBLE_DRIVER (-9) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_too_many_objects",
+    "language": "Vulkan",
+    "code": "VK_ERROR_TOO_MANY_OBJECTS",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Too Many Objects",
+    "description": "Vulkan standardized result code VK_ERROR_TOO_MANY_OBJECTS (-10) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_format_not_supported",
+    "language": "Vulkan",
+    "code": "VK_ERROR_FORMAT_NOT_SUPPORTED",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Format Not Supported",
+    "description": "Vulkan standardized result code VK_ERROR_FORMAT_NOT_SUPPORTED (-11) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_fragmented_pool",
+    "language": "Vulkan",
+    "code": "VK_ERROR_FRAGMENTED_POOL",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Fragmented Pool",
+    "description": "Vulkan standardized result code VK_ERROR_FRAGMENTED_POOL (-12) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_unknown",
+    "language": "Vulkan",
+    "code": "VK_ERROR_UNKNOWN",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Unknown",
+    "description": "Vulkan standardized result code VK_ERROR_UNKNOWN (-13) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_validation_failed",
+    "language": "Vulkan",
+    "code": "VK_ERROR_VALIDATION_FAILED",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Validation Failed",
+    "description": "Vulkan standardized result code VK_ERROR_VALIDATION_FAILED (-1000011001) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_out_of_pool_memory",
+    "language": "Vulkan",
+    "code": "VK_ERROR_OUT_OF_POOL_MEMORY",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Out Of Pool Memory",
+    "description": "Vulkan standardized result code VK_ERROR_OUT_OF_POOL_MEMORY (-1000069000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_invalid_external_handle",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INVALID_EXTERNAL_HANDLE",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Invalid External Handle",
+    "description": "Vulkan standardized result code VK_ERROR_INVALID_EXTERNAL_HANDLE (-1000072003) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_invalid_opaque_capture_address",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Invalid Opaque Capture Address",
+    "description": "Vulkan standardized result code VK_ERROR_INVALID_OPAQUE_CAPTURE_ADDRESS (-1000257000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_fragmentation",
+    "language": "Vulkan",
+    "code": "VK_ERROR_FRAGMENTATION",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Fragmentation",
+    "description": "Vulkan standardized result code VK_ERROR_FRAGMENTATION (-1000161000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_not_permitted",
+    "language": "Vulkan",
+    "code": "VK_ERROR_NOT_PERMITTED",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Not Permitted",
+    "description": "Vulkan standardized result code VK_ERROR_NOT_PERMITTED (-1000174001) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_surface_lost_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_SURFACE_LOST_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Surface Lost Khr",
+    "description": "Vulkan standardized result code VK_ERROR_SURFACE_LOST_KHR (-1000000000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_native_window_in_use_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_NATIVE_WINDOW_IN_USE_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Native Window In Use Khr",
+    "description": "Vulkan standardized result code VK_ERROR_NATIVE_WINDOW_IN_USE_KHR (-1000000001) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_out_of_date_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_OUT_OF_DATE_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Out Of Date Khr",
+    "description": "Vulkan standardized result code VK_ERROR_OUT_OF_DATE_KHR (-1000001004) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_incompatible_display_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INCOMPATIBLE_DISPLAY_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Incompatible Display Khr",
+    "description": "Vulkan standardized result code VK_ERROR_INCOMPATIBLE_DISPLAY_KHR (-1000003001) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_invalid_shader_nv",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INVALID_SHADER_NV",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Invalid Shader Nv",
+    "description": "Vulkan standardized result code VK_ERROR_INVALID_SHADER_NV (-1000012000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_image_usage_not_supported_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_IMAGE_USAGE_NOT_SUPPORTED_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Image Usage Not Supported Khr",
+    "description": "Vulkan standardized result code VK_ERROR_IMAGE_USAGE_NOT_SUPPORTED_KHR (-1000023000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_video_picture_layout_not_supported_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_VIDEO_PICTURE_LAYOUT_NOT_SUPPORTED_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Video Picture Layout Not Supported Khr",
+    "description": "Vulkan standardized result code VK_ERROR_VIDEO_PICTURE_LAYOUT_NOT_SUPPORTED_KHR (-1000023001) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_video_profile_operation_not_supported_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_VIDEO_PROFILE_OPERATION_NOT_SUPPORTED_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Video Profile Operation Not Supported Khr",
+    "description": "Vulkan standardized result code VK_ERROR_VIDEO_PROFILE_OPERATION_NOT_SUPPORTED_KHR (-1000023002) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_video_profile_format_not_supported_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_VIDEO_PROFILE_FORMAT_NOT_SUPPORTED_KHR",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Video Profile Format Not Supported Khr",
+    "description": "Vulkan standardized result code VK_ERROR_VIDEO_PROFILE_FORMAT_NOT_SUPPORTED_KHR (-1000023003) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_video_profile_codec_not_supported_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_VIDEO_PROFILE_CODEC_NOT_SUPPORTED_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Video Profile Codec Not Supported Khr",
+    "description": "Vulkan standardized result code VK_ERROR_VIDEO_PROFILE_CODEC_NOT_SUPPORTED_KHR (-1000023004) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_video_std_version_not_supported_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_VIDEO_STD_VERSION_NOT_SUPPORTED_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Video Std Version Not Supported Khr",
+    "description": "Vulkan standardized result code VK_ERROR_VIDEO_STD_VERSION_NOT_SUPPORTED_KHR (-1000023005) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_invalid_drm_format_modifier_plane_layout_ext",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Invalid Drm Format Modifier Plane Layout Ext",
+    "description": "Vulkan standardized result code VK_ERROR_INVALID_DRM_FORMAT_MODIFIER_PLANE_LAYOUT_EXT (-1000158000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_present_timing_queue_full_ext",
+    "language": "Vulkan",
+    "code": "VK_ERROR_PRESENT_TIMING_QUEUE_FULL_EXT",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Present Timing Queue Full Ext",
+    "description": "Vulkan standardized result code VK_ERROR_PRESENT_TIMING_QUEUE_FULL_EXT (-1000208000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_full_screen_exclusive_mode_lost_ext",
+    "language": "Vulkan",
+    "code": "VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Full Screen Exclusive Mode Lost Ext",
+    "description": "Vulkan standardized result code VK_ERROR_FULL_SCREEN_EXCLUSIVE_MODE_LOST_EXT (-1000255000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_invalid_video_std_parameters_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_INVALID_VIDEO_STD_PARAMETERS_KHR",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Invalid Video Std Parameters Khr",
+    "description": "Vulkan standardized result code VK_ERROR_INVALID_VIDEO_STD_PARAMETERS_KHR (-1000299000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_compression_exhausted_ext",
+    "language": "Vulkan",
+    "code": "VK_ERROR_COMPRESSION_EXHAUSTED_EXT",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Compression Exhausted Ext",
+    "description": "Vulkan standardized result code VK_ERROR_COMPRESSION_EXHAUSTED_EXT (-1000338000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vk_vk_error_not_enough_space_khr",
+    "language": "Vulkan",
+    "code": "VK_ERROR_NOT_ENOUGH_SPACE_KHR",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "Vk Error Not Enough Space Khr",
+    "description": "Vulkan standardized result code VK_ERROR_NOT_ENOUGH_SPACE_KHR (-1000483000) declared in the Khronos API header. The precise call pattern and hardened recovery guidance are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Vulkan API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

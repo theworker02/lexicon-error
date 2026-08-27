@@ -1,0 +1,3 @@
+# The standard-library parsers require no third-party packages.
+# Install jsonschema for standards-based JSON Schema validation:
+jsonschema>=4.23,<5

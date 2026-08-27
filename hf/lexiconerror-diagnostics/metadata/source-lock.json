@@ -1,0 +1,82 @@
+[
+  {
+    "source": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "upstream_ref": "main",
+    "retrieved_at": "2026-08-27T12:40:51+00:00",
+    "bytes": 115136,
+    "sha256": "b89528e738316a4b8256debce61accaf63a440002b5c62b0d5be49dc33ccd859",
+    "snapshot": "data/raw/coverage/roslyn/ErrorCode.cs"
+  },
+  {
+    "source": "https://github.com/v8/v8/blob/main/src/common/message-template.h",
+    "upstream_ref": "main",
+    "retrieved_at": "2026-08-27T12:46:33+00:00",
+    "bytes": 63486,
+    "sha256": "630c7f0367b43ed7d864b75e9c37d87b5de0f1042c39f5a0483a3a2ee9622e3c",
+    "snapshot": "data/raw/coverage/v8/message-template.h"
+  },
+  {
+    "source": "https://github.com/python/cpython/tree/main/Lib",
+    "upstream_ref": "Python-3.13",
+    "retrieved_at": "2026-08-27T12:48:01+00:00",
+    "bytes": 12084360,
+    "sha256": "2ff5714526a5ddc5f217023a17222180a4f940a54130b24cad4ff862c7fe5fb2",
+    "snapshot": "cpython-stdlib-3.13"
+  },
+  {
+    "source": "https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/errors",
+    "upstream_ref": "main",
+    "retrieved_at": "2026-08-27T13:01:17+00:00",
+    "bytes": 318141,
+    "sha256": "11740bdae559e35c3dff6a8b49fbe01a3c4ae8d0b7afc7ec2e7b69ed8110c0b9",
+    "snapshot": "mdn-javascript-error-pages-main"
+  },
+  {
+    "source": "https://searchfox.org/mozilla-central/source/js/public/friend/ErrorNumbers.msg",
+    "upstream_ref": "mozilla-central-default",
+    "retrieved_at": "2026-08-27T13:18:22+00:00",
+    "bytes": 91883,
+    "sha256": "0b5fea22582f6aaa4ea7067e5020ef6c10fa24f8debe7080a0e4fba4f073b5d5",
+    "snapshot": "Mozilla-SpiderMonkey-ErrorNumbers.msg"
+  },
+  {
+    "source": "https://github.com/python/cpython/tree/main/Lib",
+    "upstream_ref": "local-CPython-3.13",
+    "retrieved_at": "2026-08-27T13:18:23+00:00",
+    "bytes": 12084360,
+    "sha256": "2ff5714526a5ddc5f217023a17222180a4f940a54130b24cad4ff862c7fe5fb2",
+    "snapshot": "CPython-3.13-standard-library"
+  },
+  {
+    "source": "https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html",
+    "upstream_ref": "CUDA-Runtime-API-current",
+    "retrieved_at": "2026-08-27T13:31:01+00:00",
+    "bytes": 524671,
+    "sha256": "f21bd08c97ddca5fc40f6f9c659cc1949d0341b7d82ff6ee8e9522df6bf1706f",
+    "snapshot": "NVIDIA-CUDA-Runtime-Types"
+  },
+  {
+    "source": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "upstream_ref": "HIP-Runtime-API-latest",
+    "retrieved_at": "2026-08-27T13:31:01+00:00",
+    "bytes": 815106,
+    "sha256": "999fb108e9ae4621c277fc15cf3b3a59a9cb8357fdda7d8111b27f84f95ee8bf",
+    "snapshot": "AMD-HIP-Runtime-API"
+  },
+  {
+    "source": "https://github.com/KhronosGroup/Vulkan-Headers/blob/main/include/vulkan/vulkan_core.h",
+    "upstream_ref": "main",
+    "retrieved_at": "2026-08-27T13:32:40+00:00",
+    "bytes": 1359427,
+    "sha256": "eb573394fb407be7111731dc431f000206113c9cf649266edd73d1794f79623d",
+    "snapshot": "Khronos-Vulkan-Headers-vulkan_core.h"
+  },
+  {
+    "source": "https://github.com/KhronosGroup/OpenCL-Headers/blob/main/CL/cl.h",
+    "upstream_ref": "main",
+    "retrieved_at": "2026-08-27T13:32:40+00:00",
+    "bytes": 83360,
+    "sha256": "16d09614cd7eef73b4094089cc4ce2af777181d3ffe9613473fb6d552234a4d1",
+    "snapshot": "Khronos-OpenCL-Headers-cl.h"
+  }
+]

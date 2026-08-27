@@ -1,0 +1,944 @@
+[
+  {
+    "id": "dotnet_microsoft_entityframeworkcore_dbupdateexception_1",
+    "language": "C#",
+    "code": "Microsoft.EntityFrameworkCore.DbUpdateException",
+    "category": "Database/ORM",
+    "severity": "Runtime Exception",
+    "title": "An error occurred while updating the entries; see inner exception for details",
+    "description": "An error occurred while updating the entries; see inner exception for details.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.0",
+    "version_deprecated": null,
+    "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "dart_lateinitializationerror_1",
+    "language": "Dart",
+    "code": "LateInitializationError",
+    "category": "State Management",
+    "severity": "Runtime Exception",
+    "title": "Field 'controller' has not been initialized prior to widget tree build invocation",
+    "description": "Field 'controller' has not been initialized prior to widget tree build invocation.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0",
+    "version_deprecated": null,
+    "source_url": "https://api.flutter.dev/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Flutter widget mounting render pipeline state collision #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "dart_nosuchmethoderror_1",
+    "language": "Dart",
+    "code": "NoSuchMethodError",
+    "category": "UI Lifecycle",
+    "severity": "Runtime Exception",
+    "title": "The method 'setState' was called on null receiver instance",
+    "description": "The method 'setState' was called on null receiver instance.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0",
+    "version_deprecated": null,
+    "source_url": "https://api.flutter.dev/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Flutter widget mounting render pipeline state collision #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_argumenterror_1",
+    "language": "Elixir",
+    "code": "ArgumentError",
+    "category": "Validation",
+    "severity": "Runtime Exception",
+    "title": "Argument error",
+    "description": "Argument error. Raised when an argument is of wrong type or invalid format.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_caseclauseerror_1",
+    "language": "Elixir",
+    "code": "CaseClauseError",
+    "category": "Control Flow",
+    "severity": "Runtime Exception",
+    "title": "No case clause matching the provided expression value",
+    "description": "No case clause matching the provided expression value.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_ecto_noresultserror_1",
+    "language": "Elixir",
+    "code": "Ecto.NoResultsError",
+    "category": "ORM Query",
+    "severity": "Runtime Exception",
+    "title": "Expected at least one result for query expression, but zero rows matched",
+    "description": "Expected at least one result for query expression, but zero rows matched.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.14",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/phoenix/overview.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "BEAM connection handler lifecycle failure stage #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_keyerror_1",
+    "language": "Elixir",
+    "code": "KeyError",
+    "category": "Collections",
+    "severity": "Runtime Exception",
+    "title": "The given key does not exist in the map collection structure",
+    "description": "The given key does not exist in the map collection structure.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_matcherror_1",
+    "language": "Elixir",
+    "code": "MatchError",
+    "category": "Pattern Matching",
+    "severity": "Runtime Exception",
+    "title": "No match of right hand side value",
+    "description": "No match of right hand side value. Occurs when pattern matching fails.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_plug_conn_alreadysenterror_1",
+    "language": "Elixir",
+    "code": "Plug.Conn.AlreadySentError",
+    "category": "Web Transport",
+    "severity": "Runtime Exception",
+    "title": "The response has already been sent to the transport client socket layer",
+    "description": "The response has already been sent to the transport client socket layer.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.14",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/phoenix/overview.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "BEAM connection handler lifecycle failure stage #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_protocol_undefinederror_1",
+    "language": "Elixir",
+    "code": "Protocol.UndefinedError",
+    "category": "Protocols",
+    "severity": "Runtime Exception",
+    "title": "Protocol not implemented for the given data structure type",
+    "description": "Protocol not implemented for the given data structure type.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_tokenmissingerror_1",
+    "language": "Elixir",
+    "code": "TokenMissingError",
+    "category": "Parser",
+    "severity": "Compiler Error",
+    "title": "Missing token/syntax error encountered during Beam File compilation parse",
+    "description": "Missing token/syntax error encountered during Beam File compilation parse.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "parser"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "elixir_undefinedfunctionerror_1",
+    "language": "Elixir",
+    "code": "UndefinedFunctionError",
+    "category": "Modules",
+    "severity": "Runtime Exception",
+    "title": "Function does not exist or module is not loaded/compiled",
+    "description": "Function does not exist or module is not loaded/compiled.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.12.0",
+    "version_deprecated": null,
+    "source_url": "https://hexdocs.pm/elixir/kernel.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_compiler_declared_and_not_used_1",
+    "language": "Go",
+    "code": "COMPILER_DECLARED_AND_NOT_USED",
+    "category": "Linter/Compiler",
+    "severity": "Compiler Error",
+    "title": "Declared and not used local variable or package import",
+    "description": "Declared and not used local variable or package import.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.21.0",
+    "version_deprecated": null,
+    "source_url": "https://go.dev/ref/spec",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during high-throughput Go channel synchronization phase #1."
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_compiler_mismatched_types_1",
+    "language": "Go",
+    "code": "COMPILER_MISMATCHED_TYPES",
+    "category": "Type Safety",
+    "severity": "Compiler Error",
+    "title": "Binary operator applied to mismatched operand types without explicit cast",
+    "description": "Binary operator applied to mismatched operand types without explicit cast.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.21.0",
+    "version_deprecated": null,
+    "source_url": "https://go.dev/ref/spec",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during high-throughput Go channel synchronization phase #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_compiler_not_enough_arguments_1",
+    "language": "Go",
+    "code": "COMPILER_NOT_ENOUGH_ARGUMENTS",
+    "category": "Signatures",
+    "severity": "Compiler Error",
+    "title": "Function call argument count deficit against expected signature bounds",
+    "description": "Function call argument count deficit against expected signature bounds.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.21.0",
+    "version_deprecated": null,
+    "source_url": "https://go.dev/ref/spec",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during high-throughput Go channel synchronization phase #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_runtime_concurrent_map_write_1",
+    "language": "Go",
+    "code": "RUNTIME_CONCURRENT_MAP_WRITE",
+    "category": "Concurrency",
+    "severity": "Fatal",
+    "title": "Concurrent map writes detected across parallel goroutine execution threads",
+    "description": "Concurrent map writes detected across parallel goroutine execution threads.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.21.0",
+    "version_deprecated": null,
+    "source_url": "https://go.dev/ref/spec",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during high-throughput Go channel synchronization phase #1."
+    ],
+    "interaction_types": [
+      "concurrency"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_runtime_invalid_memory_addr_1",
+    "language": "Go",
+    "code": "RUNTIME_INVALID_MEMORY_ADDR",
+    "category": "Memory Pointer",
+    "severity": "Fatal",
+    "title": "Invalid memory address or nil pointer dereference panic execution",
+    "description": "Invalid memory address or nil pointer dereference panic execution.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.21.0",
+    "version_deprecated": null,
+    "source_url": "https://go.dev/ref/spec",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during high-throughput Go channel synchronization phase #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "json_jsondeptherror_1",
+    "language": "JSON",
+    "code": "JSONDepthError",
+    "category": "Serialization",
+    "severity": "Runtime Exception",
+    "title": "Maximum nesting recursion depth limit exceeded during document payload serialization",
+    "description": "Maximum nesting recursion depth limit exceeded during document payload serialization.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "RFC-8259",
+    "version_deprecated": null,
+    "source_url": "https://www.rfc-editor.org/rfc/rfc8259",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Configuration file loading failure at byte offset index #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "json_jsonparseerror_1",
+    "language": "JSON",
+    "code": "JSONParseError",
+    "category": "Syntax Parser",
+    "severity": "Runtime Exception",
+    "title": "Unexpected token } found in JSON payload stream (trailing comma syntax violation)",
+    "description": "Unexpected token } found in JSON payload stream (trailing comma syntax violation).",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "RFC-8259",
+    "version_deprecated": null,
+    "source_url": "https://www.rfc-editor.org/rfc/rfc8259",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Configuration file loading failure at byte offset index #1."
+    ],
+    "interaction_types": [
+      "parser"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "javascript_referenceerror_notdefined_1",
+    "language": "JavaScript",
+    "code": "ReferenceError_NotDefined",
+    "category": "Scope Chain",
+    "severity": "Runtime Exception",
+    "title": "Identifier reference resolution failed in current lexical scope chain",
+    "description": "Identifier reference resolution failed in current lexical scope chain.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "ES6",
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown within Asynchronous Promise microtask queue handler execution block #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "javascript_syntaxerror_unexpectedtoken_1",
+    "language": "JavaScript",
+    "code": "SyntaxError_UnexpectedToken",
+    "category": "Parser",
+    "severity": "Compiler Error",
+    "title": "JavaScript parser encountered an unexpected character token during AST compilation tokenization",
+    "description": "JavaScript parser encountered an unexpected character token during AST compilation tokenization.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "ES6",
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown within Asynchronous Promise microtask queue handler execution block #1."
+    ],
+    "interaction_types": [
+      "parser"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "javascript_typeerror_cannotreadpropertiesofnull_1",
+    "language": "JavaScript",
+    "code": "TypeError_CannotReadPropertiesOfNull",
+    "category": "Memory State",
+    "severity": "Runtime Exception",
+    "title": "Cannot read properties of null (reading property accessor chain)",
+    "description": "Cannot read properties of null (reading property accessor chain).",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "ES6",
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown within Asynchronous Promise microtask queue handler execution block #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "javascript_typeerror_notafunction_1",
+    "language": "JavaScript",
+    "code": "TypeError_NotAFunction",
+    "category": "Execution Model",
+    "severity": "Runtime Exception",
+    "title": "Attempted to execute an undefined or non-callable property value as a function",
+    "description": "Attempted to execute an undefined or non-callable property value as a function.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "ES6",
+    "version_deprecated": null,
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown within Asynchronous Promise microtask queue handler execution block #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vue_vuecompilererror_1",
+    "language": "JavaScript",
+    "code": "VueCompilerError",
+    "category": "Template Compiler",
+    "severity": "Warning",
+    "title": "Vue template syntax error: v-for directive missing explicit 'key' attribute binding assignment",
+    "description": "Vue template syntax error: v-for directive missing explicit 'key' attribute binding assignment.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.3",
+    "version_deprecated": null,
+    "source_url": "https://vuejs.org/guide/extras/error-handling.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Virtual DOM diffing optimization tree mutation index #1."
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "vue_vuereactivityerror_1",
+    "language": "JavaScript",
+    "code": "VueReactivityError",
+    "category": "Reactivity Engine",
+    "severity": "Warning",
+    "title": "Attempted to assign computed property value directly without mutating underlying getter source",
+    "description": "Attempted to assign computed property value directly without mutating underlying getter source.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.3",
+    "version_deprecated": null,
+    "source_url": "https://vuejs.org/guide/extras/error-handling.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Virtual DOM diffing optimization tree mutation index #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "kotlin_kotlinclasscastexception_1",
+    "language": "Kotlin",
+    "code": "KotlinClassCastException",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Thrown when an explicit or implicit type cast fails between incompatible JVM classes",
+    "description": "Thrown when an explicit or implicit type cast fails between incompatible JVM classes.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.8.0",
+    "version_deprecated": null,
+    "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "kotlin_kotlinindexoutofboundsexception_1",
+    "language": "Kotlin",
+    "code": "KotlinIndexOutOfBoundsException",
+    "category": "Collections",
+    "severity": "Runtime Exception",
+    "title": "Collection or array index access evaluation exceeded collection bounds",
+    "description": "Collection or array index access evaluation exceeded collection bounds.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.8.0",
+    "version_deprecated": null,
+    "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "kotlin_kotlinnullpointerexception_1",
+    "language": "Kotlin",
+    "code": "KotlinNullPointerException",
+    "category": "Nullability",
+    "severity": "Runtime Exception",
+    "title": "Thrown when code attempts to invoke a method or property on a null reference under Kotlin null safety rules",
+    "description": "Thrown when code attempts to invoke a method or property on a null reference under Kotlin null safety rules.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.8.0",
+    "version_deprecated": null,
+    "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "kotlin_kotlinuninitializedpropertyaccessexception_1",
+    "language": "Kotlin",
+    "code": "KotlinUninitializedPropertyAccessException",
+    "category": "State Lifecycle",
+    "severity": "Runtime Exception",
+    "title": "Lateinit property has not been initialized prior to read access",
+    "description": "Lateinit property has not been initialized prior to read access.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "1.8.0",
+    "version_deprecated": null,
+    "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "php_illuminate_contracts_container_bindingresolutionexception_1",
+    "language": "PHP",
+    "code": "Illuminate\\Contracts\\Container\\BindingResolutionException",
+    "category": "Dependency Injection",
+    "severity": "Runtime Exception",
+    "title": "Target class [Controller] does not exist in service container inversion",
+    "description": "Target class [Controller] does not exist in service container inversion.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.2",
+    "version_deprecated": null,
+    "source_url": "https://www.php.net/manual/en/reserved.exceptions.php",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests during composer service container bootstrapping pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "php_pdoexception_1",
+    "language": "PHP",
+    "code": "PDOException",
+    "category": "Database IO",
+    "severity": "Runtime Exception",
+    "title": "SQLSTATE[HY000] [2002] Connection refused across database socket bridge",
+    "description": "SQLSTATE[HY000] [2002] Connection refused across database socket bridge.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.2",
+    "version_deprecated": null,
+    "source_url": "https://www.php.net/manual/en/reserved.exceptions.php",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests during composer service container bootstrapping pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "php_typeerror_1",
+    "language": "PHP",
+    "code": "TypeError",
+    "category": "Type System",
+    "severity": "Fatal",
+    "title": "Return value must be of type string, null returned",
+    "description": "Return value must be of type string, null returned.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.2",
+    "version_deprecated": null,
+    "source_url": "https://www.php.net/manual/en/reserved.exceptions.php",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests during composer service container bootstrapping pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_actioncontroller_routingerror_1",
+    "language": "Ruby",
+    "code": "ActionController::RoutingError",
+    "category": "Web Routing",
+    "severity": "Runtime Exception",
+    "title": "No route matches [GET] path parameters configuration mapping",
+    "description": "No route matches [GET] path parameters configuration mapping.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "7.1.0",
+    "version_deprecated": null,
+    "source_url": "https://api.rubyonrails.org/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during incoming rack middleware processing stage #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_activerecord_recordnotfound_1",
+    "language": "Ruby",
+    "code": "ActiveRecord::RecordNotFound",
+    "category": "Database ORM",
+    "severity": "Runtime Exception",
+    "title": "Couldn't find record with primary key or unique index criteria",
+    "description": "Couldn't find record with primary key or unique index criteria.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "7.1.0",
+    "version_deprecated": null,
+    "source_url": "https://api.rubyonrails.org/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during incoming rack middleware processing stage #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_argumenterror_1",
+    "language": "Ruby",
+    "code": "ArgumentError",
+    "category": "Signatures",
+    "severity": "Runtime Exception",
+    "title": "Wrong number of arguments passed to method or block closure",
+    "description": "Wrong number of arguments passed to method or block closure.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_keyerror_1",
+    "language": "Ruby",
+    "code": "KeyError",
+    "category": "Collections",
+    "severity": "Runtime Exception",
+    "title": "Hash key fetch lookup failed due to missing explicit default block",
+    "description": "Hash key fetch lookup failed due to missing explicit default block.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_loaderror_1",
+    "language": "Ruby",
+    "code": "LoadError",
+    "category": "Bundler/IO",
+    "severity": "Runtime Exception",
+    "title": "Missing file or gem dependency path during dynamic require load",
+    "description": "Missing file or gem dependency path during dynamic require load.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_nameerror_1",
+    "language": "Ruby",
+    "code": "NameError",
+    "category": "Lexical Scope",
+    "severity": "Runtime Exception",
+    "title": "Missing local variable or constant reference in current lexical scope",
+    "description": "Missing local variable or constant reference in current lexical scope.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_nomethoderror_1",
+    "language": "Ruby",
+    "code": "NoMethodError",
+    "category": "Method Dispatch",
+    "severity": "Runtime Exception",
+    "title": "Undefined method called for a receiver object (nil or wrong class)",
+    "description": "Undefined method called for a receiver object (nil or wrong class).",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_threaderror_1",
+    "language": "Ruby",
+    "code": "ThreadError",
+    "category": "Concurrency",
+    "severity": "Fatal",
+    "title": "Deadlock encountered across parallel execution fiber lock pools",
+    "description": "Deadlock encountered across parallel execution fiber lock pools.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "7.1.0",
+    "version_deprecated": null,
+    "source_url": "https://api.rubyonrails.org/",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Encountered during incoming rack middleware processing stage #1."
+    ],
+    "interaction_types": [
+      "concurrency"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_typeerror_1",
+    "language": "Ruby",
+    "code": "TypeError",
+    "category": "Type Coercion",
+    "severity": "Runtime Exception",
+    "title": "Implicit type coercion failed between incompatible object classes",
+    "description": "Implicit type coercion failed between incompatible object classes.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ruby_zerodivisionerror_1",
+    "language": "Ruby",
+    "code": "ZeroDivisionError",
+    "category": "Arithmetic",
+    "severity": "Runtime Exception",
+    "title": "Integer division or modulo evaluation executed with a zero divisor",
+    "description": "Integer division or modulo evaluation executed with a zero divisor.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.0.0",
+    "version_deprecated": null,
+    "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Raised during dynamic metaprogramming receiver hook evaluation pass #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

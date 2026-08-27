@@ -1,0 +1,36 @@
+{
+  "release_name": "LexiconError Diagnostics",
+  "version": "2026.08",
+  "generated_at": "2026-08-27T17:32:13+00:00",
+  "records": 16474,
+  "languages": 44,
+  "tools": 45,
+  "verified": 41,
+  "files": {
+    "data/diagnostics.jsonl": {
+      "sha256": "5adb619e064b389f4e81adac9ce5ebb7156dfb63540ea9ae83d7d652c09fb897",
+      "bytes": 25315068
+    },
+    "data/coverage.json": {
+      "sha256": "8f722c456aa8df76293c4340470ea05f82ff0204f4e6fd3dc2e41598ea7096c6",
+      "bytes": 23695
+    },
+    "metadata/error-entry.schema.json": {
+      "sha256": "e933b38c0d1f0f1ce82f6d04e8fdc5597de547c8b04a3f780d3ad91053e099cb",
+      "bytes": 2511
+    },
+    "metadata/source-manifest.json": {
+      "sha256": "6ecc88e3da2dce9918143acfc16fd6e9991bbccca2a8fda03045263ce3cd0fd9",
+      "bytes": 8988
+    },
+    "metadata/source-lock.json": {
+      "sha256": "02b8147873fb1f418efa35816ab0886de41dbff893c6af7b81ad01fb0a6f266e",
+      "bytes": 3443
+    }
+  },
+  "excludes": [
+    "raw source snapshots",
+    "local contribution directories",
+    "desktop application data"
+  ]
+}

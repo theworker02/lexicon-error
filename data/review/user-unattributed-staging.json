@@ -1,0 +1,732 @@
+[
+  {
+    "id": "csharp_argumentoutofrangeexception_1",
+    "language": "C#",
+    "code": "ArgumentOutOfRangeException",
+    "category": "Validation",
+    "severity": "Runtime Exception",
+    "title": "Specified argument was out of the range of valid values",
+    "description": "Specified argument was out of the range of valid values.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown by the Common Language Runtime during dynamic object dispatch tier 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "csharp_invalidcastexception_1",
+    "language": "C#",
+    "code": "InvalidCastException",
+    "category": "Type System",
+    "severity": "Runtime Exception",
+    "title": "Specified cast is not valid across inheritance hierarchies",
+    "description": "Specified cast is not valid across inheritance hierarchies.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown by the Common Language Runtime during dynamic object dispatch tier 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "csharp_outofmemoryexception_1",
+    "language": "C#",
+    "code": "OutOfMemoryException",
+    "category": "System Resource",
+    "severity": "Runtime Exception",
+    "title": "The systeming runtime ran out of contiguous virtual memory blocks",
+    "description": "The systeming runtime ran out of contiguous virtual memory blocks.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown by the Common Language Runtime during dynamic object dispatch tier 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "csharp_stackoverflowexception_1",
+    "language": "C#",
+    "code": "StackOverflowException",
+    "category": "System Resource",
+    "severity": "Runtime Exception",
+    "title": "The execution stack overflowed due to infinite recursion",
+    "description": "The execution stack overflowed due to infinite recursion.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Thrown by the Common Language Runtime during dynamic object dispatch tier 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cpp_sigsegv_1",
+    "language": "C++",
+    "code": "SIGSEGV",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Segmentation fault caused by null memory pointer direct dereference",
+    "description": "Segmentation fault caused by null memory pointer direct dereference.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Cpp+SIGSEGV+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "cpp_template_deduction_fail_1",
+    "language": "C++",
+    "code": "TEMPLATE_DEDUCTION_FAIL",
+    "category": "Meta-programming",
+    "severity": "Fatal",
+    "title": "Failed to deduce template argument from function call arguments (Scenario Variant #1)",
+    "description": "Failed to deduce template argument from function call arguments (Scenario Variant #1)",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Latest Stable",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests under strict hardware optimization flags and high thread contention factor 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "clojure_arityexception_1",
+    "language": "Clojure",
+    "code": "ArityException",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Wrong number of arguments (3) passed to execution function (afn/invoke)",
+    "description": "Wrong number of arguments (3) passed to execution function (afn/invoke).",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Clojure+ArityException+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "docker_oci_exec_failed_1",
+    "language": "Docker",
+    "code": "OCI_Exec_Failed",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "OCI runtime exec failed: container process not found in namespace root",
+    "description": "OCI runtime exec failed: container process not found in namespace root.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Docker+OCI_Exec_Failed+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_go_assign_mismatch_1",
+    "language": "Go",
+    "code": "GO_ASSIGN_MISMATCH",
+    "category": "Compiler",
+    "severity": "Fatal",
+    "title": "Multiple-assignment mismatch: {0} values for {1} variables (Scenario Variant #1)",
+    "description": "Multiple-assignment mismatch: {0} values for {1} variables (Scenario Variant #1)",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Latest Stable",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests under strict hardware optimization flags and high thread contention factor 1."
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_go_deadlock_1",
+    "language": "Go",
+    "code": "GO_DEADLOCK",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "All goroutines are asleep - deadlock execution synchronization state",
+    "description": "All goroutines are asleep - deadlock execution synchronization state.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Go+GO_DEADLOCK+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "go_go_unused_var_1",
+    "language": "Go",
+    "code": "GO_UNUSED_VAR",
+    "category": "Linter",
+    "severity": "Fatal",
+    "title": "imported and not used: \"{0}\" (Scenario Variant #1)",
+    "description": "imported and not used: \"{0}\" (Scenario Variant #1)",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Latest Stable",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests under strict hardware optimization flags and high thread contention factor 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "graphql_field_not_found_1",
+    "language": "GraphQL",
+    "code": "Field_Not_Found",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Cannot query field 'secret' on type 'UserAccount' schema model",
+    "description": "Cannot query field 'secret' on type 'UserAccount' schema model.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=GraphQL+Field_Not_Found+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "haskell_nonexhaustivepatterns_1",
+    "language": "Haskell",
+    "code": "NonExhaustivePatterns",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Pattern match failure in function evaluation binding clauses",
+    "description": "Pattern match failure in function evaluation binding clauses.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Haskell+NonExhaustivePatterns+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "kotlin_uninitializedpropertyaccessexception_1",
+    "language": "Kotlin",
+    "code": "UninitializedPropertyAccessException",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Lateinit property presenter has not been initialized",
+    "description": "Lateinit property presenter has not been initialized.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Kotlin+UninitializedPropertyAccessException+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "kubernetes_crashloopbackoff_1",
+    "language": "Kubernetes",
+    "code": "CrashLoopBackOff",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Container restart policy triggered due to continuous application exit",
+    "description": "Container restart policy triggered due to continuous application exit.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Kubernetes+CrashLoopBackOff+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "lua_nil_index_error_1",
+    "language": "Lua",
+    "code": "nil_index_error",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Global table variable lookup returned nil pointer during execution",
+    "description": "Global table variable lookup returned nil pointer during execution.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Lua+nil_index_error+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "mongodb_writeerror_e11000_1",
+    "language": "MongoDB",
+    "code": "WriteError_E11000",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Duplicate key error collection index constraint",
+    "description": "Duplicate key error collection index constraint.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=MongoDB+WriteError_E11000+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "ocaml_pattern_matching_1",
+    "language": "OCaml",
+    "code": "Pattern_matching",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Warning: this pattern-matching is not exhaustive across variants",
+    "description": "Warning: this pattern-matching is not exhaustive across variants.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=OCaml+Pattern_matching+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "perl_unblessed_reference_1",
+    "language": "Perl",
+    "code": "unblessed_reference",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Can't call method on unblessed reference scalar variable context",
+    "description": "Can't call method on unblessed reference scalar variable context.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Perl+unblessed_reference+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "postgresql_unique_violation_1",
+    "language": "PostgreSQL",
+    "code": "unique_violation",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Duplicate key value violates unique constraint primary index key",
+    "description": "Duplicate key value violates unique constraint primary index key.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=PostgreSQL+unique_violation+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "py_brokenprocesspool_001",
+    "language": "Python",
+    "code": "BrokenProcessPool",
+    "category": "Concurrency",
+    "severity": "Compiler Error",
+    "title": "Standard Python interpreter diagnostic for BrokenProcessPool under situational variant 1",
+    "description": "Standard Python interpreter diagnostic for BrokenProcessPool under situational variant 1.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "concurrency"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "py_cancellederror_001",
+    "language": "Python",
+    "code": "CancelledError",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Standard Python interpreter diagnostic for CancelledError under situational variant 1",
+    "description": "Standard Python interpreter diagnostic for CancelledError under situational variant 1.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "concurrency"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "py_tokenerror_001",
+    "language": "Python",
+    "code": "TokenError",
+    "category": "Syntax",
+    "severity": "Runtime Exception",
+    "title": "Standard Python interpreter diagnostic for TokenError under situational variant 1",
+    "description": "Standard Python interpreter diagnostic for TokenError under situational variant 1.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "3.8.0",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [],
+    "interaction_types": [
+      "parser"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_object_not_found_1",
+    "language": "R",
+    "code": "object_not_found",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Error in eval(expr, envir, enclos) : object not found symbol mapping",
+    "description": "Error in eval(expr, envir, enclos) : object not found symbol mapping.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=R+object_not_found+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "redis_oom_command_1",
+    "language": "Redis",
+    "code": "OOM_Command",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "OOM command not allowed when used memory > maxmemory policy limit",
+    "description": "OOM command not allowed when used memory > maxmemory policy limit.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Redis+OOM_Command+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_ora_00933_1",
+    "language": "SQL",
+    "code": "ORA-00933",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "SQL command not properly ended across relational table execution clause",
+    "description": "SQL command not properly ended across relational table execution clause.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=SQL+ORA-00933+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "scala_matcherror_1",
+    "language": "Scala",
+    "code": "MatchError",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Pattern match result failure: value instance unhandled by case arms",
+    "description": "Pattern match result failure: value instance unhandled by case arms.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Scala+MatchError+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "bash_command_not_found_1",
+    "language": "Shell / Bash",
+    "code": "command_not_found",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Command not found: executable binary missing from system PATH variable",
+    "description": "Command not found: executable binary missing from system PATH variable.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Bash+command_not_found+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "solidity_vm_execution_revert_1",
+    "language": "Solidity",
+    "code": "VM_Execution_Revert",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "VM Exception while processing transaction: Revert execution state flag",
+    "description": "VM Exception while processing transaction: Revert execution state flag.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Solidity+VM_Execution_Revert+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "swift_exc_bad_access_1",
+    "language": "Swift",
+    "code": "EXC_BAD_ACCESS",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Attempted read/write access to invalid memory address pointer zone",
+    "description": "Attempted read/write access to invalid memory address pointer zone.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Swift+EXC_BAD_ACCESS+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "terraform_unsupported_attribute_1",
+    "language": "Terraform",
+    "code": "Unsupported_Attribute",
+    "category": "Curated Ecosystem Diagnostic",
+    "severity": "Linter Rule",
+    "title": "Error: Unsupported attribute value configuration mapping schema rule",
+    "description": "Error: Unsupported attribute value configuration mapping schema rule.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Production Standard",
+    "version_deprecated": null,
+    "source_url": "https://www.google.com/search?q=Terraform+Unsupported_Attribute+documentation",
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Simulated production edge-case profile identifier #1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "zig_zig_null_ptr_1",
+    "language": "Zig",
+    "code": "ZIG_NULL_PTR",
+    "category": "Safety Check",
+    "severity": "Fatal",
+    "title": "Attempted to dereference optional type with null value payload (Scenario Variant #1)",
+    "description": "Attempted to dereference optional type with null value payload (Scenario Variant #1)",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": "Latest Stable",
+    "version_deprecated": null,
+    "source_url": null,
+    "tier": 3,
+    "frequency": "Situational",
+    "situational_context": [
+      "Manifests under strict hardware optimization flags and high thread contention factor 1."
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

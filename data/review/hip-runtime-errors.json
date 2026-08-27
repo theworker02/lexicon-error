@@ -1,0 +1,1970 @@
+[
+  {
+    "id": "hip_official_hiperroralreadyacquired",
+    "language": "ROCm / HIP",
+    "code": "hipErrorAlreadyAcquired",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorAlreadyAcquired",
+    "description": "HIP runtime error value 210. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperroralreadymapped",
+    "language": "ROCm / HIP",
+    "code": "hipErrorAlreadyMapped",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorAlreadyMapped",
+    "description": "HIP runtime error value 208. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorarrayismapped",
+    "language": "ROCm / HIP",
+    "code": "hipErrorArrayIsMapped",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorArrayIsMapped",
+    "description": "HIP runtime error value 207. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorassert",
+    "language": "ROCm / HIP",
+    "code": "hipErrorAssert",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorAssert",
+    "description": "Produced when the kernel calls assert. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorcapturedevent",
+    "language": "ROCm / HIP",
+    "code": "hipErrorCapturedEvent",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorCapturedEvent",
+    "description": "The operation is not permitted on an event which was last recorded in a capturing stream. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorcontextalreadycurrent",
+    "language": "ROCm / HIP",
+    "code": "hipErrorContextAlreadyCurrent",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorContextAlreadyCurrent",
+    "description": "HIP runtime error value 202. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorcontextalreadyinuse",
+    "language": "ROCm / HIP",
+    "code": "hipErrorContextAlreadyInUse",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorContextAlreadyInUse",
+    "description": "The context is already in use. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorcontextisdestroyed",
+    "language": "ROCm / HIP",
+    "code": "hipErrorContextIsDestroyed",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorContextIsDestroyed",
+    "description": "The context is already destroyed. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorcooperativelaunchtoolarge",
+    "language": "ROCm / HIP",
+    "code": "hipErrorCooperativeLaunchTooLarge",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorCooperativeLaunchTooLarge",
+    "description": "This error indicates that the number of blocks launched per grid for a kernel that was launched via cooperative launch APIs exceeds the maximum number of allowed blocks for the current device. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrordeinitialized",
+    "language": "ROCm / HIP",
+    "code": "hipErrorDeinitialized",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorDeinitialized",
+    "description": "Deinitialized. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperroreccnotcorrectable",
+    "language": "ROCm / HIP",
+    "code": "hipErrorECCNotCorrectable",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorECCNotCorrectable",
+    "description": "HIP runtime error value 214. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorfilenotfound",
+    "language": "ROCm / HIP",
+    "code": "hipErrorFileNotFound",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorFileNotFound",
+    "description": "the file is not found. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorgraphexecupdatefailure",
+    "language": "ROCm / HIP",
+    "code": "hipErrorGraphExecUpdateFailure",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorGraphExecUpdateFailure",
+    "description": "This error indicates that the graph update not performed because it included changes which violated constraintsspecific to instantiated graph update. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorhostmemoryalreadyregistered",
+    "language": "ROCm / HIP",
+    "code": "hipErrorHostMemoryAlreadyRegistered",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorHostMemoryAlreadyRegistered",
+    "description": "Produced when trying to lock a page-locked memory. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorhostmemorynotregistered",
+    "language": "ROCm / HIP",
+    "code": "hipErrorHostMemoryNotRegistered",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorHostMemoryNotRegistered",
+    "description": "Produced when trying to unlock a non-page-locked memory. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorillegaladdress",
+    "language": "ROCm / HIP",
+    "code": "hipErrorIllegalAddress",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorIllegalAddress",
+    "description": "HIP runtime error value 700. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorillegalstate",
+    "language": "ROCm / HIP",
+    "code": "hipErrorIllegalState",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorIllegalState",
+    "description": "Resource required is not in a valid state to perform operation. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinitializationerror",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInitializationError",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInitializationError",
+    "description": "HIP runtime error value 3. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinsufficientdriver",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInsufficientDriver",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInsufficientDriver",
+    "description": "HIP runtime error value 35. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidchanneldescriptor",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidChannelDescriptor",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidChannelDescriptor",
+    "description": "Invalid channel descriptor. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidclustersize",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidClusterSize",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidClusterSize",
+    "description": "calculations The specified cluster size is invalid, for instance when passing launch configurations to occupancy This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidconfiguration",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidConfiguration",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidConfiguration",
+    "description": "Invalide configuration. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidcontext",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidContext",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidContext",
+    "description": "Produced when input context is invalid. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvaliddevice",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidDevice",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidDevice",
+    "description": "DeviceID must be in range from 0 to compute-devices. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvaliddevicefunction",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidDeviceFunction",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidDeviceFunction",
+    "description": "Invalid device function. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvaliddevicepointer",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidDevicePointer",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidDevicePointer",
+    "description": "Invalid Device Pointer. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidgraphicscontext",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidGraphicsContext",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidGraphicsContext",
+    "description": "HIP runtime error value 219. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidhandle",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidHandle",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidHandle",
+    "description": "Invalide handle. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidimage",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidImage",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidImage",
+    "description": "Invalid image. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidkernelfile",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidKernelFile",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidKernelFile",
+    "description": "In CUDA DRV, it is CUDA_ERROR_INVALID_PTX. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidmemcpydirection",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidMemcpyDirection",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidMemcpyDirection",
+    "description": "Invalid memory copy direction. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidpitchvalue",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidPitchValue",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidPitchValue",
+    "description": "Invalid pitch value. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidresourceconfiguration",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidResourceConfiguration",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidResourceConfiguration",
+    "description": "Resource configuration is not valid for the operation. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidresourcehandle",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidResourceHandle",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidResourceHandle",
+    "description": "Resource handle (hipEvent_t or hipStream_t) invalid. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidresourcetype",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidResourceType",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidResourceType",
+    "description": "Resource type is not valid for the operation. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidsource",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidSource",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidSource",
+    "description": "Invalid source. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidsymbol",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidSymbol",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidSymbol",
+    "description": "Invalid symbol. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidtexture",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidTexture",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidTexture",
+    "description": "Invalid texture. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorinvalidvalue",
+    "language": "ROCm / HIP",
+    "code": "hipErrorInvalidValue",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorInvalidValue",
+    "description": "One or more of the parameters passed to the API call is NULL or not in an acceptable range. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorlaunchfailure",
+    "language": "ROCm / HIP",
+    "code": "hipErrorLaunchFailure",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorLaunchFailure",
+    "description": "An exception occurred on the device while executing a kernel. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorlaunchoutofresources",
+    "language": "ROCm / HIP",
+    "code": "hipErrorLaunchOutOfResources",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorLaunchOutOfResources",
+    "description": "Out of resources error. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorlaunchtimeout",
+    "language": "ROCm / HIP",
+    "code": "hipErrorLaunchTimeOut",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorLaunchTimeOut",
+    "description": "Timeout for the launch. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrormapbufferobjectfailed",
+    "language": "ROCm / HIP",
+    "code": "hipErrorMapBufferObjectFailed",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorMapBufferObjectFailed",
+    "description": "Produced when the IPC memory attach failed from ROCr. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrormapfailed",
+    "language": "ROCm / HIP",
+    "code": "hipErrorMapFailed",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorMapFailed",
+    "description": "HIP runtime error value 205. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrormemoryallocation",
+    "language": "ROCm / HIP",
+    "code": "hipErrorMemoryAllocation",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorMemoryAllocation",
+    "description": "Memory allocation error. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrormissingconfiguration",
+    "language": "ROCm / HIP",
+    "code": "hipErrorMissingConfiguration",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorMissingConfiguration",
+    "description": "HIP runtime error value 52. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornobinaryforgpu",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNoBinaryForGpu",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNoBinaryForGpu",
+    "description": "HIP runtime error value 209. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornodevice",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNoDevice",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNoDevice",
+    "description": "Call to hipGetDeviceCount returned 0 devices. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotfound",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotFound",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotFound",
+    "description": "Not found. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotinitialized",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotInitialized",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotInitialized",
+    "description": "Invalid not initialized. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotmapped",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotMapped",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotMapped",
+    "description": "HIP runtime error value 211. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotmappedasarray",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotMappedAsArray",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotMappedAsArray",
+    "description": "HIP runtime error value 212. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotmappedaspointer",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotMappedAsPointer",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotMappedAsPointer",
+    "description": "HIP runtime error value 213. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotready",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotReady",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotReady",
+    "description": "Indicates that asynchronous operations enqueued earlier are not ready. This is not actually an error, but is used to distinguish from hipSuccess (which indicates completion). APIs that return this error include hipEventQuery and hipStreamQuery. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrornotsupported",
+    "language": "ROCm / HIP",
+    "code": "hipErrorNotSupported",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorNotSupported",
+    "description": "Produced when the hip API is not supported/implemented. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperroroperatingsystem",
+    "language": "ROCm / HIP",
+    "code": "hipErrorOperatingSystem",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorOperatingSystem",
+    "description": "Not the correct operating system. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperroroutofmemory",
+    "language": "ROCm / HIP",
+    "code": "hipErrorOutOfMemory",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorOutOfMemory",
+    "description": "out of memory range. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorpeeraccessalreadyenabled",
+    "language": "ROCm / HIP",
+    "code": "hipErrorPeerAccessAlreadyEnabled",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorPeerAccessAlreadyEnabled",
+    "description": "Peer access was already enabled from the current device. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorpeeraccessnotenabled",
+    "language": "ROCm / HIP",
+    "code": "hipErrorPeerAccessNotEnabled",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorPeerAccessNotEnabled",
+    "description": "Peer access was never enabled from the current device. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorpeeraccessunsupported",
+    "language": "ROCm / HIP",
+    "code": "hipErrorPeerAccessUnsupported",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorPeerAccessUnsupported",
+    "description": "HIP runtime error value 217. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorpriorlaunchfailure",
+    "language": "ROCm / HIP",
+    "code": "hipErrorPriorLaunchFailure",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorPriorLaunchFailure",
+    "description": "HIP runtime error value 53. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorprofileralreadystarted",
+    "language": "ROCm / HIP",
+    "code": "hipErrorProfilerAlreadyStarted",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorProfilerAlreadyStarted",
+    "description": "HIP runtime error value 7. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorprofileralreadystopped",
+    "language": "ROCm / HIP",
+    "code": "hipErrorProfilerAlreadyStopped",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorProfilerAlreadyStopped",
+    "description": "HIP runtime error value 8. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorprofilerdisabled",
+    "language": "ROCm / HIP",
+    "code": "hipErrorProfilerDisabled",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorProfilerDisabled",
+    "description": "HIP runtime error value 5. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorprofilernotinitialized",
+    "language": "ROCm / HIP",
+    "code": "hipErrorProfilerNotInitialized",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorProfilerNotInitialized",
+    "description": "HIP runtime error value 6. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorruntimememory",
+    "language": "ROCm / HIP",
+    "code": "hipErrorRuntimeMemory",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "hipErrorRuntimeMemory",
+    "description": "HSA runtime memory call returned error. Typically not seen in production systems. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorruntimeother",
+    "language": "ROCm / HIP",
+    "code": "hipErrorRuntimeOther",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorRuntimeOther",
+    "description": "HSA runtime call other than memory returned error. Typically not seen in production systems. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorsetonactiveprocess",
+    "language": "ROCm / HIP",
+    "code": "hipErrorSetOnActiveProcess",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorSetOnActiveProcess",
+    "description": "The process is active. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorsharedobjectinitfailed",
+    "language": "ROCm / HIP",
+    "code": "hipErrorSharedObjectInitFailed",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorSharedObjectInitFailed",
+    "description": "Failed to initialize shared object. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorsharedobjectsymbolnotfound",
+    "language": "ROCm / HIP",
+    "code": "hipErrorSharedObjectSymbolNotFound",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorSharedObjectSymbolNotFound",
+    "description": "HIP runtime error value 302. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcaptureimplicit",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureImplicit",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureImplicit",
+    "description": "The operation would have resulted in a disallowed implicit dependency on a current capture sequence from hipStreamLegacy. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcaptureinvalidated",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureInvalidated",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureInvalidated",
+    "description": "The current capture sequence on the stream has been invalidated due to a previous error. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcaptureisolation",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureIsolation",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureIsolation",
+    "description": "A dependency would have been created which crosses the capture sequence boundary. Only implicit in-stream ordering dependencies are allowed to cross the boundary This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcapturemerge",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureMerge",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureMerge",
+    "description": "The operation would have resulted in a merge of two independent capture sequences. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcaptureunjoined",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureUnjoined",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureUnjoined",
+    "description": "The capture sequence contains a fork that was not joined to the primary stream. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcaptureunmatched",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureUnmatched",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureUnmatched",
+    "description": "The capture was not initiated in this stream. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcaptureunsupported",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureUnsupported",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureUnsupported",
+    "description": "The operation is not permitted when the stream is capturing. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamcapturewrongthread",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamCaptureWrongThread",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamCaptureWrongThread",
+    "description": "A stream capture sequence not initiated with the hipStreamCaptureModeRelaxed argument to hipStreamBeginCapture was passed to hipStreamEndCapture in a different thread. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorstreamdetached",
+    "language": "ROCm / HIP",
+    "code": "hipErrorStreamDetached",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "hipErrorStreamDetached",
+    "description": "The stream is detached. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorunknown",
+    "language": "ROCm / HIP",
+    "code": "hipErrorUnknown",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorUnknown",
+    "description": "Unknown error. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorunmapfailed",
+    "language": "ROCm / HIP",
+    "code": "hipErrorUnmapFailed",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorUnmapFailed",
+    "description": "HIP runtime error value 206. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "hip_official_hiperrorunsupportedlimit",
+    "language": "ROCm / HIP",
+    "code": "hipErrorUnsupportedLimit",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "hipErrorUnsupportedLimit",
+    "description": "Unsupported limit. This is the vendor-defined runtime error value; a minimal trigger and hardened repair are pending editorial review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/doxygen/html/hip__runtime__api_8h.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "ROCm / HIP runtime API",
+      "GPU device execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

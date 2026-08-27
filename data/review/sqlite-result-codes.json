@@ -1,0 +1,2474 @@
+[
+  {
+    "id": "sql_sqlite_abort",
+    "language": "SQL",
+    "code": "SQLITE_ABORT",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Abort",
+    "description": "SQLite result code SQLITE_ABORT (4   /* Callback routine requested an abort */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_abort_rollback",
+    "language": "SQL",
+    "code": "SQLITE_ABORT_ROLLBACK",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Abort Rollback",
+    "description": "SQLite result code SQLITE_ABORT_ROLLBACK ((SQLITE_ABORT | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_auth",
+    "language": "SQL",
+    "code": "SQLITE_AUTH",
+    "category": "Security",
+    "severity": "Runtime Exception",
+    "title": "Auth",
+    "description": "SQLite result code SQLITE_AUTH (23   /* Authorization denied */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_auth_user",
+    "language": "SQL",
+    "code": "SQLITE_AUTH_USER",
+    "category": "Security",
+    "severity": "Runtime Exception",
+    "title": "Auth User",
+    "description": "SQLite result code SQLITE_AUTH_USER ((SQLITE_AUTH | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_busy",
+    "language": "SQL",
+    "code": "SQLITE_BUSY",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Busy",
+    "description": "SQLite result code SQLITE_BUSY (5   /* The database file is locked */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_busy_recovery",
+    "language": "SQL",
+    "code": "SQLITE_BUSY_RECOVERY",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Busy Recovery",
+    "description": "SQLite result code SQLITE_BUSY_RECOVERY ((SQLITE_BUSY   |  (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_busy_snapshot",
+    "language": "SQL",
+    "code": "SQLITE_BUSY_SNAPSHOT",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Busy Snapshot",
+    "description": "SQLite result code SQLITE_BUSY_SNAPSHOT ((SQLITE_BUSY   |  (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_busy_timeout",
+    "language": "SQL",
+    "code": "SQLITE_BUSY_TIMEOUT",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Busy Timeout",
+    "description": "SQLite result code SQLITE_BUSY_TIMEOUT ((SQLITE_BUSY   |  (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen",
+    "description": "SQLite result code SQLITE_CANTOPEN (14   /* Unable to open the database file */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen_convpath",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN_CONVPATH",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen Convpath",
+    "description": "SQLite result code SQLITE_CANTOPEN_CONVPATH ((SQLITE_CANTOPEN | (4<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen_dirtywal",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN_DIRTYWAL",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen Dirtywal",
+    "description": "SQLite result code SQLITE_CANTOPEN_DIRTYWAL ((SQLITE_CANTOPEN | (5<<8)) /* Not Used */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen_fullpath",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN_FULLPATH",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen Fullpath",
+    "description": "SQLite result code SQLITE_CANTOPEN_FULLPATH ((SQLITE_CANTOPEN | (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen_isdir",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN_ISDIR",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen Isdir",
+    "description": "SQLite result code SQLITE_CANTOPEN_ISDIR ((SQLITE_CANTOPEN | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen_notempdir",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN_NOTEMPDIR",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen Notempdir",
+    "description": "SQLite result code SQLITE_CANTOPEN_NOTEMPDIR ((SQLITE_CANTOPEN | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_cantopen_symlink",
+    "language": "SQL",
+    "code": "SQLITE_CANTOPEN_SYMLINK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Cantopen Symlink",
+    "description": "SQLite result code SQLITE_CANTOPEN_SYMLINK ((SQLITE_CANTOPEN | (6<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint",
+    "description": "SQLite result code SQLITE_CONSTRAINT (19   /* Abort due to constraint violation */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_check",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_CHECK",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Check",
+    "description": "SQLite result code SQLITE_CONSTRAINT_CHECK ((SQLITE_CONSTRAINT | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_commithook",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_COMMITHOOK",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Commithook",
+    "description": "SQLite result code SQLITE_CONSTRAINT_COMMITHOOK ((SQLITE_CONSTRAINT | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_datatype",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_DATATYPE",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Datatype",
+    "description": "SQLite result code SQLITE_CONSTRAINT_DATATYPE ((SQLITE_CONSTRAINT |(12<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_foreignkey",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_FOREIGNKEY",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Foreignkey",
+    "description": "SQLite result code SQLITE_CONSTRAINT_FOREIGNKEY ((SQLITE_CONSTRAINT | (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_function",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_FUNCTION",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Function",
+    "description": "SQLite result code SQLITE_CONSTRAINT_FUNCTION ((SQLITE_CONSTRAINT | (4<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_notnull",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_NOTNULL",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Notnull",
+    "description": "SQLite result code SQLITE_CONSTRAINT_NOTNULL ((SQLITE_CONSTRAINT | (5<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_pinned",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_PINNED",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Pinned",
+    "description": "SQLite result code SQLITE_CONSTRAINT_PINNED ((SQLITE_CONSTRAINT |(11<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_primarykey",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_PRIMARYKEY",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Primarykey",
+    "description": "SQLite result code SQLITE_CONSTRAINT_PRIMARYKEY ((SQLITE_CONSTRAINT | (6<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_rowid",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_ROWID",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Rowid",
+    "description": "SQLite result code SQLITE_CONSTRAINT_ROWID ((SQLITE_CONSTRAINT |(10<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_trigger",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_TRIGGER",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Trigger",
+    "description": "SQLite result code SQLITE_CONSTRAINT_TRIGGER ((SQLITE_CONSTRAINT | (7<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_unique",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_UNIQUE",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Unique",
+    "description": "SQLite result code SQLITE_CONSTRAINT_UNIQUE ((SQLITE_CONSTRAINT | (8<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_constraint_vtab",
+    "language": "SQL",
+    "code": "SQLITE_CONSTRAINT_VTAB",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Constraint Vtab",
+    "description": "SQLite result code SQLITE_CONSTRAINT_VTAB ((SQLITE_CONSTRAINT | (9<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_corrupt",
+    "language": "SQL",
+    "code": "SQLITE_CORRUPT",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Corrupt",
+    "description": "SQLite result code SQLITE_CORRUPT (11   /* The database disk image is malformed */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_corrupt_index",
+    "language": "SQL",
+    "code": "SQLITE_CORRUPT_INDEX",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Corrupt Index",
+    "description": "SQLite result code SQLITE_CORRUPT_INDEX ((SQLITE_CORRUPT | (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_corrupt_sequence",
+    "language": "SQL",
+    "code": "SQLITE_CORRUPT_SEQUENCE",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Corrupt Sequence",
+    "description": "SQLite result code SQLITE_CORRUPT_SEQUENCE ((SQLITE_CORRUPT | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_corrupt_vtab",
+    "language": "SQL",
+    "code": "SQLITE_CORRUPT_VTAB",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Corrupt Vtab",
+    "description": "SQLite result code SQLITE_CORRUPT_VTAB ((SQLITE_CORRUPT | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_empty",
+    "language": "SQL",
+    "code": "SQLITE_EMPTY",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Empty",
+    "description": "SQLite result code SQLITE_EMPTY (16   /* Internal use only */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_error",
+    "language": "SQL",
+    "code": "SQLITE_ERROR",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Error",
+    "description": "SQLite result code SQLITE_ERROR (1   /* Generic error */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_format",
+    "language": "SQL",
+    "code": "SQLITE_FORMAT",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Format",
+    "description": "SQLite result code SQLITE_FORMAT (24   /* Not used */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_full",
+    "language": "SQL",
+    "code": "SQLITE_FULL",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Full",
+    "description": "SQLite result code SQLITE_FULL (13   /* Insertion failed because database is full */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_internal",
+    "language": "SQL",
+    "code": "SQLITE_INTERNAL",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Internal",
+    "description": "SQLite result code SQLITE_INTERNAL (2   /* Internal logic error in SQLite */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_interrupt",
+    "language": "SQL",
+    "code": "SQLITE_INTERRUPT",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Interrupt",
+    "description": "SQLite result code SQLITE_INTERRUPT (9   /* Operation terminated by sqlite3_interrupt()*/) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr",
+    "language": "SQL",
+    "code": "SQLITE_IOERR",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr",
+    "description": "SQLite result code SQLITE_IOERR (10   /* Some kind of disk I/O error occurred */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_access",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_ACCESS",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Access",
+    "description": "SQLite result code SQLITE_IOERR_ACCESS ((SQLITE_IOERR | (13<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_auth",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_AUTH",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Auth",
+    "description": "SQLite result code SQLITE_IOERR_AUTH ((SQLITE_IOERR | (28<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_badkey",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_BADKEY",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Badkey",
+    "description": "SQLite result code SQLITE_IOERR_BADKEY ((SQLITE_IOERR | (35<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_begin_atomic",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_BEGIN_ATOMIC",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Begin Atomic",
+    "description": "SQLite result code SQLITE_IOERR_BEGIN_ATOMIC ((SQLITE_IOERR | (29<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_blocked",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_BLOCKED",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Blocked",
+    "description": "SQLite result code SQLITE_IOERR_BLOCKED ((SQLITE_IOERR | (11<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_checkreservedlock",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_CHECKRESERVEDLOCK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Checkreservedlock",
+    "description": "SQLite result code SQLITE_IOERR_CHECKRESERVEDLOCK ((SQLITE_IOERR | (14<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_close",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_CLOSE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Close",
+    "description": "SQLite result code SQLITE_IOERR_CLOSE ((SQLITE_IOERR | (16<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_codec",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_CODEC",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Codec",
+    "description": "SQLite result code SQLITE_IOERR_CODEC ((SQLITE_IOERR | (36<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_commit_atomic",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_COMMIT_ATOMIC",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Commit Atomic",
+    "description": "SQLite result code SQLITE_IOERR_COMMIT_ATOMIC ((SQLITE_IOERR | (30<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_convpath",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_CONVPATH",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Convpath",
+    "description": "SQLite result code SQLITE_IOERR_CONVPATH ((SQLITE_IOERR | (26<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_corruptfs",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_CORRUPTFS",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Corruptfs",
+    "description": "SQLite result code SQLITE_IOERR_CORRUPTFS ((SQLITE_IOERR | (33<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_data",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_DATA",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Data",
+    "description": "SQLite result code SQLITE_IOERR_DATA ((SQLITE_IOERR | (32<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_delete",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_DELETE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Delete",
+    "description": "SQLite result code SQLITE_IOERR_DELETE ((SQLITE_IOERR | (10<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_delete_noent",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_DELETE_NOENT",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Delete Noent",
+    "description": "SQLite result code SQLITE_IOERR_DELETE_NOENT ((SQLITE_IOERR | (23<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_dir_close",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_DIR_CLOSE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Dir Close",
+    "description": "SQLite result code SQLITE_IOERR_DIR_CLOSE ((SQLITE_IOERR | (17<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_dir_fsync",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_DIR_FSYNC",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Dir Fsync",
+    "description": "SQLite result code SQLITE_IOERR_DIR_FSYNC ((SQLITE_IOERR | (5<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_fstat",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_FSTAT",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Fstat",
+    "description": "SQLite result code SQLITE_IOERR_FSTAT ((SQLITE_IOERR | (7<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_fsync",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_FSYNC",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Fsync",
+    "description": "SQLite result code SQLITE_IOERR_FSYNC ((SQLITE_IOERR | (4<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_gettemppath",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_GETTEMPPATH",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Gettemppath",
+    "description": "SQLite result code SQLITE_IOERR_GETTEMPPATH ((SQLITE_IOERR | (25<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_in_page",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_IN_PAGE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr In Page",
+    "description": "SQLite result code SQLITE_IOERR_IN_PAGE ((SQLITE_IOERR | (34<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_lock",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_LOCK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Lock",
+    "description": "SQLite result code SQLITE_IOERR_LOCK ((SQLITE_IOERR | (15<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_mmap",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_MMAP",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Mmap",
+    "description": "SQLite result code SQLITE_IOERR_MMAP ((SQLITE_IOERR | (24<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_nomem",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_NOMEM",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Nomem",
+    "description": "SQLite result code SQLITE_IOERR_NOMEM ((SQLITE_IOERR | (12<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_rdlock",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_RDLOCK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Rdlock",
+    "description": "SQLite result code SQLITE_IOERR_RDLOCK ((SQLITE_IOERR | (9<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_read",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_READ",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Read",
+    "description": "SQLite result code SQLITE_IOERR_READ ((SQLITE_IOERR | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_rollback_atomic",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_ROLLBACK_ATOMIC",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Rollback Atomic",
+    "description": "SQLite result code SQLITE_IOERR_ROLLBACK_ATOMIC ((SQLITE_IOERR | (31<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_seek",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_SEEK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Seek",
+    "description": "SQLite result code SQLITE_IOERR_SEEK ((SQLITE_IOERR | (22<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_shmlock",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_SHMLOCK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Shmlock",
+    "description": "SQLite result code SQLITE_IOERR_SHMLOCK ((SQLITE_IOERR | (20<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_shmmap",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_SHMMAP",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Shmmap",
+    "description": "SQLite result code SQLITE_IOERR_SHMMAP ((SQLITE_IOERR | (21<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_shmopen",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_SHMOPEN",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Shmopen",
+    "description": "SQLite result code SQLITE_IOERR_SHMOPEN ((SQLITE_IOERR | (18<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_shmsize",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_SHMSIZE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Shmsize",
+    "description": "SQLite result code SQLITE_IOERR_SHMSIZE ((SQLITE_IOERR | (19<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_short_read",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_SHORT_READ",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Short Read",
+    "description": "SQLite result code SQLITE_IOERR_SHORT_READ ((SQLITE_IOERR | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_truncate",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_TRUNCATE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Truncate",
+    "description": "SQLite result code SQLITE_IOERR_TRUNCATE ((SQLITE_IOERR | (6<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_unlock",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_UNLOCK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Unlock",
+    "description": "SQLite result code SQLITE_IOERR_UNLOCK ((SQLITE_IOERR | (8<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_vnode",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_VNODE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Vnode",
+    "description": "SQLite result code SQLITE_IOERR_VNODE ((SQLITE_IOERR | (27<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ioerr_write",
+    "language": "SQL",
+    "code": "SQLITE_IOERR_WRITE",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Ioerr Write",
+    "description": "SQLite result code SQLITE_IOERR_WRITE ((SQLITE_IOERR | (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_locked",
+    "language": "SQL",
+    "code": "SQLITE_LOCKED",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Locked",
+    "description": "SQLite result code SQLITE_LOCKED (6   /* A table in the database is locked */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_locked_sharedcache",
+    "language": "SQL",
+    "code": "SQLITE_LOCKED_SHAREDCACHE",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Locked Sharedcache",
+    "description": "SQLite result code SQLITE_LOCKED_SHAREDCACHE ((SQLITE_LOCKED |  (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_locked_vtab",
+    "language": "SQL",
+    "code": "SQLITE_LOCKED_VTAB",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Locked Vtab",
+    "description": "SQLite result code SQLITE_LOCKED_VTAB ((SQLITE_LOCKED |  (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_mismatch",
+    "language": "SQL",
+    "code": "SQLITE_MISMATCH",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Mismatch",
+    "description": "SQLite result code SQLITE_MISMATCH (20   /* Data type mismatch */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_misuse",
+    "language": "SQL",
+    "code": "SQLITE_MISUSE",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Misuse",
+    "description": "SQLite result code SQLITE_MISUSE (21   /* Library used incorrectly */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_nolfs",
+    "language": "SQL",
+    "code": "SQLITE_NOLFS",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Nolfs",
+    "description": "SQLite result code SQLITE_NOLFS (22   /* Uses OS features not supported on host */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_nomem",
+    "language": "SQL",
+    "code": "SQLITE_NOMEM",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Nomem",
+    "description": "SQLite result code SQLITE_NOMEM (7   /* A malloc() failed */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_notadb",
+    "language": "SQL",
+    "code": "SQLITE_NOTADB",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Notadb",
+    "description": "SQLite result code SQLITE_NOTADB (26   /* File opened that is not a database file */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_notfound",
+    "language": "SQL",
+    "code": "SQLITE_NOTFOUND",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Notfound",
+    "description": "SQLite result code SQLITE_NOTFOUND (12   /* Unknown opcode in sqlite3_file_control() */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_notice",
+    "language": "SQL",
+    "code": "SQLITE_NOTICE",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Notice",
+    "description": "SQLite result code SQLITE_NOTICE (27   /* Notifications from sqlite3_log() */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_notice_rbu",
+    "language": "SQL",
+    "code": "SQLITE_NOTICE_RBU",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Notice Rbu",
+    "description": "SQLite result code SQLITE_NOTICE_RBU ((SQLITE_NOTICE | (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_notice_recover_rollback",
+    "language": "SQL",
+    "code": "SQLITE_NOTICE_RECOVER_ROLLBACK",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Notice Recover Rollback",
+    "description": "SQLite result code SQLITE_NOTICE_RECOVER_ROLLBACK ((SQLITE_NOTICE | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_notice_recover_wal",
+    "language": "SQL",
+    "code": "SQLITE_NOTICE_RECOVER_WAL",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Notice Recover Wal",
+    "description": "SQLite result code SQLITE_NOTICE_RECOVER_WAL ((SQLITE_NOTICE | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_ok",
+    "language": "SQL",
+    "code": "SQLITE_OK",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Ok",
+    "description": "SQLite result code SQLITE_OK (0   /* Successful result */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_perm",
+    "language": "SQL",
+    "code": "SQLITE_PERM",
+    "category": "Security",
+    "severity": "Runtime Exception",
+    "title": "Perm",
+    "description": "SQLite result code SQLITE_PERM (3   /* Access permission denied */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_protocol",
+    "language": "SQL",
+    "code": "SQLITE_PROTOCOL",
+    "category": "Concurrency",
+    "severity": "Runtime Exception",
+    "title": "Protocol",
+    "description": "SQLite result code SQLITE_PROTOCOL (15   /* Database lock protocol error */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_range",
+    "language": "SQL",
+    "code": "SQLITE_RANGE",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Range",
+    "description": "SQLite result code SQLITE_RANGE (25   /* 2nd parameter to sqlite3_bind out of range */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly",
+    "language": "SQL",
+    "code": "SQLITE_READONLY",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly",
+    "description": "SQLite result code SQLITE_READONLY (8   /* Attempt to write a readonly database */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly_cantinit",
+    "language": "SQL",
+    "code": "SQLITE_READONLY_CANTINIT",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly Cantinit",
+    "description": "SQLite result code SQLITE_READONLY_CANTINIT ((SQLITE_READONLY | (5<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly_cantlock",
+    "language": "SQL",
+    "code": "SQLITE_READONLY_CANTLOCK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly Cantlock",
+    "description": "SQLite result code SQLITE_READONLY_CANTLOCK ((SQLITE_READONLY | (2<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly_dbmoved",
+    "language": "SQL",
+    "code": "SQLITE_READONLY_DBMOVED",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly Dbmoved",
+    "description": "SQLite result code SQLITE_READONLY_DBMOVED ((SQLITE_READONLY | (4<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly_directory",
+    "language": "SQL",
+    "code": "SQLITE_READONLY_DIRECTORY",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly Directory",
+    "description": "SQLite result code SQLITE_READONLY_DIRECTORY ((SQLITE_READONLY | (6<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly_recovery",
+    "language": "SQL",
+    "code": "SQLITE_READONLY_RECOVERY",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly Recovery",
+    "description": "SQLite result code SQLITE_READONLY_RECOVERY ((SQLITE_READONLY | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_readonly_rollback",
+    "language": "SQL",
+    "code": "SQLITE_READONLY_ROLLBACK",
+    "category": "IO",
+    "severity": "Runtime Exception",
+    "title": "Readonly Rollback",
+    "description": "SQLite result code SQLITE_READONLY_ROLLBACK ((SQLITE_READONLY | (3<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_schema",
+    "language": "SQL",
+    "code": "SQLITE_SCHEMA",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Schema",
+    "description": "SQLite result code SQLITE_SCHEMA (17   /* The database schema changed */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_toobig",
+    "language": "SQL",
+    "code": "SQLITE_TOOBIG",
+    "category": "Memory",
+    "severity": "Runtime Exception",
+    "title": "Toobig",
+    "description": "SQLite result code SQLITE_TOOBIG (18   /* String or BLOB exceeds size limit */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_warning",
+    "language": "SQL",
+    "code": "SQLITE_WARNING",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Warning",
+    "description": "SQLite result code SQLITE_WARNING (28   /* Warnings from sqlite3_log() */) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "sql_sqlite_warning_autoindex",
+    "language": "SQL",
+    "code": "SQLITE_WARNING_AUTOINDEX",
+    "category": "Database",
+    "severity": "Runtime Exception",
+    "title": "Warning Autoindex",
+    "description": "SQLite result code SQLITE_WARNING_AUTOINDEX ((SQLITE_WARNING | (1<<8))) from the public SQLite API. It represents a database-engine outcome surfaced while executing SQL; a precise trigger and repair are pending editorial review.",
+    "bad_example": "-- Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "-- Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/sqlite/sqlite/blob/master/src/sqlite.h.in",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "SQLite database engine",
+      "SQL execution"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]

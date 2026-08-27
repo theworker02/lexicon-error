@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A static Hugging Face preview of LexiconError diagnostics." />
+    <title>LexiconError · Diagnostic Atlas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar">
+        <a class="brand" href="#" aria-label="LexiconError home"><span>LE</span><strong>LexiconError</strong></a>
+        <p class="subtle">A browsable atlas of compiler diagnostics, runtime faults, and accelerator errors.</p>
+        <div class="dataset-state" id="dataset-state">Loading local preview…</div>
+        <label class="field-label" for="language-filter">Language</label>
+        <select id="language-filter"><option value="">All languages</option></select>
+        <label class="field-label" for="severity-filter">Severity</label>
+        <select id="severity-filter"><option value="">All severities</option></select>
+        <p class="small-note">This browser preview never executes snippets or sends search text anywhere.</p>
+      </aside>
+      <section class="catalog">
+        <header>
+          <div>
+            <p class="eyebrow">Static Hugging Face preview</p>
+            <h1>Diagnostic atlas</h1>
+          </div>
+          <span class="record-count" id="record-count">0 records</span>
+        </header>
+        <label class="search" for="query">
+          <span aria-hidden="true">⌕</span>
+          <input id="query" type="search" autocomplete="off" placeholder="Search codes, titles, explanations…" />
+          <kbd>/</kbd>
+        </label>
+        <div class="columns"><span>Diagnostic</span><span>Language</span><span>Severity</span></div>
+        <div class="results" id="results" aria-live="polite"></div>
+      </section>
+      <section class="inspector" id="inspector">
+        <div class="empty">Choose a diagnostic to inspect its root cause and repair.</div>
+      </section>
+    </main>
+    <template id="row-template">
+      <button class="result-row" type="button">
+        <span class="diagnostic"><code></code><strong></strong><small></small></span>
+        <span class="language"></span>
+        <span class="severity"></span>
+      </button>
+    </template>
+    <script src="app.js"></script>
+  </body>
+</html>
+

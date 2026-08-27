@@ -1,0 +1,3290 @@
+[
+  {
+    "id": "ada_constraint_error_range_check",
+    "canonical_id": "ada.gnat.constraint-error",
+    "language": "Ada",
+    "tool_id": "gnat",
+    "code": "Constraint_Error",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "A constrained subtype receives a value outside its range",
+    "description": "Ada subtypes carry runtime constraints. When a range check detects that a value falls outside the declared bounds, the runtime raises Constraint_Error instead of silently storing an invalid value.",
+    "bad_example": "procedure Bad is\n  subtype Small is Integer range 1 .. 3;\n  Value : Small := 4;\nbegin\n  null;\nend Bad;",
+    "good_example": "procedure Good is\n  subtype Small is Integer range 1 .. 3;\n  Value : Small := 3;\nbegin\n  null;\nend Good;",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://docs.adacore.com/gnat_ugn-docs/html/gnat_ugn/gnat_ugn.html",
+    "source_reference": "https://docs.adacore.com/gnat_ugn-docs/html/gnat_ugn/gnat_ugn.html",
+    "tier": 2,
+    "frequency": "Common",
+    "situational_context": [
+      "Ada range checks",
+      "safety-critical runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "runtime-error",
+      "exception"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "a constrained subtype receives a value outside its range",
+    "provenance": {
+      "source_type": "curated-entry",
+      "source_authority": "Contributor reviewed",
+      "review_state": "reviewed",
+      "source_url": "https://docs.adacore.com/gnat_ugn-docs/html/gnat_ugn/gnat_ugn.html",
+      "source_title": "A constrained subtype receives a value outside its range",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Verified"
+  },
+  {
+    "id": "agda_unsolved_meta",
+    "canonical_id": "agda.agda.unsolved-metas",
+    "language": "Agda",
+    "tool_id": "agda",
+    "code": "Unsolved metas",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "A hole leaves an unsolved metavariable",
+    "description": "Agda turns an omitted term into a metavariable and checks whether unification can determine it. A polymorphic function with no input evidence leaves that metavariable unsolved, so the module is rejected.",
+    "bad_example": "postulate A : Set\nbad : A\nbad = ?",
+    "good_example": "postulate A : Set\ngood : A -> A\ngood x = x",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://agda.readthedocs.io/en/latest/language/type-system.html",
+    "source_reference": "https://agda.readthedocs.io/en/latest/language/type-system.html",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Agda interactive holes",
+      "dependent type checking"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "a hole leaves an unsolved metavariable",
+    "provenance": {
+      "source_type": "curated-entry",
+      "source_authority": "Contributor reviewed",
+      "review_state": "reviewed",
+      "source_url": "https://agda.readthedocs.io/en/latest/language/type-system.html",
+      "source_title": "A hole leaves an unsolved metavariable",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Verified"
+  },
+  {
+    "id": "brainfuck_unmatched_loop_start",
+    "canonical_id": "brainfuck.brainfuck-interpreter.unmatched",
+    "language": "Brainfuck",
+    "tool_id": "brainfuck-interpreter",
+    "code": "unmatched '['",
+    "category": "Syntax",
+    "severity": "Compiler Error",
+    "title": "A loop start has no closing bracket",
+    "description": "Brainfuck loops are paired by matching [ and ]. An interpreter or compiler cannot determine the jump target for an unmatched opening bracket, so it must reject the program before execution.",
+    "bad_example": "[++.>",
+    "good_example": "[++.>]",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://esolangs.org/wiki/Brainfuck",
+    "source_reference": "https://esolangs.org/wiki/Brainfuck",
+    "tier": 2,
+    "frequency": "Common",
+    "situational_context": [
+      "Brainfuck parser",
+      "loop jump table"
+    ],
+    "interaction_types": [
+      "parser"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "syntax-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "a loop start has no closing bracket",
+    "provenance": {
+      "source_type": "curated-entry",
+      "source_authority": "Contributor reviewed",
+      "review_state": "reviewed",
+      "source_url": "https://esolangs.org/wiki/Brainfuck",
+      "source_title": "A loop start has no closing bracket",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Verified"
+  },
+  {
+    "id": "c_implicit_function_declaration",
+    "canonical_id": "c.gcc.implicit-declaration-of-function",
+    "language": "C",
+    "tool_id": "gcc",
+    "code": "implicit declaration of function",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "A function is called without a visible declaration",
+    "description": "C compilation needs a visible declaration to type-check a call. Modern C modes reject an undeclared function instead of guessing its return type and calling convention.",
+    "bad_example": "int main(void) { return total(); }",
+    "good_example": "int total(void) { return 42; }\nint main(void) { return total(); }",
+    "version_introduced": "C99",
+    "version_deprecated": null,
+    "source_url": "https://clang.llvm.org/docs/DiagnosticsReference.html",
+    "source_reference": "https://clang.llvm.org/docs/DiagnosticsReference.html",
+    "tier": 2,
+    "frequency": "Common",
+    "situational_context": [
+      "C compiler",
+      "function declarations"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "a function is called without a visible declaration",
+    "provenance": {
+      "source_type": "curated-entry",
+      "source_authority": "Contributor reviewed",
+      "review_state": "reviewed",
+      "source_url": "https://clang.llvm.org/docs/DiagnosticsReference.html",
+      "source_title": "A function is called without a visible declaration",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Verified"
+  },
+  {
+    "id": "cs_cs0006",
+    "canonical_id": "csharp.roslyn.cs0006",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0006",
+    "category": "Modules",
+    "severity": "Compiler Error",
+    "title": "No Metadata File",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NoMetadataFile as CS0006. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "module-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "no metadata file",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "No Metadata File",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0009",
+    "canonical_id": "csharp.roslyn.cs0009",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0009",
+    "category": "Modules",
+    "severity": "Fatal",
+    "title": "Metadata Cant Open File",
+    "description": "Roslyn's active C# ErrorCode enum declares FTL_MetadataCantOpenFile as CS0009. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "module-error"
+    ],
+    "normalized_severity": "fatal",
+    "fingerprint": "metadata cant open file",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Metadata Cant Open File",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0012",
+    "canonical_id": "csharp.roslyn.cs0012",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0012",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "No Type Def",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NoTypeDef as CS0012. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "no type def",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "No Type Def",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0016",
+    "canonical_id": "csharp.roslyn.cs0016",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0016",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Output Write Failed",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_OutputWriteFailed as CS0016. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "output write failed",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Output Write Failed",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0017",
+    "canonical_id": "csharp.roslyn.cs0017",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0017",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Multiple Entry Points",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_MultipleEntryPoints as CS0017. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "multiple entry points",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Multiple Entry Points",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0019",
+    "canonical_id": "csharp.roslyn.cs0019",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0019",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Binary Ops",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadBinaryOps as CS0019. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad binary ops",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Binary Ops",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0020",
+    "canonical_id": "csharp.roslyn.cs0020",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0020",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Int Div By Zero",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_IntDivByZero as CS0020. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "int div by zero",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Int Div By Zero",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0021",
+    "canonical_id": "csharp.roslyn.cs0021",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0021",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Index LHS",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadIndexLHS as CS0021. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad index lhs",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Index LHS",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0022",
+    "canonical_id": "csharp.roslyn.cs0022",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0022",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Index Count",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadIndexCount as CS0022. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad index count",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Index Count",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0023",
+    "canonical_id": "csharp.roslyn.cs0023",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0023",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Unary Op",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadUnaryOp as CS0023. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad unary op",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Unary Op",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0026",
+    "canonical_id": "csharp.roslyn.cs0026",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0026",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "This In Static Meth",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ThisInStaticMeth as CS0026. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "this in static meth",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "This In Static Meth",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0027",
+    "canonical_id": "csharp.roslyn.cs0027",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0027",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "This In Bad Context",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ThisInBadContext as CS0027. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "this in bad context",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "This In Bad Context",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0028",
+    "canonical_id": "csharp.roslyn.cs0028",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0028",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "Invalid Main Sig",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_InvalidMainSig as CS0028. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "invalid main sig",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Invalid Main Sig",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0029",
+    "canonical_id": "csharp.roslyn.cs0029",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0029",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Cannot implicitly convert type",
+    "description": "The compiler found an assignment between incompatible types without an implicit conversion. C# requires an explicit cast or conversion when data could be lost or the conversion is not defined.",
+    "bad_example": "int count = \"12\";",
+    "good_example": "int count = int.Parse(\"12\");",
+    "version_introduced": "C# 1.0",
+    "version_deprecated": null,
+    "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0029",
+    "source_reference": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0029",
+    "tier": 1,
+    "frequency": "Common",
+    "situational_context": [],
+    "interaction_types": [],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "cannot implicitly convert type",
+    "provenance": {
+      "source_type": "curated-entry",
+      "source_authority": "Contributor reviewed",
+      "review_state": "reviewed",
+      "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/cs0029",
+      "source_title": "Cannot implicitly convert type",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Verified"
+  },
+  {
+    "id": "cs_cs0030",
+    "canonical_id": "csharp.roslyn.cs0030",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0030",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "No Explicit Conv",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NoExplicitConv as CS0030. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "no explicit conv",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "No Explicit Conv",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0031",
+    "canonical_id": "csharp.roslyn.cs0031",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0031",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Const Out Of Range",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ConstOutOfRange as CS0031. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "const out of range",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Const Out Of Range",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0034",
+    "canonical_id": "csharp.roslyn.cs0034",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0034",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Ambig Binary Ops",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AmbigBinaryOps as CS0034. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "ambig binary ops",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Ambig Binary Ops",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0035",
+    "canonical_id": "csharp.roslyn.cs0035",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0035",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Ambig Unary Op",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AmbigUnaryOp as CS0035. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "ambig unary op",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Ambig Unary Op",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0036",
+    "canonical_id": "csharp.roslyn.cs0036",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0036",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "In Attr On Out Param",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_InAttrOnOutParam as CS0036. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "in attr on out param",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "In Attr On Out Param",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0037",
+    "canonical_id": "csharp.roslyn.cs0037",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0037",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Value Cant Be Null",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ValueCantBeNull as CS0037. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "value cant be null",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Value Cant Be Null",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0039",
+    "canonical_id": "csharp.roslyn.cs0039",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0039",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "No Explicit Builtin Conv",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NoExplicitBuiltinConv as CS0039. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "no explicit builtin conv",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "No Explicit Builtin Conv",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0041",
+    "canonical_id": "csharp.roslyn.cs0041",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0041",
+    "category": "Compiler",
+    "severity": "Fatal",
+    "title": "Debug Emit Failure",
+    "description": "Roslyn's active C# ErrorCode enum declares FTL_DebugEmitFailure as CS0041. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "fatal",
+    "fingerprint": "debug emit failure",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Debug Emit Failure",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0050",
+    "canonical_id": "csharp.roslyn.cs0050",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0050",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Return Type",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisReturnType as CS0050. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis return type",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Return Type",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0051",
+    "canonical_id": "csharp.roslyn.cs0051",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0051",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Param Type",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisParamType as CS0051. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis param type",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Param Type",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0052",
+    "canonical_id": "csharp.roslyn.cs0052",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0052",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Field Type",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisFieldType as CS0052. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis field type",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Field Type",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0053",
+    "canonical_id": "csharp.roslyn.cs0053",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0053",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Property Type",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisPropertyType as CS0053. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis property type",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Property Type",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0054",
+    "canonical_id": "csharp.roslyn.cs0054",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0054",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Indexer Return",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisIndexerReturn as CS0054. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis indexer return",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Indexer Return",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0055",
+    "canonical_id": "csharp.roslyn.cs0055",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0055",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Indexer Param",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisIndexerParam as CS0055. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis indexer param",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Indexer Param",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0056",
+    "canonical_id": "csharp.roslyn.cs0056",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0056",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Op Return",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisOpReturn as CS0056. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis op return",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Op Return",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0057",
+    "canonical_id": "csharp.roslyn.cs0057",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0057",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Op Param",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisOpParam as CS0057. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis op param",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Op Param",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0058",
+    "canonical_id": "csharp.roslyn.cs0058",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0058",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Delegate Return",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisDelegateReturn as CS0058. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis delegate return",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Delegate Return",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0059",
+    "canonical_id": "csharp.roslyn.cs0059",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0059",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Delegate Param",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisDelegateParam as CS0059. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis delegate param",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Delegate Param",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0060",
+    "canonical_id": "csharp.roslyn.cs0060",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0060",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Base Class",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisBaseClass as CS0060. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis base class",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Base Class",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0061",
+    "canonical_id": "csharp.roslyn.cs0061",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0061",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Vis Base Interface",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadVisBaseInterface as CS0061. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad vis base interface",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Vis Base Interface",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0065",
+    "canonical_id": "csharp.roslyn.cs0065",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0065",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Event Needs Both Accessors",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_EventNeedsBothAccessors as CS0065. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "event needs both accessors",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Event Needs Both Accessors",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0066",
+    "canonical_id": "csharp.roslyn.cs0066",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0066",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Event Not Delegate",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_EventNotDelegate as CS0066. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "event not delegate",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Event Not Delegate",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0067",
+    "canonical_id": "csharp.roslyn.cs0067",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0067",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "Unreferenced Event",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_UnreferencedEvent as CS0067. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "unreferenced event",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Unreferenced Event",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0068",
+    "canonical_id": "csharp.roslyn.cs0068",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0068",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Interface Event Initializer",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_InterfaceEventInitializer as CS0068. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "interface event initializer",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Interface Event Initializer",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0070",
+    "canonical_id": "csharp.roslyn.cs0070",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0070",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Event Usage",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadEventUsage as CS0070. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad event usage",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Event Usage",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0071",
+    "canonical_id": "csharp.roslyn.cs0071",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0071",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Explicit Event Field Impl",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ExplicitEventFieldImpl as CS0071. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "explicit event field impl",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Explicit Event Field Impl",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0072",
+    "canonical_id": "csharp.roslyn.cs0072",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0072",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Cant Override Non Event",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_CantOverrideNonEvent as CS0072. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "cant override non event",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Cant Override Non Event",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0073",
+    "canonical_id": "csharp.roslyn.cs0073",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0073",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Add Remove Must Have Body",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AddRemoveMustHaveBody as CS0073. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "add remove must have body",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Add Remove Must Have Body",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0074",
+    "canonical_id": "csharp.roslyn.cs0074",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0074",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Abstract Event Initializer",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AbstractEventInitializer as CS0074. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "abstract event initializer",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Abstract Event Initializer",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0075",
+    "canonical_id": "csharp.roslyn.cs0075",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0075",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Possible Bad Neg Cast",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_PossibleBadNegCast as CS0075. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "possible bad neg cast",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Possible Bad Neg Cast",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0076",
+    "canonical_id": "csharp.roslyn.cs0076",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0076",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Reserved Enumerator",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ReservedEnumerator as CS0076. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "reserved enumerator",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Reserved Enumerator",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0077",
+    "canonical_id": "csharp.roslyn.cs0077",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0077",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "As Must Have Reference Type",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AsMustHaveReferenceType as CS0077. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "as must have reference type",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "As Must Have Reference Type",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0078",
+    "canonical_id": "csharp.roslyn.cs0078",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0078",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "Lowercase Ell Suffix",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_LowercaseEllSuffix as CS0078. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "lowercase ell suffix",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Lowercase Ell Suffix",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0079",
+    "canonical_id": "csharp.roslyn.cs0079",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0079",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Event Usage No Field",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadEventUsageNoField as CS0079. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad event usage no field",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Event Usage No Field",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0080",
+    "canonical_id": "csharp.roslyn.cs0080",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0080",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Constraint Only Allowed On Generic Decl",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ConstraintOnlyAllowedOnGenericDecl as CS0080. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "constraint only allowed on generic decl",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Constraint Only Allowed On Generic Decl",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0081",
+    "canonical_id": "csharp.roslyn.cs0081",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0081",
+    "category": "Type System",
+    "severity": "Compiler Error",
+    "title": "Type Param Must Be Identifier",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_TypeParamMustBeIdentifier as CS0081. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "type-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "type param must be identifier",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Type Param Must Be Identifier",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0082",
+    "canonical_id": "csharp.roslyn.cs0082",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0082",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Member Reserved",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_MemberReserved as CS0082. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "member reserved",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Member Reserved",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0100",
+    "canonical_id": "csharp.roslyn.cs0100",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0100",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Duplicate Param Name",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_DuplicateParamName as CS0100. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "duplicate param name",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Duplicate Param Name",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0101",
+    "canonical_id": "csharp.roslyn.cs0101",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0101",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Duplicate Name In NS",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_DuplicateNameInNS as CS0101. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "duplicate name in ns",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Duplicate Name In NS",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0102",
+    "canonical_id": "csharp.roslyn.cs0102",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0102",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Duplicate Name In Class",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_DuplicateNameInClass as CS0102. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "duplicate name in class",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Duplicate Name In Class",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0103",
+    "canonical_id": "csharp.roslyn.cs0103",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0103",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Name Not In Context",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NameNotInContext as CS0103. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "name not in context",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Name Not In Context",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0104",
+    "canonical_id": "csharp.roslyn.cs0104",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0104",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Ambig Context",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AmbigContext as CS0104. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "ambig context",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Ambig Context",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0105",
+    "canonical_id": "csharp.roslyn.cs0105",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0105",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "Duplicate Using",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_DuplicateUsing as CS0105. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "duplicate using",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Duplicate Using",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0106",
+    "canonical_id": "csharp.roslyn.cs0106",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0106",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Member Flag",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadMemberFlag as CS0106. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad member flag",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Member Flag",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0107",
+    "canonical_id": "csharp.roslyn.cs0107",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0107",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Member Protection",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadMemberProtection as CS0107. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad member protection",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Member Protection",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0108",
+    "canonical_id": "csharp.roslyn.cs0108",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0108",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "New Required",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_NewRequired as CS0108. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "new required",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "New Required",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0109",
+    "canonical_id": "csharp.roslyn.cs0109",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0109",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "New Not Required",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_NewNotRequired as CS0109. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "new not required",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "New Not Required",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0110",
+    "canonical_id": "csharp.roslyn.cs0110",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0110",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Circ Const Value",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_CircConstValue as CS0110. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "circ const value",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Circ Const Value",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0111",
+    "canonical_id": "csharp.roslyn.cs0111",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0111",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Member Already Exists",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_MemberAlreadyExists as CS0111. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "member already exists",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Member Already Exists",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0112",
+    "canonical_id": "csharp.roslyn.cs0112",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0112",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Static Not Virtual",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_StaticNotVirtual as CS0112. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "static not virtual",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Static Not Virtual",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0113",
+    "canonical_id": "csharp.roslyn.cs0113",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0113",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Override Not New",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_OverrideNotNew as CS0113. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "override not new",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Override Not New",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0114",
+    "canonical_id": "csharp.roslyn.cs0114",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0114",
+    "category": "Compiler",
+    "severity": "Warning",
+    "title": "New Or Override Expected",
+    "description": "Roslyn's active C# ErrorCode enum declares WRN_NewOrOverrideExpected as CS0114. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error",
+      "warning"
+    ],
+    "normalized_severity": "warning",
+    "fingerprint": "new or override expected",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "New Or Override Expected",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0115",
+    "canonical_id": "csharp.roslyn.cs0115",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0115",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Override Not Expected",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_OverrideNotExpected as CS0115. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "override not expected",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Override Not Expected",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0116",
+    "canonical_id": "csharp.roslyn.cs0116",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0116",
+    "category": "Modules",
+    "severity": "Compiler Error",
+    "title": "Namespace Unexpected",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NamespaceUnexpected as CS0116. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "module-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "namespace unexpected",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Namespace Unexpected",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0117",
+    "canonical_id": "csharp.roslyn.cs0117",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0117",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "No Such Member",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_NoSuchMember as CS0117. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "no such member",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "No Such Member",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0118",
+    "canonical_id": "csharp.roslyn.cs0118",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0118",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad S Kknown",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadSKknown as CS0118. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad s kknown",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad S Kknown",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0119",
+    "canonical_id": "csharp.roslyn.cs0119",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0119",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad S Kunknown",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadSKunknown as CS0119. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad s kunknown",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad S Kunknown",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0120",
+    "canonical_id": "csharp.roslyn.cs0120",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0120",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Object Required",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_ObjectRequired as CS0120. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "object required",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Object Required",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0121",
+    "canonical_id": "csharp.roslyn.cs0121",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0121",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Ambig Call",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_AmbigCall as CS0121. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "ambig call",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Ambig Call",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0122",
+    "canonical_id": "csharp.roslyn.cs0122",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0122",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Bad Access",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_BadAccess as CS0122. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "bad access",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Bad Access",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0123",
+    "canonical_id": "csharp.roslyn.cs0123",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0123",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Meth Delegate Mismatch",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_MethDelegateMismatch as CS0123. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "meth delegate mismatch",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Meth Delegate Mismatch",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  },
+  {
+    "id": "cs_cs0126",
+    "canonical_id": "csharp.roslyn.cs0126",
+    "language": "C#",
+    "tool_id": "roslyn",
+    "code": "CS0126",
+    "category": "Compiler",
+    "severity": "Compiler Error",
+    "title": "Ret Object Required",
+    "description": "Roslyn's active C# ErrorCode enum declares ERR_RetObjectRequired as CS0126. This registry record preserves the authoritative diagnostic identity; editorial explanation and examples are pending review.",
+    "bad_example": "// Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "// Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "source_reference": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "Roslyn C# compiler"
+    ],
+    "interaction_types": [
+      "compiler"
+    ],
+    "related_errors": [],
+    "state_snapshot": null,
+    "classifications": [
+      "compilation-error"
+    ],
+    "normalized_severity": "error",
+    "fingerprint": "ret object required",
+    "provenance": {
+      "source_type": "official-registry-metadata",
+      "source_authority": "Official",
+      "review_state": "generated-draft",
+      "source_url": "https://github.com/dotnet/roslyn/blob/main/src/Compilers/CSharp/Portable/Errors/ErrorCode.cs",
+      "source_title": "Ret Object Required",
+      "dataset_version": "2026.08"
+    },
+    "verification_status": "Needs Review"
+  }
+]

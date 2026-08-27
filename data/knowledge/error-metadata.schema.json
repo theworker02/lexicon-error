@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lexiconerror.dev/schemas/error-metadata.json",
+  "title": "Lexicon Error normalized metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["entry_id", "canonical_id", "language_id", "tool_id", "classifications", "normalized_severity", "canonical_message", "summary", "fingerprint", "provenance", "verification_status"],
+  "properties": {
+    "entry_id": {"type":"string", "pattern":"^[a-z0-9]+(?:_[a-z0-9]+)+$"},
+    "canonical_id": {"type":"string", "pattern":"^[a-z0-9-]+(?:\.[a-z0-9-]+){2,}$"},
+    "language_id": {"type":"string", "pattern":"^[a-z0-9-]+$"},
+    "tool_id": {"type":"string", "pattern":"^[a-z0-9-]+$"},
+    "classifications": {"type":"array", "minItems":1, "items":{"type":"string", "enum":["syntax-error","parse-error","lexical-error","type-error","name-resolution-error","scope-error","import-error","module-error","dependency-error","compilation-error","linker-error","runtime-error","exception","warning","deprecation","linter-diagnostic","formatter-diagnostic","build-error","package-error","configuration-error","concurrency-error","memory-error","io-error","network-error","database-error","security-error","ffi-error","platform-error","toolchain-error","framework-error","test-error"]}},
+    "normalized_severity": {"type":"string", "enum":["fatal","error","warning","information","hint","deprecation"]},
+    "canonical_message": {"type":"string", "minLength":1},
+    "summary": {"type":"string", "minLength":1},
+    "when_it_occurs": {"type":"array", "items":{"type":"string"}},
+    "causes": {"type":"array", "items":{"type":"object", "required":["id"], "properties":{"id":{"type":"string"}, "likelihood":{"type":"string", "enum":["common","occasional","rare","unknown"]}}}},
+    "fixes": {"type":"array", "items":{"type":"object", "required":["summary"], "properties":{"summary":{"type":"string"}, "confidence":{"type":"string", "enum":["common-fix","context-dependent","version-specific","potentially-breaking"]}}}},
+    "prevention": {"type":["string","null"]},
+    "explanation_of_example": {"type":["string","null"]},
+    "tags": {"type":"array", "items":{"type":"string"}},
+    "aliases": {"type":"array", "items":{"type":"string"}},
+    "fingerprint": {"type":"string", "minLength":1},
+    "signature_kind": {"type":"string", "enum":["exact","prefix","structured-pattern","safe-regex","diagnostic-code","exception-type","identifier"]},
+    "signature_pattern": {"type":["string","null"]},
+    "platforms": {"type":"array", "items":{"type":"string", "enum":["Windows","macOS","Linux","Unix","Browser","Node.js","Embedded","WASM"]}},
+    "provenance": {"type":"object", "required":["source_type"], "properties":{"source_type":{"type":"string"}, "source_url":{"type":["string","null"], "format":"uri"}, "source_title":{"type":["string","null"]}, "dataset_version":{"type":"string"}, "license":{"type":["string","null"]}, "retrieved_at":{"type":["string","null"], "format":"date-time"}}},
+    "verification_status": {"type":"string", "enum":["Official","Verified","Community Verified","Needs Review","Historical","Deprecated"]}
+  }
+}

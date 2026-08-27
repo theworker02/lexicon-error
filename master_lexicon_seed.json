@@ -1,0 +1,14 @@
+[
+    {
+        "id": "python_typeerror",
+        "language": "Python",
+        "code": "TypeError",
+        "category": "Type System",
+        "severity": "Runtime Exception",
+        "description": "Raised when an operation or function is applied to an object of inappropriate type.",
+        "bad_example": "result = '2' + 2",
+        "good_example": "result = int('2') + 2",
+        "situational_context": "Implicit type coercion between strings and integers during arithmetic operations.",
+        "version_introduced": "1.0.0"
+    }
+]

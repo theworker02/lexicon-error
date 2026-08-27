@@ -1,0 +1,2847 @@
+{
+  "received_records": 1207,
+  "unique_language_code_candidates": 125,
+  "source_attributed_candidates": 42,
+  "unattributed_staging_candidates": 32,
+  "existing_canonical_collisions": 51,
+  "records": [
+    {
+      "language": "C#",
+      "code": "ArgumentOutOfRangeException",
+      "canonical_candidate_id": "csharp_argumentoutofrangeexception_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_argumentoutofrangeexception_1",
+        "csharp_argumentoutofrangeexception_2",
+        "csharp_argumentoutofrangeexception_3",
+        "csharp_argumentoutofrangeexception_4",
+        "csharp_argumentoutofrangeexception_5",
+        "csharp_argumentoutofrangeexception_6",
+        "csharp_argumentoutofrangeexception_7",
+        "csharp_argumentoutofrangeexception_8",
+        "csharp_argumentoutofrangeexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "CS0029",
+      "canonical_candidate_id": "csharp_cs0029_v1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_cs0029_v1",
+        "csharp_cs0029_v2",
+        "csharp_cs0029_v3",
+        "csharp_cs0029_v4",
+        "csharp_cs0029_v5",
+        "csharp_cs0029_v6",
+        "csharp_cs0029_v7",
+        "csharp_cs0029_v8",
+        "csharp_cs0029_v9",
+        "csharp_cs0029_v10",
+        "csharp_cs0029_v11"
+      ],
+      "variant_count": 11,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "CS0103",
+      "canonical_candidate_id": "dotnet_cs0103_1",
+      "source_files": [
+        "lexicon_master_database.json",
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "csharp_cs0103_v1",
+        "csharp_cs0103_v2",
+        "csharp_cs0103_v3",
+        "csharp_cs0103_v4",
+        "csharp_cs0103_v5",
+        "csharp_cs0103_v6",
+        "csharp_cs0103_v7",
+        "csharp_cs0103_v8",
+        "csharp_cs0103_v9",
+        "csharp_cs0103_v10",
+        "csharp_cs0103_v11",
+        "dotnet_cs0103_1",
+        "dotnet_cs0103_2",
+        "dotnet_cs0103_3",
+        "dotnet_cs0103_4",
+        "dotnet_cs0103_5",
+        "dotnet_cs0103_6",
+        "dotnet_cs0103_7",
+        "dotnet_cs0103_8",
+        "dotnet_cs0103_9"
+      ],
+      "variant_count": 20,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/"
+    },
+    {
+      "language": "C#",
+      "code": "CS0201",
+      "canonical_candidate_id": "csharp_cs0201_v1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_cs0201_v1",
+        "csharp_cs0201_v2",
+        "csharp_cs0201_v3",
+        "csharp_cs0201_v4",
+        "csharp_cs0201_v5",
+        "csharp_cs0201_v6",
+        "csharp_cs0201_v7",
+        "csharp_cs0201_v8",
+        "csharp_cs0201_v9",
+        "csharp_cs0201_v10",
+        "csharp_cs0201_v11"
+      ],
+      "variant_count": 11,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "CS1061",
+      "canonical_candidate_id": "csharp_cs1061_v1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_cs1061_v1",
+        "csharp_cs1061_v2",
+        "csharp_cs1061_v3",
+        "csharp_cs1061_v4",
+        "csharp_cs1061_v5",
+        "csharp_cs1061_v6",
+        "csharp_cs1061_v7",
+        "csharp_cs1061_v8",
+        "csharp_cs1061_v9",
+        "csharp_cs1061_v10",
+        "csharp_cs1061_v11"
+      ],
+      "variant_count": 11,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "CS8600",
+      "canonical_candidate_id": "dotnet_cs8600_1",
+      "source_files": [
+        "lexicon_master_database.json",
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "csharp_cs8600_v1",
+        "csharp_cs8600_v2",
+        "csharp_cs8600_v3",
+        "csharp_cs8600_v4",
+        "csharp_cs8600_v5",
+        "csharp_cs8600_v6",
+        "csharp_cs8600_v7",
+        "csharp_cs8600_v8",
+        "csharp_cs8600_v9",
+        "csharp_cs8600_v10",
+        "csharp_cs8600_v11",
+        "dotnet_cs8600_1",
+        "dotnet_cs8600_2",
+        "dotnet_cs8600_3",
+        "dotnet_cs8600_4",
+        "dotnet_cs8600_5",
+        "dotnet_cs8600_6",
+        "dotnet_cs8600_7",
+        "dotnet_cs8600_8",
+        "dotnet_cs8600_9"
+      ],
+      "variant_count": 20,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/"
+    },
+    {
+      "language": "C#",
+      "code": "InvalidCastException",
+      "canonical_candidate_id": "csharp_invalidcastexception_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_invalidcastexception_1",
+        "csharp_invalidcastexception_2",
+        "csharp_invalidcastexception_3",
+        "csharp_invalidcastexception_4",
+        "csharp_invalidcastexception_5",
+        "csharp_invalidcastexception_6",
+        "csharp_invalidcastexception_7",
+        "csharp_invalidcastexception_8",
+        "csharp_invalidcastexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "Microsoft.EntityFrameworkCore.DbUpdateException",
+      "canonical_candidate_id": "dotnet_microsoft_entityframeworkcore_dbupdateexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_1",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_2",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_3",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_4",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_5",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_6",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_7",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_8",
+        "dotnet_microsoft_entityframeworkcore_dbupdateexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/"
+    },
+    {
+      "language": "C#",
+      "code": "NullReferenceException",
+      "canonical_candidate_id": "csharp_nullreferenceexception_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_nullreferenceexception_1",
+        "csharp_nullreferenceexception_2",
+        "csharp_nullreferenceexception_3",
+        "csharp_nullreferenceexception_4",
+        "csharp_nullreferenceexception_5",
+        "csharp_nullreferenceexception_6",
+        "csharp_nullreferenceexception_7",
+        "csharp_nullreferenceexception_8",
+        "csharp_nullreferenceexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "OutOfMemoryException",
+      "canonical_candidate_id": "csharp_outofmemoryexception_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_outofmemoryexception_1",
+        "csharp_outofmemoryexception_2",
+        "csharp_outofmemoryexception_3",
+        "csharp_outofmemoryexception_4",
+        "csharp_outofmemoryexception_5",
+        "csharp_outofmemoryexception_6",
+        "csharp_outofmemoryexception_7",
+        "csharp_outofmemoryexception_8",
+        "csharp_outofmemoryexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "StackOverflowException",
+      "canonical_candidate_id": "csharp_stackoverflowexception_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "csharp_stackoverflowexception_1",
+        "csharp_stackoverflowexception_2",
+        "csharp_stackoverflowexception_3",
+        "csharp_stackoverflowexception_4",
+        "csharp_stackoverflowexception_5",
+        "csharp_stackoverflowexception_6",
+        "csharp_stackoverflowexception_7",
+        "csharp_stackoverflowexception_8",
+        "csharp_stackoverflowexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "C#",
+      "code": "System.InvalidCastException",
+      "canonical_candidate_id": "dotnet_system_invalidcastexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "dotnet_system_invalidcastexception_1",
+        "dotnet_system_invalidcastexception_2",
+        "dotnet_system_invalidcastexception_3",
+        "dotnet_system_invalidcastexception_4",
+        "dotnet_system_invalidcastexception_5",
+        "dotnet_system_invalidcastexception_6",
+        "dotnet_system_invalidcastexception_7",
+        "dotnet_system_invalidcastexception_8",
+        "dotnet_system_invalidcastexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/"
+    },
+    {
+      "language": "C#",
+      "code": "System.OutOfMemoryException",
+      "canonical_candidate_id": "dotnet_system_outofmemoryexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "dotnet_system_outofmemoryexception_1",
+        "dotnet_system_outofmemoryexception_2",
+        "dotnet_system_outofmemoryexception_3",
+        "dotnet_system_outofmemoryexception_4",
+        "dotnet_system_outofmemoryexception_5",
+        "dotnet_system_outofmemoryexception_6",
+        "dotnet_system_outofmemoryexception_7",
+        "dotnet_system_outofmemoryexception_8",
+        "dotnet_system_outofmemoryexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/"
+    },
+    {
+      "language": "C++",
+      "code": "SIGSEGV",
+      "canonical_candidate_id": "cpp_sigsegv_1",
+      "source_files": [
+        "lexicon_master_database.json",
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "cpp_sigsegv_1",
+        "cpp_sigsegv_2",
+        "cpp_sigsegv_3",
+        "cpp_sigsegv_4",
+        "cpp_sigsegv_5",
+        "cpp_sigsegv_6",
+        "cpp_sigsegv_7",
+        "cpp_sigsegv_8",
+        "cpp_sigsegv_9",
+        "cpp_sigsegv_10",
+        "cpp_sigsegv_11",
+        "cpp_sigsegv_12",
+        "cpp_sigsegv_13",
+        "cpp_sigsegv_14",
+        "cpp_sigsegv_1",
+        "cpp_sigsegv_2",
+        "cpp_sigsegv_3",
+        "cpp_sigsegv_4",
+        "cpp_sigsegv_5"
+      ],
+      "variant_count": 19,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Cpp+SIGSEGV+documentation"
+    },
+    {
+      "language": "C++",
+      "code": "TEMPLATE_DEDUCTION_FAIL",
+      "canonical_candidate_id": "cpp_template_deduction_fail_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "cpp_template_deduction_fail_1",
+        "cpp_template_deduction_fail_2",
+        "cpp_template_deduction_fail_3",
+        "cpp_template_deduction_fail_4",
+        "cpp_template_deduction_fail_5",
+        "cpp_template_deduction_fail_6",
+        "cpp_template_deduction_fail_7",
+        "cpp_template_deduction_fail_8",
+        "cpp_template_deduction_fail_9",
+        "cpp_template_deduction_fail_10",
+        "cpp_template_deduction_fail_11",
+        "cpp_template_deduction_fail_12",
+        "cpp_template_deduction_fail_13",
+        "cpp_template_deduction_fail_14"
+      ],
+      "variant_count": 14,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "CUDA",
+      "code": "cudaErrorIllegalAddress",
+      "canonical_candidate_id": "cuda_cudaerrorillegaladdress_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "cuda_cudaerrorillegaladdress_1",
+        "cuda_cudaerrorillegaladdress_2",
+        "cuda_cudaerrorillegaladdress_3",
+        "cuda_cudaerrorillegaladdress_4",
+        "cuda_cudaerrorillegaladdress_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://docs.nvidia.com/cuda/"
+    },
+    {
+      "language": "CUDA",
+      "code": "cudaErrorInvalidDeviceFunction",
+      "canonical_candidate_id": "cuda_cudaerrorinvaliddevicefunction_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "cuda_cudaerrorinvaliddevicefunction_1",
+        "cuda_cudaerrorinvaliddevicefunction_2",
+        "cuda_cudaerrorinvaliddevicefunction_3",
+        "cuda_cudaerrorinvaliddevicefunction_4",
+        "cuda_cudaerrorinvaliddevicefunction_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://docs.nvidia.com/cuda/"
+    },
+    {
+      "language": "CUDA",
+      "code": "cudaErrorInvalidDevicePointer",
+      "canonical_candidate_id": "cuda_cudaerrorinvaliddevicepointer_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "cuda_cudaerrorinvaliddevicepointer_1",
+        "cuda_cudaerrorinvaliddevicepointer_2",
+        "cuda_cudaerrorinvaliddevicepointer_3",
+        "cuda_cudaerrorinvaliddevicepointer_4",
+        "cuda_cudaerrorinvaliddevicepointer_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://docs.nvidia.com/cuda/"
+    },
+    {
+      "language": "CUDA",
+      "code": "cudaErrorLaunchOutOfResources",
+      "canonical_candidate_id": "cuda_cudaerrorlaunchoutofresources_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "cuda_cudaerrorlaunchoutofresources_1",
+        "cuda_cudaerrorlaunchoutofresources_2",
+        "cuda_cudaerrorlaunchoutofresources_3",
+        "cuda_cudaerrorlaunchoutofresources_4",
+        "cuda_cudaerrorlaunchoutofresources_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://docs.nvidia.com/cuda/"
+    },
+    {
+      "language": "CUDA",
+      "code": "cudaErrorMemoryAllocation",
+      "canonical_candidate_id": "cuda_cudaerrormemoryallocation_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "cuda_cudaerrormemoryallocation_1",
+        "cuda_cudaerrormemoryallocation_2",
+        "cuda_cudaerrormemoryallocation_3",
+        "cuda_cudaerrormemoryallocation_4",
+        "cuda_cudaerrormemoryallocation_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://docs.nvidia.com/cuda/"
+    },
+    {
+      "language": "Clojure",
+      "code": "ArityException",
+      "canonical_candidate_id": "clojure_arityexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "clojure_arityexception_1",
+        "clojure_arityexception_2",
+        "clojure_arityexception_3",
+        "clojure_arityexception_4",
+        "clojure_arityexception_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Clojure+ArityException+documentation"
+    },
+    {
+      "language": "Dart",
+      "code": "LateInitializationError",
+      "canonical_candidate_id": "dart_lateinitializationerror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "dart_lateinitializationerror_1",
+        "dart_lateinitializationerror_2",
+        "dart_lateinitializationerror_3",
+        "dart_lateinitializationerror_4",
+        "dart_lateinitializationerror_5",
+        "dart_lateinitializationerror_6",
+        "dart_lateinitializationerror_7",
+        "dart_lateinitializationerror_8",
+        "dart_lateinitializationerror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://api.flutter.dev/"
+    },
+    {
+      "language": "Dart",
+      "code": "NoSuchMethodError",
+      "canonical_candidate_id": "dart_nosuchmethoderror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "dart_nosuchmethoderror_1",
+        "dart_nosuchmethoderror_2",
+        "dart_nosuchmethoderror_3",
+        "dart_nosuchmethoderror_4",
+        "dart_nosuchmethoderror_5",
+        "dart_nosuchmethoderror_6",
+        "dart_nosuchmethoderror_7",
+        "dart_nosuchmethoderror_8",
+        "dart_nosuchmethoderror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://api.flutter.dev/"
+    },
+    {
+      "language": "Docker",
+      "code": "OCI_Exec_Failed",
+      "canonical_candidate_id": "docker_oci_exec_failed_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "docker_oci_exec_failed_1",
+        "docker_oci_exec_failed_2",
+        "docker_oci_exec_failed_3",
+        "docker_oci_exec_failed_4",
+        "docker_oci_exec_failed_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Docker+OCI_Exec_Failed+documentation"
+    },
+    {
+      "language": "Elixir",
+      "code": "ArgumentError",
+      "canonical_candidate_id": "elixir_argumenterror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_argumenterror_1",
+        "elixir_argumenterror_2",
+        "elixir_argumenterror_3",
+        "elixir_argumenterror_4",
+        "elixir_argumenterror_5",
+        "elixir_argumenterror_6",
+        "elixir_argumenterror_7",
+        "elixir_argumenterror_8",
+        "elixir_argumenterror_9",
+        "elixir_argumenterror_10",
+        "elixir_argumenterror_11",
+        "elixir_argumenterror_12",
+        "elixir_argumenterror_13",
+        "elixir_argumenterror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "CaseClauseError",
+      "canonical_candidate_id": "elixir_caseclauseerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_caseclauseerror_1",
+        "elixir_caseclauseerror_2",
+        "elixir_caseclauseerror_3",
+        "elixir_caseclauseerror_4",
+        "elixir_caseclauseerror_5",
+        "elixir_caseclauseerror_6",
+        "elixir_caseclauseerror_7",
+        "elixir_caseclauseerror_8",
+        "elixir_caseclauseerror_9",
+        "elixir_caseclauseerror_10",
+        "elixir_caseclauseerror_11",
+        "elixir_caseclauseerror_12",
+        "elixir_caseclauseerror_13",
+        "elixir_caseclauseerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "Ecto.NoResultsError",
+      "canonical_candidate_id": "elixir_ecto_noresultserror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_ecto_noresultserror_1",
+        "elixir_ecto_noresultserror_2",
+        "elixir_ecto_noresultserror_3",
+        "elixir_ecto_noresultserror_4",
+        "elixir_ecto_noresultserror_5",
+        "elixir_ecto_noresultserror_6",
+        "elixir_ecto_noresultserror_7",
+        "elixir_ecto_noresultserror_8",
+        "elixir_ecto_noresultserror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/phoenix/overview.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "KeyError",
+      "canonical_candidate_id": "elixir_keyerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_keyerror_1",
+        "elixir_keyerror_2",
+        "elixir_keyerror_3",
+        "elixir_keyerror_4",
+        "elixir_keyerror_5",
+        "elixir_keyerror_6",
+        "elixir_keyerror_7",
+        "elixir_keyerror_8",
+        "elixir_keyerror_9",
+        "elixir_keyerror_10",
+        "elixir_keyerror_11",
+        "elixir_keyerror_12",
+        "elixir_keyerror_13",
+        "elixir_keyerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "MatchError",
+      "canonical_candidate_id": "elixir_matcherror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_matcherror_1",
+        "elixir_matcherror_2",
+        "elixir_matcherror_3",
+        "elixir_matcherror_4",
+        "elixir_matcherror_5",
+        "elixir_matcherror_6",
+        "elixir_matcherror_7",
+        "elixir_matcherror_8",
+        "elixir_matcherror_9",
+        "elixir_matcherror_10",
+        "elixir_matcherror_11",
+        "elixir_matcherror_12",
+        "elixir_matcherror_13",
+        "elixir_matcherror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "Plug.Conn.AlreadySentError",
+      "canonical_candidate_id": "elixir_plug_conn_alreadysenterror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_plug_conn_alreadysenterror_1",
+        "elixir_plug_conn_alreadysenterror_2",
+        "elixir_plug_conn_alreadysenterror_3",
+        "elixir_plug_conn_alreadysenterror_4",
+        "elixir_plug_conn_alreadysenterror_5",
+        "elixir_plug_conn_alreadysenterror_6",
+        "elixir_plug_conn_alreadysenterror_7",
+        "elixir_plug_conn_alreadysenterror_8",
+        "elixir_plug_conn_alreadysenterror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/phoenix/overview.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "Protocol.UndefinedError",
+      "canonical_candidate_id": "elixir_protocol_undefinederror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_protocol.undefinederror_1",
+        "elixir_protocol.undefinederror_2",
+        "elixir_protocol.undefinederror_3",
+        "elixir_protocol.undefinederror_4",
+        "elixir_protocol.undefinederror_5",
+        "elixir_protocol.undefinederror_6",
+        "elixir_protocol.undefinederror_7",
+        "elixir_protocol.undefinederror_8",
+        "elixir_protocol.undefinederror_9",
+        "elixir_protocol.undefinederror_10",
+        "elixir_protocol.undefinederror_11",
+        "elixir_protocol.undefinederror_12",
+        "elixir_protocol.undefinederror_13",
+        "elixir_protocol.undefinederror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "TokenMissingError",
+      "canonical_candidate_id": "elixir_tokenmissingerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_tokenmissingerror_1",
+        "elixir_tokenmissingerror_2",
+        "elixir_tokenmissingerror_3",
+        "elixir_tokenmissingerror_4",
+        "elixir_tokenmissingerror_5",
+        "elixir_tokenmissingerror_6",
+        "elixir_tokenmissingerror_7",
+        "elixir_tokenmissingerror_8",
+        "elixir_tokenmissingerror_9",
+        "elixir_tokenmissingerror_10",
+        "elixir_tokenmissingerror_11",
+        "elixir_tokenmissingerror_12",
+        "elixir_tokenmissingerror_13",
+        "elixir_tokenmissingerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Elixir",
+      "code": "UndefinedFunctionError",
+      "canonical_candidate_id": "elixir_undefinedfunctionerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "elixir_undefinedfunctionerror_1",
+        "elixir_undefinedfunctionerror_2",
+        "elixir_undefinedfunctionerror_3",
+        "elixir_undefinedfunctionerror_4",
+        "elixir_undefinedfunctionerror_5",
+        "elixir_undefinedfunctionerror_6",
+        "elixir_undefinedfunctionerror_7",
+        "elixir_undefinedfunctionerror_8",
+        "elixir_undefinedfunctionerror_9",
+        "elixir_undefinedfunctionerror_10",
+        "elixir_undefinedfunctionerror_11",
+        "elixir_undefinedfunctionerror_12",
+        "elixir_undefinedfunctionerror_13",
+        "elixir_undefinedfunctionerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://hexdocs.pm/elixir/kernel.html"
+    },
+    {
+      "language": "Go",
+      "code": "COMPILER_DECLARED_AND_NOT_USED",
+      "canonical_candidate_id": "go_compiler_declared_and_not_used_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "go_compiler_declared_and_not_used_1",
+        "go_compiler_declared_and_not_used_2",
+        "go_compiler_declared_and_not_used_3",
+        "go_compiler_declared_and_not_used_4",
+        "go_compiler_declared_and_not_used_5",
+        "go_compiler_declared_and_not_used_6",
+        "go_compiler_declared_and_not_used_7",
+        "go_compiler_declared_and_not_used_8",
+        "go_compiler_declared_and_not_used_9",
+        "go_compiler_declared_and_not_used_10",
+        "go_compiler_declared_and_not_used_11",
+        "go_compiler_declared_and_not_used_12",
+        "go_compiler_declared_and_not_used_13",
+        "go_compiler_declared_and_not_used_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://go.dev/ref/spec"
+    },
+    {
+      "language": "Go",
+      "code": "COMPILER_MISMATCHED_TYPES",
+      "canonical_candidate_id": "go_compiler_mismatched_types_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "go_compiler_mismatched_types_1",
+        "go_compiler_mismatched_types_2",
+        "go_compiler_mismatched_types_3",
+        "go_compiler_mismatched_types_4",
+        "go_compiler_mismatched_types_5",
+        "go_compiler_mismatched_types_6",
+        "go_compiler_mismatched_types_7",
+        "go_compiler_mismatched_types_8",
+        "go_compiler_mismatched_types_9",
+        "go_compiler_mismatched_types_10",
+        "go_compiler_mismatched_types_11",
+        "go_compiler_mismatched_types_12",
+        "go_compiler_mismatched_types_13",
+        "go_compiler_mismatched_types_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://go.dev/ref/spec"
+    },
+    {
+      "language": "Go",
+      "code": "COMPILER_NOT_ENOUGH_ARGUMENTS",
+      "canonical_candidate_id": "go_compiler_not_enough_arguments_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "go_compiler_not_enough_arguments_1",
+        "go_compiler_not_enough_arguments_2",
+        "go_compiler_not_enough_arguments_3",
+        "go_compiler_not_enough_arguments_4",
+        "go_compiler_not_enough_arguments_5",
+        "go_compiler_not_enough_arguments_6",
+        "go_compiler_not_enough_arguments_7",
+        "go_compiler_not_enough_arguments_8",
+        "go_compiler_not_enough_arguments_9",
+        "go_compiler_not_enough_arguments_10",
+        "go_compiler_not_enough_arguments_11",
+        "go_compiler_not_enough_arguments_12",
+        "go_compiler_not_enough_arguments_13",
+        "go_compiler_not_enough_arguments_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://go.dev/ref/spec"
+    },
+    {
+      "language": "Go",
+      "code": "GO_ASSIGN_MISMATCH",
+      "canonical_candidate_id": "go_go_assign_mismatch_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "go_go_assign_mismatch_1",
+        "go_go_assign_mismatch_2",
+        "go_go_assign_mismatch_3",
+        "go_go_assign_mismatch_4",
+        "go_go_assign_mismatch_5",
+        "go_go_assign_mismatch_6",
+        "go_go_assign_mismatch_7",
+        "go_go_assign_mismatch_8",
+        "go_go_assign_mismatch_9",
+        "go_go_assign_mismatch_10",
+        "go_go_assign_mismatch_11",
+        "go_go_assign_mismatch_12",
+        "go_go_assign_mismatch_13",
+        "go_go_assign_mismatch_14"
+      ],
+      "variant_count": 14,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "Go",
+      "code": "GO_DEADLOCK",
+      "canonical_candidate_id": "go_go_deadlock_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "go_go_deadlock_1",
+        "go_go_deadlock_2",
+        "go_go_deadlock_3",
+        "go_go_deadlock_4",
+        "go_go_deadlock_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Go+GO_DEADLOCK+documentation"
+    },
+    {
+      "language": "Go",
+      "code": "GO_UNUSED_VAR",
+      "canonical_candidate_id": "go_go_unused_var_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "go_go_unused_var_1",
+        "go_go_unused_var_2",
+        "go_go_unused_var_3",
+        "go_go_unused_var_4",
+        "go_go_unused_var_5",
+        "go_go_unused_var_6",
+        "go_go_unused_var_7",
+        "go_go_unused_var_8",
+        "go_go_unused_var_9",
+        "go_go_unused_var_10",
+        "go_go_unused_var_11",
+        "go_go_unused_var_12",
+        "go_go_unused_var_13",
+        "go_go_unused_var_14"
+      ],
+      "variant_count": 14,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "Go",
+      "code": "RUNTIME_CONCURRENT_MAP_WRITE",
+      "canonical_candidate_id": "go_runtime_concurrent_map_write_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "go_runtime_concurrent_map_write_1",
+        "go_runtime_concurrent_map_write_2",
+        "go_runtime_concurrent_map_write_3",
+        "go_runtime_concurrent_map_write_4",
+        "go_runtime_concurrent_map_write_5",
+        "go_runtime_concurrent_map_write_6",
+        "go_runtime_concurrent_map_write_7",
+        "go_runtime_concurrent_map_write_8",
+        "go_runtime_concurrent_map_write_9",
+        "go_runtime_concurrent_map_write_10",
+        "go_runtime_concurrent_map_write_11",
+        "go_runtime_concurrent_map_write_12",
+        "go_runtime_concurrent_map_write_13",
+        "go_runtime_concurrent_map_write_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://go.dev/ref/spec"
+    },
+    {
+      "language": "Go",
+      "code": "RUNTIME_INVALID_MEMORY_ADDR",
+      "canonical_candidate_id": "go_runtime_invalid_memory_addr_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "go_runtime_invalid_memory_addr_1",
+        "go_runtime_invalid_memory_addr_2",
+        "go_runtime_invalid_memory_addr_3",
+        "go_runtime_invalid_memory_addr_4",
+        "go_runtime_invalid_memory_addr_5",
+        "go_runtime_invalid_memory_addr_6",
+        "go_runtime_invalid_memory_addr_7",
+        "go_runtime_invalid_memory_addr_8",
+        "go_runtime_invalid_memory_addr_9",
+        "go_runtime_invalid_memory_addr_10",
+        "go_runtime_invalid_memory_addr_11",
+        "go_runtime_invalid_memory_addr_12",
+        "go_runtime_invalid_memory_addr_13",
+        "go_runtime_invalid_memory_addr_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://go.dev/ref/spec"
+    },
+    {
+      "language": "GraphQL",
+      "code": "Field_Not_Found",
+      "canonical_candidate_id": "graphql_field_not_found_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "graphql_field_not_found_1",
+        "graphql_field_not_found_2",
+        "graphql_field_not_found_3",
+        "graphql_field_not_found_4",
+        "graphql_field_not_found_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=GraphQL+Field_Not_Found+documentation"
+    },
+    {
+      "language": "Haskell",
+      "code": "NonExhaustivePatterns",
+      "canonical_candidate_id": "haskell_nonexhaustivepatterns_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "haskell_nonexhaustivepatterns_1",
+        "haskell_nonexhaustivepatterns_2",
+        "haskell_nonexhaustivepatterns_3",
+        "haskell_nonexhaustivepatterns_4",
+        "haskell_nonexhaustivepatterns_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Haskell+NonExhaustivePatterns+documentation"
+    },
+    {
+      "language": "JSON",
+      "code": "JSONDepthError",
+      "canonical_candidate_id": "json_jsondeptherror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "json_jsondeptherror_1",
+        "json_jsondeptherror_2",
+        "json_jsondeptherror_3",
+        "json_jsondeptherror_4",
+        "json_jsondeptherror_5",
+        "json_jsondeptherror_6",
+        "json_jsondeptherror_7",
+        "json_jsondeptherror_8",
+        "json_jsondeptherror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc8259"
+    },
+    {
+      "language": "JSON",
+      "code": "JSONParseError",
+      "canonical_candidate_id": "json_jsonparseerror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "json_jsonparseerror_1",
+        "json_jsonparseerror_2",
+        "json_jsonparseerror_3",
+        "json_jsonparseerror_4",
+        "json_jsonparseerror_5",
+        "json_jsonparseerror_6",
+        "json_jsonparseerror_7",
+        "json_jsonparseerror_8",
+        "json_jsonparseerror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc8259"
+    },
+    {
+      "language": "Java",
+      "code": "NullPointerException",
+      "canonical_candidate_id": "java_nullpointerexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "java_nullpointerexception_1",
+        "java_nullpointerexception_2",
+        "java_nullpointerexception_3",
+        "java_nullpointerexception_4",
+        "java_nullpointerexception_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://www.google.com/search?q=Java+NullPointerException+documentation"
+    },
+    {
+      "language": "JavaScript",
+      "code": "ReferenceError_NotDefined",
+      "canonical_candidate_id": "javascript_referenceerror_notdefined_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "javascript_referenceerror_notdefined_1",
+        "javascript_referenceerror_notdefined_2",
+        "javascript_referenceerror_notdefined_3",
+        "javascript_referenceerror_notdefined_4",
+        "javascript_referenceerror_notdefined_5",
+        "javascript_referenceerror_notdefined_6",
+        "javascript_referenceerror_notdefined_7",
+        "javascript_referenceerror_notdefined_8",
+        "javascript_referenceerror_notdefined_9",
+        "javascript_referenceerror_notdefined_10",
+        "javascript_referenceerror_notdefined_11",
+        "javascript_referenceerror_notdefined_12",
+        "javascript_referenceerror_notdefined_13",
+        "javascript_referenceerror_notdefined_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors"
+    },
+    {
+      "language": "JavaScript",
+      "code": "SyntaxError_UnexpectedToken",
+      "canonical_candidate_id": "javascript_syntaxerror_unexpectedtoken_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "javascript_syntaxerror_unexpectedtoken_1",
+        "javascript_syntaxerror_unexpectedtoken_2",
+        "javascript_syntaxerror_unexpectedtoken_3",
+        "javascript_syntaxerror_unexpectedtoken_4",
+        "javascript_syntaxerror_unexpectedtoken_5",
+        "javascript_syntaxerror_unexpectedtoken_6",
+        "javascript_syntaxerror_unexpectedtoken_7",
+        "javascript_syntaxerror_unexpectedtoken_8",
+        "javascript_syntaxerror_unexpectedtoken_9",
+        "javascript_syntaxerror_unexpectedtoken_10",
+        "javascript_syntaxerror_unexpectedtoken_11",
+        "javascript_syntaxerror_unexpectedtoken_12",
+        "javascript_syntaxerror_unexpectedtoken_13",
+        "javascript_syntaxerror_unexpectedtoken_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors"
+    },
+    {
+      "language": "JavaScript",
+      "code": "TypeError_CannotReadPropertiesOfNull",
+      "canonical_candidate_id": "javascript_typeerror_cannotreadpropertiesofnull_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "javascript_typeerror_cannotreadpropertiesofnull_1",
+        "javascript_typeerror_cannotreadpropertiesofnull_2",
+        "javascript_typeerror_cannotreadpropertiesofnull_3",
+        "javascript_typeerror_cannotreadpropertiesofnull_4",
+        "javascript_typeerror_cannotreadpropertiesofnull_5",
+        "javascript_typeerror_cannotreadpropertiesofnull_6",
+        "javascript_typeerror_cannotreadpropertiesofnull_7",
+        "javascript_typeerror_cannotreadpropertiesofnull_8",
+        "javascript_typeerror_cannotreadpropertiesofnull_9",
+        "javascript_typeerror_cannotreadpropertiesofnull_10",
+        "javascript_typeerror_cannotreadpropertiesofnull_11",
+        "javascript_typeerror_cannotreadpropertiesofnull_12",
+        "javascript_typeerror_cannotreadpropertiesofnull_13",
+        "javascript_typeerror_cannotreadpropertiesofnull_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors"
+    },
+    {
+      "language": "JavaScript",
+      "code": "TypeError_NotAFunction",
+      "canonical_candidate_id": "javascript_typeerror_notafunction_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "javascript_typeerror_notafunction_1",
+        "javascript_typeerror_notafunction_2",
+        "javascript_typeerror_notafunction_3",
+        "javascript_typeerror_notafunction_4",
+        "javascript_typeerror_notafunction_5",
+        "javascript_typeerror_notafunction_6",
+        "javascript_typeerror_notafunction_7",
+        "javascript_typeerror_notafunction_8",
+        "javascript_typeerror_notafunction_9",
+        "javascript_typeerror_notafunction_10",
+        "javascript_typeerror_notafunction_11",
+        "javascript_typeerror_notafunction_12",
+        "javascript_typeerror_notafunction_13",
+        "javascript_typeerror_notafunction_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors"
+    },
+    {
+      "language": "JavaScript",
+      "code": "VueCompilerError",
+      "canonical_candidate_id": "vue_vuecompilererror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "vue_vuecompilererror_1",
+        "vue_vuecompilererror_2",
+        "vue_vuecompilererror_3",
+        "vue_vuecompilererror_4",
+        "vue_vuecompilererror_5",
+        "vue_vuecompilererror_6",
+        "vue_vuecompilererror_7",
+        "vue_vuecompilererror_8",
+        "vue_vuecompilererror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://vuejs.org/guide/extras/error-handling.html"
+    },
+    {
+      "language": "JavaScript",
+      "code": "VueReactivityError",
+      "canonical_candidate_id": "vue_vuereactivityerror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "vue_vuereactivityerror_1",
+        "vue_vuereactivityerror_2",
+        "vue_vuereactivityerror_3",
+        "vue_vuereactivityerror_4",
+        "vue_vuereactivityerror_5",
+        "vue_vuereactivityerror_6",
+        "vue_vuereactivityerror_7",
+        "vue_vuereactivityerror_8",
+        "vue_vuereactivityerror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://vuejs.org/guide/extras/error-handling.html"
+    },
+    {
+      "language": "Kotlin",
+      "code": "KotlinClassCastException",
+      "canonical_candidate_id": "kotlin_kotlinclasscastexception_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "kotlin_kotlinclasscastexception_1",
+        "kotlin_kotlinclasscastexception_2",
+        "kotlin_kotlinclasscastexception_3",
+        "kotlin_kotlinclasscastexception_4",
+        "kotlin_kotlinclasscastexception_5",
+        "kotlin_kotlinclasscastexception_6",
+        "kotlin_kotlinclasscastexception_7",
+        "kotlin_kotlinclasscastexception_8",
+        "kotlin_kotlinclasscastexception_9",
+        "kotlin_kotlinclasscastexception_10",
+        "kotlin_kotlinclasscastexception_11",
+        "kotlin_kotlinclasscastexception_12",
+        "kotlin_kotlinclasscastexception_13",
+        "kotlin_kotlinclasscastexception_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/"
+    },
+    {
+      "language": "Kotlin",
+      "code": "KotlinIndexOutOfBoundsException",
+      "canonical_candidate_id": "kotlin_kotlinindexoutofboundsexception_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "kotlin_kotlinindexoutofboundsexception_1",
+        "kotlin_kotlinindexoutofboundsexception_2",
+        "kotlin_kotlinindexoutofboundsexception_3",
+        "kotlin_kotlinindexoutofboundsexception_4",
+        "kotlin_kotlinindexoutofboundsexception_5",
+        "kotlin_kotlinindexoutofboundsexception_6",
+        "kotlin_kotlinindexoutofboundsexception_7",
+        "kotlin_kotlinindexoutofboundsexception_8",
+        "kotlin_kotlinindexoutofboundsexception_9",
+        "kotlin_kotlinindexoutofboundsexception_10",
+        "kotlin_kotlinindexoutofboundsexception_11",
+        "kotlin_kotlinindexoutofboundsexception_12",
+        "kotlin_kotlinindexoutofboundsexception_13",
+        "kotlin_kotlinindexoutofboundsexception_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/"
+    },
+    {
+      "language": "Kotlin",
+      "code": "KotlinNullPointerException",
+      "canonical_candidate_id": "kotlin_kotlinnullpointerexception_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "kotlin_kotlinnullpointerexception_1",
+        "kotlin_kotlinnullpointerexception_2",
+        "kotlin_kotlinnullpointerexception_3",
+        "kotlin_kotlinnullpointerexception_4",
+        "kotlin_kotlinnullpointerexception_5",
+        "kotlin_kotlinnullpointerexception_6",
+        "kotlin_kotlinnullpointerexception_7",
+        "kotlin_kotlinnullpointerexception_8",
+        "kotlin_kotlinnullpointerexception_9",
+        "kotlin_kotlinnullpointerexception_10",
+        "kotlin_kotlinnullpointerexception_11",
+        "kotlin_kotlinnullpointerexception_12",
+        "kotlin_kotlinnullpointerexception_13",
+        "kotlin_kotlinnullpointerexception_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/"
+    },
+    {
+      "language": "Kotlin",
+      "code": "KotlinUninitializedPropertyAccessException",
+      "canonical_candidate_id": "kotlin_kotlinuninitializedpropertyaccessexception_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "kotlin_kotlinuninitializedpropertyaccessexception_1",
+        "kotlin_kotlinuninitializedpropertyaccessexception_2",
+        "kotlin_kotlinuninitializedpropertyaccessexception_3",
+        "kotlin_kotlinuninitializedpropertyaccessexception_4",
+        "kotlin_kotlinuninitializedpropertyaccessexception_5",
+        "kotlin_kotlinuninitializedpropertyaccessexception_6",
+        "kotlin_kotlinuninitializedpropertyaccessexception_7",
+        "kotlin_kotlinuninitializedpropertyaccessexception_8",
+        "kotlin_kotlinuninitializedpropertyaccessexception_9",
+        "kotlin_kotlinuninitializedpropertyaccessexception_10",
+        "kotlin_kotlinuninitializedpropertyaccessexception_11",
+        "kotlin_kotlinuninitializedpropertyaccessexception_12",
+        "kotlin_kotlinuninitializedpropertyaccessexception_13",
+        "kotlin_kotlinuninitializedpropertyaccessexception_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://kotlinlang.org/api/latest/jvm/stdlib/"
+    },
+    {
+      "language": "Kotlin",
+      "code": "UninitializedPropertyAccessException",
+      "canonical_candidate_id": "kotlin_uninitializedpropertyaccessexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "kotlin_uninitializedpropertyaccessexception_1",
+        "kotlin_uninitializedpropertyaccessexception_2",
+        "kotlin_uninitializedpropertyaccessexception_3",
+        "kotlin_uninitializedpropertyaccessexception_4",
+        "kotlin_uninitializedpropertyaccessexception_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Kotlin+UninitializedPropertyAccessException+documentation"
+    },
+    {
+      "language": "Kubernetes",
+      "code": "CrashLoopBackOff",
+      "canonical_candidate_id": "kubernetes_crashloopbackoff_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "kubernetes_crashloopbackoff_1",
+        "kubernetes_crashloopbackoff_2",
+        "kubernetes_crashloopbackoff_3",
+        "kubernetes_crashloopbackoff_4",
+        "kubernetes_crashloopbackoff_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Kubernetes+CrashLoopBackOff+documentation"
+    },
+    {
+      "language": "Lua",
+      "code": "nil_index_error",
+      "canonical_candidate_id": "lua_nil_index_error_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "lua_nil_index_error_1",
+        "lua_nil_index_error_2",
+        "lua_nil_index_error_3",
+        "lua_nil_index_error_4",
+        "lua_nil_index_error_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Lua+nil_index_error+documentation"
+    },
+    {
+      "language": "MongoDB",
+      "code": "WriteError_E11000",
+      "canonical_candidate_id": "mongodb_writeerror_e11000_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "mongodb_writeerror_e11000_1",
+        "mongodb_writeerror_e11000_2",
+        "mongodb_writeerror_e11000_3",
+        "mongodb_writeerror_e11000_4",
+        "mongodb_writeerror_e11000_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=MongoDB+WriteError_E11000+documentation"
+    },
+    {
+      "language": "OCaml",
+      "code": "Pattern_matching",
+      "canonical_candidate_id": "ocaml_pattern_matching_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ocaml_pattern_matching_1",
+        "ocaml_pattern_matching_2",
+        "ocaml_pattern_matching_3",
+        "ocaml_pattern_matching_4",
+        "ocaml_pattern_matching_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=OCaml+Pattern_matching+documentation"
+    },
+    {
+      "language": "PHP",
+      "code": "Illuminate\\Contracts\\Container\\BindingResolutionException",
+      "canonical_candidate_id": "php_illuminate_contracts_container_bindingresolutionexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "php_illuminate_contracts_container_bindingresolutionexception_1",
+        "php_illuminate_contracts_container_bindingresolutionexception_2",
+        "php_illuminate_contracts_container_bindingresolutionexception_3",
+        "php_illuminate_contracts_container_bindingresolutionexception_4",
+        "php_illuminate_contracts_container_bindingresolutionexception_5",
+        "php_illuminate_contracts_container_bindingresolutionexception_6",
+        "php_illuminate_contracts_container_bindingresolutionexception_7",
+        "php_illuminate_contracts_container_bindingresolutionexception_8",
+        "php_illuminate_contracts_container_bindingresolutionexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://www.php.net/manual/en/reserved.exceptions.php"
+    },
+    {
+      "language": "PHP",
+      "code": "PDOException",
+      "canonical_candidate_id": "php_pdoexception_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "php_pdoexception_1",
+        "php_pdoexception_2",
+        "php_pdoexception_3",
+        "php_pdoexception_4",
+        "php_pdoexception_5",
+        "php_pdoexception_6",
+        "php_pdoexception_7",
+        "php_pdoexception_8",
+        "php_pdoexception_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://www.php.net/manual/en/reserved.exceptions.php"
+    },
+    {
+      "language": "PHP",
+      "code": "TypeError",
+      "canonical_candidate_id": "php_typeerror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "php_typeerror_1",
+        "php_typeerror_2",
+        "php_typeerror_3",
+        "php_typeerror_4",
+        "php_typeerror_5",
+        "php_typeerror_6",
+        "php_typeerror_7",
+        "php_typeerror_8",
+        "php_typeerror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://www.php.net/manual/en/reserved.exceptions.php"
+    },
+    {
+      "language": "Perl",
+      "code": "unblessed_reference",
+      "canonical_candidate_id": "perl_unblessed_reference_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "perl_unblessed_reference_1",
+        "perl_unblessed_reference_2",
+        "perl_unblessed_reference_3",
+        "perl_unblessed_reference_4",
+        "perl_unblessed_reference_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Perl+unblessed_reference+documentation"
+    },
+    {
+      "language": "PostgreSQL",
+      "code": "unique_violation",
+      "canonical_candidate_id": "postgresql_unique_violation_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "postgresql_unique_violation_1",
+        "postgresql_unique_violation_2",
+        "postgresql_unique_violation_3",
+        "postgresql_unique_violation_4",
+        "postgresql_unique_violation_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=PostgreSQL+unique_violation+documentation"
+    },
+    {
+      "language": "Python",
+      "code": "AssertionError",
+      "canonical_candidate_id": "py_assertionerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_assertionerror_001",
+        "py_assertionerror_002",
+        "py_assertionerror_003",
+        "py_assertionerror_004",
+        "py_assertionerror_005",
+        "py_assertionerror_006",
+        "py_assertionerror_007",
+        "py_assertionerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "AttributeError",
+      "canonical_candidate_id": "py_attributeerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_attributeerror_001",
+        "py_attributeerror_002",
+        "py_attributeerror_003",
+        "py_attributeerror_004",
+        "py_attributeerror_005",
+        "py_attributeerror_006",
+        "py_attributeerror_007",
+        "py_attributeerror_008",
+        "py_attributeerror_001",
+        "py_attributeerror_002",
+        "py_attributeerror_003",
+        "py_attributeerror_004",
+        "py_attributeerror_005",
+        "py_attributeerror_006",
+        "py_attributeerror_007",
+        "py_attributeerror_008"
+      ],
+      "variant_count": 16,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "BrokenProcessPool",
+      "canonical_candidate_id": "py_brokenprocesspool_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_brokenprocesspool_001",
+        "py_brokenprocesspool_002",
+        "py_brokenprocesspool_003",
+        "py_brokenprocesspool_004",
+        "py_brokenprocesspool_005",
+        "py_brokenprocesspool_006",
+        "py_brokenprocesspool_007",
+        "py_brokenprocesspool_008"
+      ],
+      "variant_count": 8,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "BufferError",
+      "canonical_candidate_id": "py_buffererror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_buffererror_001",
+        "py_buffererror_002",
+        "py_buffererror_003",
+        "py_buffererror_004",
+        "py_buffererror_005",
+        "py_buffererror_006",
+        "py_buffererror_007",
+        "py_buffererror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "CancelledError",
+      "canonical_candidate_id": "py_cancellederror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_cancellederror_001",
+        "py_cancellederror_002",
+        "py_cancellederror_003",
+        "py_cancellederror_004",
+        "py_cancellederror_005",
+        "py_cancellederror_006",
+        "py_cancellederror_007",
+        "py_cancellederror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "ImportError",
+      "canonical_candidate_id": "py_importerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_importerror_001",
+        "py_importerror_002",
+        "py_importerror_003",
+        "py_importerror_004",
+        "py_importerror_005",
+        "py_importerror_006",
+        "py_importerror_007",
+        "py_importerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "IndentationError",
+      "canonical_candidate_id": "py_indentationerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_indentationerror_001",
+        "py_indentationerror_002",
+        "py_indentationerror_003",
+        "py_indentationerror_004",
+        "py_indentationerror_005",
+        "py_indentationerror_006",
+        "py_indentationerror_007",
+        "py_indentationerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "IndexError",
+      "canonical_candidate_id": "py_indexerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_indexerror_001",
+        "py_indexerror_002",
+        "py_indexerror_003",
+        "py_indexerror_004",
+        "py_indexerror_005",
+        "py_indexerror_006",
+        "py_indexerror_007",
+        "py_indexerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "KeyError",
+      "canonical_candidate_id": "py_keyerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_keyerror_001",
+        "py_keyerror_002",
+        "py_keyerror_003",
+        "py_keyerror_004",
+        "py_keyerror_005",
+        "py_keyerror_006",
+        "py_keyerror_007",
+        "py_keyerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "MemoryError",
+      "canonical_candidate_id": "py_memoryerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_memoryerror_001",
+        "py_memoryerror_002",
+        "py_memoryerror_003",
+        "py_memoryerror_004",
+        "py_memoryerror_005",
+        "py_memoryerror_006",
+        "py_memoryerror_007",
+        "py_memoryerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "ModuleNotFoundError",
+      "canonical_candidate_id": "python_modulenotfounderror_1",
+      "source_files": [
+        "lexicon_master_database.json",
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "py_modulenotfounderror_001",
+        "py_modulenotfounderror_002",
+        "py_modulenotfounderror_003",
+        "py_modulenotfounderror_004",
+        "py_modulenotfounderror_005",
+        "py_modulenotfounderror_006",
+        "py_modulenotfounderror_007",
+        "py_modulenotfounderror_008",
+        "python_modulenotfounderror_1",
+        "python_modulenotfounderror_2",
+        "python_modulenotfounderror_3",
+        "python_modulenotfounderror_4",
+        "python_modulenotfounderror_5"
+      ],
+      "variant_count": 13,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://www.google.com/search?q=Python+ModuleNotFoundError+documentation"
+    },
+    {
+      "language": "Python",
+      "code": "NameError",
+      "canonical_candidate_id": "py_nameerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_nameerror_001",
+        "py_nameerror_002",
+        "py_nameerror_003",
+        "py_nameerror_004",
+        "py_nameerror_005",
+        "py_nameerror_006",
+        "py_nameerror_007",
+        "py_nameerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "RecursionError",
+      "canonical_candidate_id": "py_recursionerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_recursionerror_001",
+        "py_recursionerror_002",
+        "py_recursionerror_003",
+        "py_recursionerror_004",
+        "py_recursionerror_005",
+        "py_recursionerror_006",
+        "py_recursionerror_007",
+        "py_recursionerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "SyntaxError",
+      "canonical_candidate_id": "py_syntaxerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_syntaxerror_001",
+        "py_syntaxerror_002",
+        "py_syntaxerror_003",
+        "py_syntaxerror_004",
+        "py_syntaxerror_005",
+        "py_syntaxerror_006",
+        "py_syntaxerror_007",
+        "py_syntaxerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "SystemError",
+      "canonical_candidate_id": "py_systemerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_systemerror_001",
+        "py_systemerror_002",
+        "py_systemerror_003",
+        "py_systemerror_004",
+        "py_systemerror_005",
+        "py_systemerror_006",
+        "py_systemerror_007",
+        "py_systemerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "TabError",
+      "canonical_candidate_id": "py_taberror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_taberror_001",
+        "py_taberror_002",
+        "py_taberror_003",
+        "py_taberror_004",
+        "py_taberror_005",
+        "py_taberror_006",
+        "py_taberror_007",
+        "py_taberror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "TimeoutError",
+      "canonical_candidate_id": "py_timeouterror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_timeouterror_001",
+        "py_timeouterror_002",
+        "py_timeouterror_003",
+        "py_timeouterror_004",
+        "py_timeouterror_005",
+        "py_timeouterror_006",
+        "py_timeouterror_007",
+        "py_timeouterror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "TokenError",
+      "canonical_candidate_id": "py_tokenerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_tokenerror_001",
+        "py_tokenerror_002",
+        "py_tokenerror_003",
+        "py_tokenerror_004",
+        "py_tokenerror_005",
+        "py_tokenerror_006",
+        "py_tokenerror_007",
+        "py_tokenerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "TypeError",
+      "canonical_candidate_id": "py_typeerror_001",
+      "source_files": [
+        "lexicon_master_database.json",
+        "master_lexicon_seed.json"
+      ],
+      "source_variant_ids": [
+        "py_typeerror_001",
+        "py_typeerror_002",
+        "py_typeerror_003",
+        "py_typeerror_004",
+        "py_typeerror_005",
+        "py_typeerror_006",
+        "py_typeerror_007",
+        "py_typeerror_008",
+        "python_typeerror"
+      ],
+      "variant_count": 9,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "UnboundLocalError",
+      "canonical_candidate_id": "py_unboundlocalerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_unboundlocalerror_001",
+        "py_unboundlocalerror_002",
+        "py_unboundlocalerror_003",
+        "py_unboundlocalerror_004",
+        "py_unboundlocalerror_005",
+        "py_unboundlocalerror_006",
+        "py_unboundlocalerror_007",
+        "py_unboundlocalerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "ValueError",
+      "canonical_candidate_id": "py_valueerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_valueerror_001",
+        "py_valueerror_002",
+        "py_valueerror_003",
+        "py_valueerror_004",
+        "py_valueerror_005",
+        "py_valueerror_006",
+        "py_valueerror_007",
+        "py_valueerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Python",
+      "code": "ZeroDivisionError",
+      "canonical_candidate_id": "py_zerodivisionerror_001",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "py_zerodivisionerror_001",
+        "py_zerodivisionerror_002",
+        "py_zerodivisionerror_003",
+        "py_zerodivisionerror_004",
+        "py_zerodivisionerror_005",
+        "py_zerodivisionerror_006",
+        "py_zerodivisionerror_007",
+        "py_zerodivisionerror_008"
+      ],
+      "variant_count": 8,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "R",
+      "code": "object_not_found",
+      "canonical_candidate_id": "r_object_not_found_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "r_object_not_found_1",
+        "r_object_not_found_2",
+        "r_object_not_found_3",
+        "r_object_not_found_4",
+        "r_object_not_found_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=R+object_not_found+documentation"
+    },
+    {
+      "language": "ROCm / HIP",
+      "code": "hipErrorIllegalAddress",
+      "canonical_candidate_id": "rocm_hip_hiperrorillegaladdress_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "rocm_hip_hiperrorillegaladdress_1",
+        "rocm_hip_hiperrorillegaladdress_2",
+        "rocm_hip_hiperrorillegaladdress_3",
+        "rocm_hip_hiperrorillegaladdress_4",
+        "rocm_hip_hiperrorillegaladdress_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://rocm.docs.amd.com/"
+    },
+    {
+      "language": "ROCm / HIP",
+      "code": "hipErrorInvalidConfiguration",
+      "canonical_candidate_id": "rocm_hip_hiperrorinvalidconfiguration_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "rocm_hip_hiperrorinvalidconfiguration_1",
+        "rocm_hip_hiperrorinvalidconfiguration_2",
+        "rocm_hip_hiperrorinvalidconfiguration_3",
+        "rocm_hip_hiperrorinvalidconfiguration_4",
+        "rocm_hip_hiperrorinvalidconfiguration_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://rocm.docs.amd.com/"
+    },
+    {
+      "language": "ROCm / HIP",
+      "code": "hipErrorLaunchTimeOut",
+      "canonical_candidate_id": "rocm_hip_hiperrorlaunchtimeout_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "rocm_hip_hiperrorlaunchtimeout_1",
+        "rocm_hip_hiperrorlaunchtimeout_2",
+        "rocm_hip_hiperrorlaunchtimeout_3",
+        "rocm_hip_hiperrorlaunchtimeout_4",
+        "rocm_hip_hiperrorlaunchtimeout_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://rocm.docs.amd.com/"
+    },
+    {
+      "language": "ROCm / HIP",
+      "code": "hipErrorNoBinaryForGpu",
+      "canonical_candidate_id": "rocm_hip_hiperrornobinaryforgpu_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "rocm_hip_hiperrornobinaryforgpu_1",
+        "rocm_hip_hiperrornobinaryforgpu_2",
+        "rocm_hip_hiperrornobinaryforgpu_3",
+        "rocm_hip_hiperrornobinaryforgpu_4",
+        "rocm_hip_hiperrornobinaryforgpu_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://rocm.docs.amd.com/"
+    },
+    {
+      "language": "ROCm / HIP",
+      "code": "hipErrorOutOfMemory",
+      "canonical_candidate_id": "rocm_hip_hiperroroutofmemory_1",
+      "source_files": [
+        "lexicon_gpu_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "rocm_hip_hiperroroutofmemory_1",
+        "rocm_hip_hiperroroutofmemory_2",
+        "rocm_hip_hiperroroutofmemory_3",
+        "rocm_hip_hiperroroutofmemory_4",
+        "rocm_hip_hiperroroutofmemory_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://rocm.docs.amd.com/"
+    },
+    {
+      "language": "Redis",
+      "code": "OOM_Command",
+      "canonical_candidate_id": "redis_oom_command_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "redis_oom_command_1",
+        "redis_oom_command_2",
+        "redis_oom_command_3",
+        "redis_oom_command_4",
+        "redis_oom_command_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Redis+OOM_Command+documentation"
+    },
+    {
+      "language": "Ruby",
+      "code": "ActionController::RoutingError",
+      "canonical_candidate_id": "ruby_actioncontroller_routingerror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_actioncontroller_routingerror_1",
+        "ruby_actioncontroller_routingerror_2",
+        "ruby_actioncontroller_routingerror_3",
+        "ruby_actioncontroller_routingerror_4",
+        "ruby_actioncontroller_routingerror_5",
+        "ruby_actioncontroller_routingerror_6",
+        "ruby_actioncontroller_routingerror_7",
+        "ruby_actioncontroller_routingerror_8",
+        "ruby_actioncontroller_routingerror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://api.rubyonrails.org/"
+    },
+    {
+      "language": "Ruby",
+      "code": "ActiveRecord::RecordNotFound",
+      "canonical_candidate_id": "ruby_activerecord_recordnotfound_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_activerecord_recordnotfound_1",
+        "ruby_activerecord_recordnotfound_2",
+        "ruby_activerecord_recordnotfound_3",
+        "ruby_activerecord_recordnotfound_4",
+        "ruby_activerecord_recordnotfound_5",
+        "ruby_activerecord_recordnotfound_6",
+        "ruby_activerecord_recordnotfound_7",
+        "ruby_activerecord_recordnotfound_8",
+        "ruby_activerecord_recordnotfound_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://api.rubyonrails.org/"
+    },
+    {
+      "language": "Ruby",
+      "code": "ArgumentError",
+      "canonical_candidate_id": "ruby_argumenterror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_argumenterror_1",
+        "ruby_argumenterror_2",
+        "ruby_argumenterror_3",
+        "ruby_argumenterror_4",
+        "ruby_argumenterror_5",
+        "ruby_argumenterror_6",
+        "ruby_argumenterror_7",
+        "ruby_argumenterror_8",
+        "ruby_argumenterror_9",
+        "ruby_argumenterror_10",
+        "ruby_argumenterror_11",
+        "ruby_argumenterror_12",
+        "ruby_argumenterror_13",
+        "ruby_argumenterror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Ruby",
+      "code": "KeyError",
+      "canonical_candidate_id": "ruby_keyerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_keyerror_1",
+        "ruby_keyerror_2",
+        "ruby_keyerror_3",
+        "ruby_keyerror_4",
+        "ruby_keyerror_5",
+        "ruby_keyerror_6",
+        "ruby_keyerror_7",
+        "ruby_keyerror_8",
+        "ruby_keyerror_9",
+        "ruby_keyerror_10",
+        "ruby_keyerror_11",
+        "ruby_keyerror_12",
+        "ruby_keyerror_13",
+        "ruby_keyerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Ruby",
+      "code": "LoadError",
+      "canonical_candidate_id": "ruby_loaderror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_loaderror_1",
+        "ruby_loaderror_2",
+        "ruby_loaderror_3",
+        "ruby_loaderror_4",
+        "ruby_loaderror_5",
+        "ruby_loaderror_6",
+        "ruby_loaderror_7",
+        "ruby_loaderror_8",
+        "ruby_loaderror_9",
+        "ruby_loaderror_10",
+        "ruby_loaderror_11",
+        "ruby_loaderror_12",
+        "ruby_loaderror_13",
+        "ruby_loaderror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Ruby",
+      "code": "NameError",
+      "canonical_candidate_id": "ruby_nameerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_nameerror_1",
+        "ruby_nameerror_2",
+        "ruby_nameerror_3",
+        "ruby_nameerror_4",
+        "ruby_nameerror_5",
+        "ruby_nameerror_6",
+        "ruby_nameerror_7",
+        "ruby_nameerror_8",
+        "ruby_nameerror_9",
+        "ruby_nameerror_10",
+        "ruby_nameerror_11",
+        "ruby_nameerror_12",
+        "ruby_nameerror_13",
+        "ruby_nameerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Ruby",
+      "code": "NoMethodError",
+      "canonical_candidate_id": "ruby_nomethoderror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_nomethoderror_1",
+        "ruby_nomethoderror_2",
+        "ruby_nomethoderror_3",
+        "ruby_nomethoderror_4",
+        "ruby_nomethoderror_5",
+        "ruby_nomethoderror_6",
+        "ruby_nomethoderror_7",
+        "ruby_nomethoderror_8",
+        "ruby_nomethoderror_9",
+        "ruby_nomethoderror_10",
+        "ruby_nomethoderror_11",
+        "ruby_nomethoderror_12",
+        "ruby_nomethoderror_13",
+        "ruby_nomethoderror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Ruby",
+      "code": "ThreadError",
+      "canonical_candidate_id": "ruby_threaderror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_threaderror_1",
+        "ruby_threaderror_2",
+        "ruby_threaderror_3",
+        "ruby_threaderror_4",
+        "ruby_threaderror_5",
+        "ruby_threaderror_6",
+        "ruby_threaderror_7",
+        "ruby_threaderror_8",
+        "ruby_threaderror_9"
+      ],
+      "variant_count": 9,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://api.rubyonrails.org/"
+    },
+    {
+      "language": "Ruby",
+      "code": "TypeError",
+      "canonical_candidate_id": "ruby_typeerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_typeerror_1",
+        "ruby_typeerror_2",
+        "ruby_typeerror_3",
+        "ruby_typeerror_4",
+        "ruby_typeerror_5",
+        "ruby_typeerror_6",
+        "ruby_typeerror_7",
+        "ruby_typeerror_8",
+        "ruby_typeerror_9",
+        "ruby_typeerror_10",
+        "ruby_typeerror_11",
+        "ruby_typeerror_12",
+        "ruby_typeerror_13",
+        "ruby_typeerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Ruby",
+      "code": "ZeroDivisionError",
+      "canonical_candidate_id": "ruby_zerodivisionerror_1",
+      "source_files": [
+        "lexicon_expanded_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "ruby_zerodivisionerror_1",
+        "ruby_zerodivisionerror_2",
+        "ruby_zerodivisionerror_3",
+        "ruby_zerodivisionerror_4",
+        "ruby_zerodivisionerror_5",
+        "ruby_zerodivisionerror_6",
+        "ruby_zerodivisionerror_7",
+        "ruby_zerodivisionerror_8",
+        "ruby_zerodivisionerror_9",
+        "ruby_zerodivisionerror_10",
+        "ruby_zerodivisionerror_11",
+        "ruby_zerodivisionerror_12",
+        "ruby_zerodivisionerror_13",
+        "ruby_zerodivisionerror_14"
+      ],
+      "variant_count": 14,
+      "disposition": "source-attributed-needs-review",
+      "source_url": "https://ruby-doc.org/core-3.3.0/Exception.html"
+    },
+    {
+      "language": "Rust",
+      "code": "E0308",
+      "canonical_candidate_id": "rust_e0308_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "rust_e0308_1",
+        "rust_e0308_2",
+        "rust_e0308_3",
+        "rust_e0308_4",
+        "rust_e0308_5"
+      ],
+      "variant_count": 5,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://www.google.com/search?q=Rust+E0308+documentation"
+    },
+    {
+      "language": "Rust",
+      "code": "E0382",
+      "canonical_candidate_id": "rust_e0382_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "rust_e0382_1",
+        "rust_e0382_2",
+        "rust_e0382_3",
+        "rust_e0382_4",
+        "rust_e0382_5",
+        "rust_e0382_6",
+        "rust_e0382_7",
+        "rust_e0382_8",
+        "rust_e0382_9",
+        "rust_e0382_10",
+        "rust_e0382_11",
+        "rust_e0382_12",
+        "rust_e0382_13",
+        "rust_e0382_14"
+      ],
+      "variant_count": 14,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Rust",
+      "code": "E0502",
+      "canonical_candidate_id": "rust_e0502_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "rust_e0502_1",
+        "rust_e0502_2",
+        "rust_e0502_3",
+        "rust_e0502_4",
+        "rust_e0502_5",
+        "rust_e0502_6",
+        "rust_e0502_7",
+        "rust_e0502_8",
+        "rust_e0502_9",
+        "rust_e0502_10",
+        "rust_e0502_11",
+        "rust_e0502_12",
+        "rust_e0502_13",
+        "rust_e0502_14"
+      ],
+      "variant_count": 14,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "SQL",
+      "code": "ORA-00933",
+      "canonical_candidate_id": "sql_ora_00933_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "sql_ora_00933_1",
+        "sql_ora_00933_2",
+        "sql_ora_00933_3",
+        "sql_ora_00933_4",
+        "sql_ora_00933_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=SQL+ORA-00933+documentation"
+    },
+    {
+      "language": "Scala",
+      "code": "MatchError",
+      "canonical_candidate_id": "scala_matcherror_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "scala_matcherror_1",
+        "scala_matcherror_2",
+        "scala_matcherror_3",
+        "scala_matcherror_4",
+        "scala_matcherror_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Scala+MatchError+documentation"
+    },
+    {
+      "language": "Shell / Bash",
+      "code": "command_not_found",
+      "canonical_candidate_id": "bash_command_not_found_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "bash_command_not_found_1",
+        "bash_command_not_found_2",
+        "bash_command_not_found_3",
+        "bash_command_not_found_4",
+        "bash_command_not_found_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Bash+command_not_found+documentation"
+    },
+    {
+      "language": "Solidity",
+      "code": "VM_Execution_Revert",
+      "canonical_candidate_id": "solidity_vm_execution_revert_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "solidity_vm_execution_revert_1",
+        "solidity_vm_execution_revert_2",
+        "solidity_vm_execution_revert_3",
+        "solidity_vm_execution_revert_4",
+        "solidity_vm_execution_revert_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Solidity+VM_Execution_Revert+documentation"
+    },
+    {
+      "language": "Swift",
+      "code": "EXC_BAD_ACCESS",
+      "canonical_candidate_id": "swift_exc_bad_access_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "swift_exc_bad_access_1",
+        "swift_exc_bad_access_2",
+        "swift_exc_bad_access_3",
+        "swift_exc_bad_access_4",
+        "swift_exc_bad_access_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Swift+EXC_BAD_ACCESS+documentation"
+    },
+    {
+      "language": "Terraform",
+      "code": "Unsupported_Attribute",
+      "canonical_candidate_id": "terraform_unsupported_attribute_1",
+      "source_files": [
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "terraform_unsupported_attribute_1",
+        "terraform_unsupported_attribute_2",
+        "terraform_unsupported_attribute_3",
+        "terraform_unsupported_attribute_4",
+        "terraform_unsupported_attribute_5"
+      ],
+      "variant_count": 5,
+      "disposition": "missing-source-needs-review",
+      "source_url": "https://www.google.com/search?q=Terraform+Unsupported_Attribute+documentation"
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS1005",
+      "canonical_candidate_id": "typescript_ts1005_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts1005_1",
+        "typescript_ts1005_2",
+        "typescript_ts1005_3",
+        "typescript_ts1005_4",
+        "typescript_ts1005_5",
+        "typescript_ts1005_6",
+        "typescript_ts1005_7",
+        "typescript_ts1005_8",
+        "typescript_ts1005_9",
+        "typescript_ts1005_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS1109",
+      "canonical_candidate_id": "typescript_ts1109_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts1109_1",
+        "typescript_ts1109_2",
+        "typescript_ts1109_3",
+        "typescript_ts1109_4",
+        "typescript_ts1109_5",
+        "typescript_ts1109_6",
+        "typescript_ts1109_7",
+        "typescript_ts1109_8",
+        "typescript_ts1109_9",
+        "typescript_ts1109_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2304",
+      "canonical_candidate_id": "typescript_ts2304_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2304_1",
+        "typescript_ts2304_2",
+        "typescript_ts2304_3",
+        "typescript_ts2304_4",
+        "typescript_ts2304_5",
+        "typescript_ts2304_6",
+        "typescript_ts2304_7",
+        "typescript_ts2304_8",
+        "typescript_ts2304_9",
+        "typescript_ts2304_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2322",
+      "canonical_candidate_id": "typescript_ts2322_1",
+      "source_files": [
+        "lexicon_master_database.json",
+        "lexicon_tier3_ecosystems.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2322_1",
+        "typescript_ts2322_2",
+        "typescript_ts2322_3",
+        "typescript_ts2322_4",
+        "typescript_ts2322_5",
+        "typescript_ts2322_6",
+        "typescript_ts2322_7",
+        "typescript_ts2322_8",
+        "typescript_ts2322_9",
+        "typescript_ts2322_10",
+        "typescript_ts2322_1",
+        "typescript_ts2322_2",
+        "typescript_ts2322_3",
+        "typescript_ts2322_4",
+        "typescript_ts2322_5"
+      ],
+      "variant_count": 15,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": "https://www.google.com/search?q=TypeScript+TS2322+documentation"
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2339",
+      "canonical_candidate_id": "typescript_ts2339_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2339_1",
+        "typescript_ts2339_2",
+        "typescript_ts2339_3",
+        "typescript_ts2339_4",
+        "typescript_ts2339_5",
+        "typescript_ts2339_6",
+        "typescript_ts2339_7",
+        "typescript_ts2339_8",
+        "typescript_ts2339_9",
+        "typescript_ts2339_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2345",
+      "canonical_candidate_id": "typescript_ts2345_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2345_1",
+        "typescript_ts2345_2",
+        "typescript_ts2345_3",
+        "typescript_ts2345_4",
+        "typescript_ts2345_5",
+        "typescript_ts2345_6",
+        "typescript_ts2345_7",
+        "typescript_ts2345_8",
+        "typescript_ts2345_9",
+        "typescript_ts2345_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2488",
+      "canonical_candidate_id": "typescript_ts2488_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2488_1",
+        "typescript_ts2488_2",
+        "typescript_ts2488_3",
+        "typescript_ts2488_4",
+        "typescript_ts2488_5",
+        "typescript_ts2488_6",
+        "typescript_ts2488_7",
+        "typescript_ts2488_8",
+        "typescript_ts2488_9",
+        "typescript_ts2488_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2531",
+      "canonical_candidate_id": "typescript_ts2531_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2531_1",
+        "typescript_ts2531_2",
+        "typescript_ts2531_3",
+        "typescript_ts2531_4",
+        "typescript_ts2531_5",
+        "typescript_ts2531_6",
+        "typescript_ts2531_7",
+        "typescript_ts2531_8",
+        "typescript_ts2531_9",
+        "typescript_ts2531_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS2769",
+      "canonical_candidate_id": "typescript_ts2769_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts2769_1",
+        "typescript_ts2769_2",
+        "typescript_ts2769_3",
+        "typescript_ts2769_4",
+        "typescript_ts2769_5",
+        "typescript_ts2769_6",
+        "typescript_ts2769_7",
+        "typescript_ts2769_8",
+        "typescript_ts2769_9",
+        "typescript_ts2769_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "TypeScript",
+      "code": "TS7006",
+      "canonical_candidate_id": "typescript_ts7006_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "typescript_ts7006_1",
+        "typescript_ts7006_2",
+        "typescript_ts7006_3",
+        "typescript_ts7006_4",
+        "typescript_ts7006_5",
+        "typescript_ts7006_6",
+        "typescript_ts7006_7",
+        "typescript_ts7006_8",
+        "typescript_ts7006_9",
+        "typescript_ts7006_10"
+      ],
+      "variant_count": 10,
+      "disposition": "existing-canonical-diagnostic",
+      "source_url": null
+    },
+    {
+      "language": "Zig",
+      "code": "ZIG_NULL_PTR",
+      "canonical_candidate_id": "zig_zig_null_ptr_1",
+      "source_files": [
+        "lexicon_master_database.json"
+      ],
+      "source_variant_ids": [
+        "zig_zig_null_ptr_1",
+        "zig_zig_null_ptr_2",
+        "zig_zig_null_ptr_3",
+        "zig_zig_null_ptr_4",
+        "zig_zig_null_ptr_5",
+        "zig_zig_null_ptr_6",
+        "zig_zig_null_ptr_7",
+        "zig_zig_null_ptr_8",
+        "zig_zig_null_ptr_9",
+        "zig_zig_null_ptr_10",
+        "zig_zig_null_ptr_11",
+        "zig_zig_null_ptr_12",
+        "zig_zig_null_ptr_13",
+        "zig_zig_null_ptr_14"
+      ],
+      "variant_count": 14,
+      "disposition": "missing-source-needs-review",
+      "source_url": null
+    }
+  ]
+}

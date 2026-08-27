@@ -1,0 +1,1136 @@
+[
+  {
+    "language_id": "ada",
+    "language": "Ada",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "agda",
+    "language": "Agda",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "assembly",
+    "language": "Assembly",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "brainfuck",
+    "language": "Brainfuck",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "c",
+    "language": "C",
+    "records": 1,
+    "target": 1500,
+    "progress": 0.1,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "csharp",
+    "language": "C#",
+    "records": 2188,
+    "target": 3500,
+    "progress": 62.5,
+    "tools": 2,
+    "quality": {
+      "verified": 0.1,
+      "explanations": 90.1,
+      "examples": 0.1,
+      "fixes": 1.7,
+      "sources": 100.0,
+      "versions": 8.5,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "cpp",
+    "language": "C++",
+    "records": 4642,
+    "target": 2500,
+    "progress": 185.7,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "cobol",
+    "language": "COBOL",
+    "records": 1,
+    "target": 400,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "css",
+    "language": "CSS",
+    "records": 1,
+    "target": 500,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "cuda",
+    "language": "CUDA",
+    "records": 136,
+    "target": 800,
+    "progress": 17.0,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "cairo",
+    "language": "Cairo",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "clojure",
+    "language": "Clojure",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "crystal",
+    "language": "Crystal",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "d",
+    "language": "D",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "dart",
+    "language": "Dart",
+    "records": 2,
+    "target": 800,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "elixir",
+    "language": "Elixir",
+    "records": 9,
+    "target": 500,
+    "progress": 1.8,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "elm",
+    "language": "Elm",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "erlang",
+    "language": "Erlang",
+    "records": 1,
+    "target": 500,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "fsharp",
+    "language": "F#",
+    "records": 0,
+    "target": 500,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "fortran",
+    "language": "Fortran",
+    "records": 1,
+    "target": 500,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "go",
+    "language": "Go",
+    "records": 152,
+    "target": 1000,
+    "progress": 15.2,
+    "tools": 1,
+    "quality": {
+      "verified": 0.7,
+      "explanations": 100.0,
+      "examples": 0.7,
+      "fixes": 96.7,
+      "sources": 100.0,
+      "versions": 3.9,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "graphql",
+    "language": "GraphQL",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "groovy",
+    "language": "Groovy",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "html",
+    "language": "HTML",
+    "records": 1,
+    "target": 500,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "haskell",
+    "language": "Haskell",
+    "records": 0,
+    "target": 700,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "idris",
+    "language": "Idris",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "json",
+    "language": "JSON",
+    "records": 2,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "java",
+    "language": "Java",
+    "records": 688,
+    "target": 2000,
+    "progress": 34.4,
+    "tools": 1,
+    "quality": {
+      "verified": 0.1,
+      "explanations": 100.0,
+      "examples": 0.1,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.1,
+      "relationships": 0.1
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "javascript",
+    "language": "JavaScript",
+    "records": 1674,
+    "target": 1500,
+    "progress": 111.6,
+    "tools": 4,
+    "quality": {
+      "verified": 0.1,
+      "explanations": 100.0,
+      "examples": 0.1,
+      "fixes": 25.3,
+      "sources": 100.0,
+      "versions": 0.4,
+      "relationships": 0.1
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "julia",
+    "language": "Julia",
+    "records": 0,
+    "target": 700,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "kotlin",
+    "language": "Kotlin",
+    "records": 773,
+    "target": 1000,
+    "progress": 77.3,
+    "tools": 1,
+    "quality": {
+      "verified": 0.1,
+      "explanations": 0.6,
+      "examples": 0.1,
+      "fixes": 0.1,
+      "sources": 100.0,
+      "versions": 0.5,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "lua",
+    "language": "Lua",
+    "records": 0,
+    "target": 500,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "move",
+    "language": "Move",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "nim",
+    "language": "Nim",
+    "records": 1,
+    "target": 500,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "ocaml",
+    "language": "OCaml",
+    "records": 0,
+    "target": 500,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "objective-c",
+    "language": "Objective-C",
+    "records": 0,
+    "target": 600,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "opencl",
+    "language": "OpenCL",
+    "records": 61,
+    "target": 500,
+    "progress": 12.2,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "php",
+    "language": "PHP",
+    "records": 3,
+    "target": 1200,
+    "progress": 0.2,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "perl",
+    "language": "Perl",
+    "records": 0,
+    "target": 600,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "powershell",
+    "language": "PowerShell",
+    "records": 0,
+    "target": 700,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "purescript",
+    "language": "PureScript",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "python",
+    "language": "Python",
+    "records": 2199,
+    "target": 700,
+    "progress": 314.1,
+    "tools": 1,
+    "quality": {
+      "verified": 0.1,
+      "explanations": 3.2,
+      "examples": 0.1,
+      "fixes": 0.1,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "r",
+    "language": "R",
+    "records": 21,
+    "target": 700,
+    "progress": 3.0,
+    "tools": 1,
+    "quality": {
+      "verified": 4.8,
+      "explanations": 4.8,
+      "examples": 4.8,
+      "fixes": 4.8,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "rocm-hip",
+    "language": "ROCm / HIP",
+    "records": 82,
+    "target": 600,
+    "progress": 13.7,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "racket",
+    "language": "Racket",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "ruby",
+    "language": "Ruby",
+    "records": 10,
+    "target": 800,
+    "progress": 1.2,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "rust",
+    "language": "Rust",
+    "records": 1568,
+    "target": 1500,
+    "progress": 104.5,
+    "tools": 2,
+    "quality": {
+      "verified": 0.2,
+      "explanations": 67.2,
+      "examples": 0.2,
+      "fixes": 33.0,
+      "sources": 100.0,
+      "versions": 67.2,
+      "relationships": 0.1
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "sql",
+    "language": "SQL",
+    "records": 104,
+    "target": 1000,
+    "progress": 10.4,
+    "tools": 1,
+    "quality": {
+      "verified": 1.0,
+      "explanations": 1.0,
+      "examples": 1.0,
+      "fixes": 1.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "scala",
+    "language": "Scala",
+    "records": 0,
+    "target": 800,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "scheme",
+    "language": "Scheme",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "bash",
+    "language": "Shell / Bash",
+    "records": 1,
+    "target": 700,
+    "progress": 0.1,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "solidity",
+    "language": "Solidity",
+    "records": 0,
+    "target": 700,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "swift",
+    "language": "Swift",
+    "records": 1,
+    "target": 1000,
+    "progress": 0.1,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 100.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "toml",
+    "language": "TOML",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "typescript",
+    "language": "TypeScript",
+    "records": 2097,
+    "target": 2500,
+    "progress": 83.9,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 100.0,
+      "examples": 0.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Developing"
+  },
+  {
+    "language_id": "unlambda",
+    "language": "Unlambda",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "vbnet",
+    "language": "Visual Basic .NET",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "vulkan",
+    "language": "Vulkan",
+    "records": 39,
+    "target": 500,
+    "progress": 7.8,
+    "tools": 1,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "vyper",
+    "language": "Vyper",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "whitespace",
+    "language": "Whitespace",
+    "records": 1,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 1,
+    "quality": {
+      "verified": 100.0,
+      "explanations": 100.0,
+      "examples": 100.0,
+      "fixes": 100.0,
+      "sources": 100.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "xml",
+    "language": "XML",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "yaml",
+    "language": "YAML",
+    "records": 0,
+    "target": 0,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  },
+  {
+    "language_id": "zig",
+    "language": "Zig",
+    "records": 0,
+    "target": 700,
+    "progress": 0.0,
+    "tools": 0,
+    "quality": {
+      "verified": 0.0,
+      "explanations": 0.0,
+      "examples": 0.0,
+      "fixes": 0.0,
+      "sources": 0.0,
+      "versions": 0.0,
+      "relationships": 0.0
+    },
+    "tier": "Experimental"
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "id": "r_error_03952a18db",
+    "language": "R",
+    "code": "r::error::03952a18db",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "invalid '%s' argument",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_09e33618a3",
+    "language": "R",
+    "code": "r::error::09e33618a3",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "bad error message",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_3762bbca25",
+    "language": "R",
+    "code": "r::error::3762bbca25",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "'%s' must be a character string",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_396571d874",
+    "language": "R",
+    "code": "r::error::396571d874",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "not in a try context",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_6a4aec1a93",
+    "language": "R",
+    "code": "r::error::6a4aec1a93",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "error message not a string",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_700e825630",
+    "language": "R",
+    "code": "r::error::700e825630",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "(converted from warning) %s",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_726b464bef",
+    "language": "R",
+    "code": "r::error::726b464bef",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "unimplemented feature in %s",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_784fca439b",
+    "language": "R",
+    "code": "r::error::784fca439b",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "not a symbol",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_7eb5cb4e03",
+    "language": "R",
+    "code": "r::error::7eb5cb4e03",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "[invalid string in stop(.)]",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_80c89f3fa2",
+    "language": "R",
+    "code": "r::error::80c89f3fa2",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "error message must be a character string",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_8cb7d4349d",
+    "language": "R",
+    "code": "r::error::8cb7d4349d",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "handler or restart stack mismatch in old restart",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_9420f43005",
+    "language": "R",
+    "code": "r::error::9420f43005",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "condition object must be a VECSXP of length at least one",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_95cdeb09ff",
+    "language": "R",
+    "code": "r::error::95cdeb09ff",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "invalid '%s' value",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_9e769c73f1",
+    "language": "R",
+    "code": "r::error::9e769c73f1",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "first element of condition object must be a scalar string",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_ac02cf46b9",
+    "language": "R",
+    "code": "r::error::ac02cf46b9",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "restart not on stack",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_d1d51c8592",
+    "language": "R",
+    "code": "r::error::d1d51c8592",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "bad handler data",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_dfaf1e86e8",
+    "language": "R",
+    "code": "r::error::dfaf1e86e8",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "bad restart",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_e123509fce",
+    "language": "R",
+    "code": "r::error::e123509fce",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "invalid option \"warning.expression\"",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_error_e1252aab84",
+    "language": "R",
+    "code": "r::error::e1252aab84",
+    "category": "Runtime",
+    "severity": "Runtime Exception",
+    "title": "incorrect number of arguments to \"%s\"",
+    "description": "Static R error message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  },
+  {
+    "id": "r_warning_3b491e6a05",
+    "language": "R",
+    "code": "r::warning::3b491e6a05",
+    "category": "Runtime",
+    "severity": "Warning",
+    "title": "[invalid string in warning(.)]",
+    "description": "Static R warning message pattern declared in the R runtime source. It is a source-qualified signature, not a standalone exception class; explanation, reproduction, and repair are pending editorial review.",
+    "bad_example": "# Registry-only record; a minimal reproduction is pending editorial review.",
+    "good_example": "# Registry-only record; a source-backed repair is pending editorial review.",
+    "version_introduced": null,
+    "version_deprecated": null,
+    "source_url": "https://svn.r-project.org/R/trunk/src/main/errors.c",
+    "tier": 3,
+    "frequency": "Uncommon",
+    "situational_context": [
+      "R runtime"
+    ],
+    "interaction_types": [
+      "runtime"
+    ],
+    "related_errors": []
+  }
+]
