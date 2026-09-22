@@ -59,7 +59,7 @@ The result is useful as an offline encyclopedia, a source-aware search index, an
 </p>
 
 <p align="center">
-  <a href="docs/media/lexiconerror-search-demo.mp4">Watch the 1120Ã—700 H.264 demo video</a>
+  <a href="docs/media/lexiconerror-search-demo.mp4">Watch the 1120Ãƒâ€”700 H.264 demo video</a>
 </p>
 
 <details>
@@ -463,3 +463,7 @@ The canonical repository is [theworker02/lexicon-error](https://github.com/thewo
 ## Support and funding
 
 If LexiconError is useful, use the repository Sponsor button once the Magnexis GitHub Sponsors profile is active. The issue forms are intentionally structured so catalog corrections include enough source and reproduction detail to be actionable.
+
+## Acquisition diligence
+
+Buyer-facing diligence materials live in [docs/acquisition/](./docs/acquisition/). Commercial licensing contact path: [COMMERCIAL.md](./COMMERCIAL.md).
