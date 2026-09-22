@@ -1,5 +1,13 @@
 # LexiconError
 
+
+---
+
+## License & acquisition
+
+This project is **proprietary**. Production use, redistribution, and commercial deployment require a written commercial license or completed acquisition. See [LICENSE](./LICENSE) and [ACQUISITION.md](./ACQUISITION.md). Contact [@theworker02](https://github.com/theworker02).
+
+
 <p align="center">
   <img src="assets/branding/lexiconerror-mark.svg" width="104" height="104" alt="LexiconError logo" />
 </p>
@@ -51,7 +59,7 @@ The result is useful as an offline encyclopedia, a source-aware search index, an
 </p>
 
 <p align="center">
-  <a href="docs/media/lexiconerror-search-demo.mp4">Watch the 1120×700 H.264 demo video</a>
+  <a href="docs/media/lexiconerror-search-demo.mp4">Watch the 1120Ã—700 H.264 demo video</a>
 </p>
 
 <details>
